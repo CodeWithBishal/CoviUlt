@@ -106,7 +106,7 @@ section {
         position: absolute;
         top: 2.5vh;
         right: 0;
-        z-index: 10000;
+        z-index: -999;
         cursor: pointer;
         width: 70px;
         height: 70px;
@@ -133,7 +133,6 @@ section {
         z-index: 10000;
         background-color: #000;
         top: -10px;
-        color: #000;
         width: 100%;
         height: 3px;
     }
@@ -172,6 +171,7 @@ section {
         transform: scale(0);
         transition-duration: 300ms;
         visibility: hidden;
+        z-index: -10000;
     }
 
     .mobile-menu ul li {
