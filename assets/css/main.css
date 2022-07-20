@@ -133,6 +133,7 @@ section {
         z-index: 10000;
         background-color: #000;
         top: -10px;
+        color: #000;
         width: 100%;
         height: 3px;
     }
