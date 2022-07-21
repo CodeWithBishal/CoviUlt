@@ -13,9 +13,12 @@
     <noscript>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap" rel="stylesheet">
     </noscript>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <title>Covid 19</title>
 </head>
@@ -32,7 +35,7 @@
             <a class="underline" href="/shop">Shop</a>
         </div>
     </nav>
-    <nav class="mobile-menu shadow-lg p-3 bg-white rounded">
+    <nav class="mobile-menu shadow-lg p-3 bg-white rounded sticky-top">
         <div class="container-nav">
             <div class="logo px-3"><a href="/" class="logo-link">CoviUlt</a></div>
             <input type="checkbox" class="toggle">
@@ -55,23 +58,100 @@
         <div class="col-lg-6">
             <span>COVID-19</span> <br>
             <h3 class="quotes"></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo beatae quidem delectus molestias architecto perspiciatis quasi accusamus sint maiores, nesciunt pariatur hic obcaecati corrupti reiciendis quisquam, animi odio quis illum?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo beatae quidem delectus molestias
+                architecto perspiciatis quasi accusamus sint maiores, nesciunt pariatur hic obcaecati corrupti
+                reiciendis quisquam, animi odio quis illum?</p>
         </div>
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1500">
-            <img class="img-fluid" src="/assets/images/home.jpg" alt="Phone Screenshot">
+            <img class="img-fluid" src="/assets/images/home.jpg" alt="Covid 19">
         </div>
     </section>
-
-
+    <div class="scroll">
+        <i class="fas fa-chevron-down fa-2x"></i>
+    </div>
+    <section id="thingsNotToDo">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-4 p-5" data-aos="fade-up-right" data-aos-duration="1500">
+                    <img class="img-fluid" src="/assets/images/dont_touch_face.png" alt="Don't touch your face">
+                </div>
+                <div class="col-lg-8 p-5" data-aos="fade-up-left" data-aos-duration="1500">
+                    <h1>Do not touch your face</h1>
+                    <p class="lead text-muted">
+                        Medical advisories from the World Health Organisation (WHO) has reminded us time and again not
+                        to touch our face, nose and mouth too often. This helps reduce the chances of catching the virus
+                        as infection from your hands do not reach the nose or mouth from where it can infect the body.
+                        Keeping your hands clean will also help reduce the chances of the infection spreading any
+                        further.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-8 p-5" data-aos="fade-up-right" data-aos-duration="1500">
+                    <h1>Do not panic!</h1>
+                    <p class="lead text-muted">
+                        The coronavirus pandemic has taken everybody by alarm. The internet is filled with information
+                        about the virus and its spread, many of it also wrong, causing panic among the people. While we
+                        all know the basic precautions to be taken to save yourself from being infected, here is a list
+                        of 10 things you should not do to save the infection and panic about the disease from escalating
+                        further.
+                    </p>
+                </div>
+                <div class="col-lg-4 p-5" data-aos="fade-up-left" data-aos-duration="1500">
+                    <img class="img-fluid" src="/assets/images/dont_panic.png" alt="Do not panic">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 p-5" data-aos="fade-up-right" data-aos-duration="750">
+                    <img class="img-fluid" src="/assets/images/social_distancing.jpg" alt="Do not go to crowded places">
+                </div>
+                <div class="col-lg-8 p-5" data-aos="fade-up-left" data-aos-duration="750">
+                    <h1>Do not go to crowded places</h1>
+                    <p class="lead text-muted">
+                        Public transport, metros, gyms and any other crowded place should be avoided. The more the
+                        number of people, the more likely of the spread of the virus. If you have symptoms,
+                        self-quarantine yourself other than to visit the doctor. Staying isolated and not coming in
+                        contact with a lot of people is the only way to contain the spread of the disease
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-8 p-5" data-aos="fade-up-right" data-aos-duration="750">
+                    <h1>Do not believe everything on the internet</h1>
+                    <p class="lead text-muted">
+                        The internet is filled with information about the symptoms and cure available for coronavirus.
+                        Do not believe anything unless it comes from a reliable source or a reliable medical
+                        practitioner. Spreading false information and promises about the cure for the disease has added
+                        to the panic and kept a large percentage of the population misinformed. Advertisements about
+                        health kits and alternative ways to cure the infection are also doing the rounds of the
+                        internet. Do not fall into the trap yourself or propagate any information that is not from a
+                        reliable source.
+                    </p>
+                </div>
+                <div class="col-lg-4 p-5" data-aos="fade-up-left" data-aos-duration="750">
+                    <img class="img-fluid" src="/assets/images/internet.jpg"
+                        alt="Do not believe everything on the internet">
+                </div>
+            </div>
+            <div class="container py-5"></div>
+        </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script>
-             var typed = new Typed('.quotes', {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        var typed = new Typed('.quotes', {
             strings: [
                 "<q>EXERCISE AND YOGA, KEEPS YOU FIT; HONEY AND GARLIC, STRENGTHEN YOUR GUT.</q>",
                 "<q>KEEP SAFE DISTANCE FOR COVID RESISTANCE; CLEAN HANDS AND WEAR FACE MASK CORONA WILL LEAVE BEFORE YOU ASK.</q>",
@@ -84,7 +164,8 @@
             smartBackspace: false,
             loop: true
         });
-        </script>
+        AOS.init();
+    </script>
     <script src="/assets/js/main.js"></script>
 </body>
 
