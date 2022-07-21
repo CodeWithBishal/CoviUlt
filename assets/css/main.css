@@ -86,7 +86,17 @@
     }
 }
 
+#image {
+    position: relative;
+    overflow: hidden;
+  }
 
+#image img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+  }
 .mobile-menu {
     display: none !important;
 }
