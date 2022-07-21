@@ -57,3 +57,26 @@ submitBtn.addEventListener("click", () => {
 
 
 
+//Play Video
+
+var video = document.querySelector('video');
+var promise = video.play();
+var unmuteBtn = document.getElementById("unmute");
+
+// Check if browser denied playing video with sound
+
+if (promise !== undefined) {
+    promise.then(_ => { }).catch(() => {
+        //if browser denied play video by muting it
+        video.muted = true;
+        video.play();
+        // show unmute button
+        unmuteBtn.style.display = "block"
+    });
+}
+
+unmuteBtn.addEventListener("click", () => {
+    // unmute button onclick unmute the video and hide the button
+    video.muted = false;
+    unmuteBtn.style.display = "none";
+})
