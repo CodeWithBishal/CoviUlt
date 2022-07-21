@@ -62,11 +62,15 @@ submitBtn.addEventListener("click", () => {
 var video = document.querySelector('video');
 var promise = video.play();
 var unmuteBtn = document.getElementById("unmute");
+var muteBtn = document.getElementById("mute");
 
 // Check if browser denied playing video with sound
 
 if (promise !== undefined) {
-    promise.then(_ => { }).catch(() => {
+    promise.then(_ => { 
+        //show mute button
+        muteBtn.style.display="block";
+    }).catch(() => {
         //if browser denied play video by muting it
         video.muted = true;
         video.play();
@@ -76,7 +80,14 @@ if (promise !== undefined) {
 }
 
 unmuteBtn.addEventListener("click", () => {
-    // unmute button onclick unmute the video and hide the button
+    // unmute button onclick unmute the video and hide the button and show mute button
     video.muted = false;
     unmuteBtn.style.display = "none";
+    muteBtn.style.display="block";
+})
+
+muteBtn.addEventListener("click", ()=>{
+    video.muted=true;
+    muteBtn.style.display = "none";
+    unmuteBtn.style.display = "block"
 })

@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
-
+#mainHome{
+    background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
+}
 ::selection {
     background-color: #fc466ac9;
     color: #fff;
@@ -31,11 +33,34 @@
 .typed-cursor {
     display: none !important;
 }
-
-#mainHome {
-    margin-top: 10vh;
+.scale-home{
+    transform: scale(3);
 }
-
+#mainHome,#mainHome_vaccine {
+    margin-top: 15vh;
+    max-width: 100%;
+    height: 85vh;
+    max-height: 85vh;
+    padding: 0 5%;
+    display: block;
+}
+.know-more{
+    color: #fff;
+    background-color: #FC466B;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 15px #FC466B;
+}
+.know-more:hover{
+    color: #fff;
+}
+.know-more:active, .know-more:focus{
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0px 10px #FC466B;
+    outline: none;
+}
 .scroll {
     position: absolute;
     top: 80%;
@@ -61,14 +86,6 @@
     }
 }
 
-section {
-    height: 100vh;
-    max-width: 100%;
-    height: 85vh;
-    max-height: 85vh;
-    padding: 0 5%;
-    display: block !important;
-}
 
 .mobile-menu {
     display: none !important;
@@ -89,7 +106,7 @@ section {
 .header>.header-links a,
 .logo-link,
 .logo-link,
-.logo-link:hover {
+.logo-link:hover, a, a:hover {
     font-family: 'Outfit', sans-serif;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.945);
@@ -98,7 +115,8 @@ section {
 
 @media only screen and (max-width: 768px) {
     #mainHome {
-        margin-top: 20vh;
+        margin-top: 15vh;
+        margin-left: 0 !important;
     }
     .header {
         display: none;
