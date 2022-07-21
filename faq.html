@@ -20,7 +20,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>CoviUlt</title>
+    <title>Covid 19</title>
 </head>
 
 <body>
@@ -51,88 +51,62 @@
     </nav>
     <!-- navbar ends  -->
 
-
-    <section id="mainHome" class="row gx-5 overflow-hidden align-items-center d-flex justify-content-between">
-        <div class="col-lg-6">
-            <span>COVID-19</span> <br>
-            <h3 class="quotes"></h3>
-            <p>Coronavirus disease 2019 (COVID-19) is a contagious disease caused by a virus, the severe acute
-                respiratory syndrome coronavirus 2 (SARS-CoV-2).</p>
-            <button class="btn know-more">Know More</button>
-        </div>
-        <div class="col-lg-4 col-md-6" id="image" data-aos="fade-up" data-aos-duration="1500">
-            <img class="img-fluid position-relative scale-home" src="/assets/images/main.png" alt="Covid 19">
-        </div>
-    </section>
-    <div class="scroll">
-        <i class="fas fa-chevron-down fa-2x"></i>
+    <div id="faq" class="justify-content-center flex-column p-5 d-flex align-items-center">
+        <h2>Frequently Asked Questions</h2>
+        <p class="text-muted">Have Questions? We're here to help</p>
     </div>
-    <section id="thingsNotToDo">
-        <div class="container no-flow py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-4 p-5" data-aos="fade-up-right" data-aos-duration="1500">
-                    <img class="img-fluid" src="/assets/images/dont_touch_face.png" alt="Don't touch your face">
+
+    <section class="faqAccordion justify-content-center d-flex p-3">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Collapsible Group Item #1 &nbsp; &nbsp; <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </h2>
                 </div>
-                <div class="col-lg-8 p-5" data-aos="fade-up-left" data-aos-duration="1500">
-                    <h1>Do not touch your face</h1>
-                    <p class="lead text-muted">
-                        Medical advisories from the World Health Organisation (WHO) has reminded us time and again not
-                        to touch our face, nose and mouth too often. This helps reduce the chances of catching the virus
-                        as infection from your hands do not reach the nose or mouth from where it can infect the body.
-                        Keeping your hands clean will also help reduce the chances of the infection spreading any
-                        further.
-                    </p>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-8 p-5" data-aos="fade-up-right" data-aos-duration="1500">
-                    <h1>Do not panic!</h1>
-                    <p class="lead text-muted">
-                        The coronavirus pandemic has taken everybody by alarm. The internet is filled with information
-                        about the virus and its spread, many of it also wrong, causing panic among the people. While we
-                        all know the basic precautions to be taken to save yourself from being infected, here is a list
-                        of 10 things you should not do to save the infection and panic about the disease from escalating
-                        further.
-                    </p>
-                </div>
-                <div class="col-lg-4 p-5" data-aos="fade-up-left" data-aos-duration="1500">
-                    <img class="img-fluid" src="/assets/images/dont_panic.png" alt="Do not panic">
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        Some placeholder content for the first accordion panel. This panel is shown by default, thanks
+                        to the <code>.show</code> class.
+                    </div>
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-lg-4 p-5" data-aos="fade-up-right" data-aos-duration="0">
-                    <img class="img-fluid" src="/assets/images/social_distancing.jpg" alt="Do not go to crowded places">
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                        </button>
+                    </h2>
                 </div>
-                <div class="col-lg-8 p-5" data-aos="fade-up-left">
-                    <h1>Do not go to crowded places</h1>
-                    <p class="lead text-muted">
-                        Public transport, metros, gyms and any other crowded place should be avoided. The more the
-                        number of people, the more likely of the spread of the virus. If you have symptoms,
-                        self-quarantine yourself other than to visit the doctor. Staying isolated and not coming in
-                        contact with a lot of people is the only way to contain the spread of the disease
-                    </p>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-8 p-5" data-aos="fade-up-right">
-                    <h1>Do not believe everything on the internet</h1>
-                    <p class="lead text-muted">
-                        The internet is filled with information about the symptoms and cure available for coronavirus.
-                        Do not believe anything unless it comes from a reliable source or a reliable medical
-                        practitioner. Spreading false information and promises about the cure for the disease has added
-                        to the panic and kept a large percentage of the population misinformed. Advertisements about
-                        health kits and alternative ways to cure the infection are also doing the rounds of the
-                        internet. Do not fall into the trap yourself or propagate any information that is not from a
-                        reliable source.
-                    </p>
-                </div>
-                <div class="col-lg-4 p-5" data-aos="fade-up-left">
-                    <img class="img-fluid" src="/assets/images/internet.jpg"
-                        alt="Do not believe everything on the internet">
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Some placeholder content for the second accordion panel. This panel is hidden by default.
+                    </div>
                 </div>
             </div>
-            <div class="container py-5"></div>
-        </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        And lastly, the placeholder content for the third and final accordion panel. This panel is
+                        hidden by default.
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -245,23 +219,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
         integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script>
-        var typed = new Typed('.quotes', {
-            strings: [
-                "<q>EXERCISE AND YOGA, KEEPS YOU FIT; HONEY AND GARLIC, STRENGTHEN YOUR GUT.</q>",
-                "<q>KEEP SAFE DISTANCE FOR COVID RESISTANCE; CLEAN HANDS AND WEAR FACE MASK CORONA WILL LEAVE BEFORE YOU ASK.</q>",
-                "<q>STRENGTHEN YOUR LUNGS, BY DEEP BREATHING; CORONA VIRUS WILL RUN, WITHOUT CEASING</q>",
-                "<q>NAMASTHEY, SAVES YOUR LIFE; SHAKE HAND, SHAKES YOUR LIFE</q>",
-                "<q>WEAR YOUR SAFETY GEAR; LIVE LIFE WITHOUT FEAR</q>",
-            ],
-            typeSpeed: 60,
-            backSpeed: 60,
-            smartBackspace: false,
-            loop: true
-        });
-        AOS.init();
-    </script>
 </body>
 
 </html>

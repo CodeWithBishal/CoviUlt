@@ -136,7 +136,17 @@ a:hover {
     color: rgba(0, 0, 0, 0.945);
     transition: 500ms;
 }
-
+.accordion{
+    width: 70%;
+}
+#faq{
+    margin-top: 20vh;
+    height: 30vh;
+    text-align: center;
+}
+.faqAccordion{
+    margin-bottom: 30vh !important;
+}
 @media only screen and (max-width: 768px) {
     #mainHome {
         margin-top: 15vh;
