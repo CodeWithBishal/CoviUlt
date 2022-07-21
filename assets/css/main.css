@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
-#mainHome{
+
+#mainHome {
     background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
 }
+
 ::selection {
     background-color: #fc466ac9;
     color: #fff;
@@ -26,6 +28,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background: linear-gradient(to right, #e2fdf8b2, #f0f8e3b0, #ecf2f1b0);
     font-size: 23px;
     font-weight: 600;
 }
@@ -33,10 +36,13 @@
 .typed-cursor {
     display: none !important;
 }
-.scale-home{
+
+.scale-home {
     transform: scale(3);
 }
-#mainHome,#mainHome_vaccine {
+
+#mainHome,
+#mainHome_vaccine {
     margin-top: 15vh;
     max-width: 100%;
     height: 85vh;
@@ -44,7 +50,8 @@
     padding: 0 5%;
     display: block;
 }
-.know-more{
+
+.know-more {
     color: #fff;
     background-color: #FC466B;
     border-radius: 0;
@@ -52,15 +59,19 @@
     outline: none;
     box-shadow: 0 5px 15px #FC466B;
 }
-.know-more:hover{
+
+.know-more:hover {
     color: #fff;
 }
-.know-more:active, .know-more:focus{
+
+.know-more:active,
+.know-more:focus {
     border: none;
     border-radius: 0;
     box-shadow: 0 0px 10px #FC466B;
     outline: none;
 }
+
 .scroll {
     position: absolute;
     top: 80%;
@@ -89,14 +100,15 @@
 #image {
     position: relative;
     overflow: hidden;
-  }
+}
 
 #image img {
     position: absolute;
     display: block;
     top: 0;
     left: 0;
-  }
+}
+
 .mobile-menu {
     display: none !important;
 }
@@ -116,7 +128,9 @@
 .header>.header-links a,
 .logo-link,
 .logo-link,
-.logo-link:hover, a, a:hover {
+.logo-link:hover,
+a,
+a:hover {
     font-family: 'Outfit', sans-serif;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.945);
@@ -128,6 +142,7 @@
         margin-top: 15vh;
         margin-left: 0 !important;
     }
+
     .header {
         display: none;
     }
@@ -141,6 +156,7 @@
         width: 100%;
         height: 15vh;
         position: fixed;
+        background: linear-gradient(to right, #e2fdf8b2, #f0f8e3b0, #ecf2f1b0);
         top: 0;
         z-index: 100;
         font-size: 23px;
@@ -223,7 +239,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #FC466B;
+        background: linear-gradient(to right, #e2fdf8b2, #f0f8e3b0, #ecf2f1b0);
         backdrop-filter: blur(4px);
         transform: scale(0);
         transition-duration: 300ms;
@@ -238,7 +254,7 @@
     .menu-links a {
         font-family: 'Outfit', sans-serif;
         text-decoration: none;
-        color: #fff;
+        color: #000;
     }
 
     .menu-links {
@@ -249,10 +265,6 @@
         visibility: visible !important;
         transform: scale(1) !important;
         transition-duration: 600ms;
-    }
-
-    .underline:after {
-        border-bottom: solid 3px black !important;
     }
 }
 
