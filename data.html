@@ -20,6 +20,20 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <style>
+        @media (min-width: 992px) {
+            .card {
+                width: 48%;
+                height: 50vh;
+            }
+        }
+
+        @media (max-width: 992px) {
+            #data {
+                flex-direction: column !important;
+            }
+        }
+    </style>
     <title>CoviUlt - Data</title>
 </head>
 
@@ -51,8 +65,19 @@
     </nav>
     <!-- navbar ends  -->
 
-    
 
+    <section id="data" style="margin-top: 16vh;" class="d-flex justify-content-between row mx-2">
+        <div class="card shadow-lg">
+            <div class="card-body">
+                <canvas id="confirmed"></canvas>
+            </div>
+        </div>
+        <div class="card shadow-lg">
+            <div class="card-body">
+                <canvas id="compare"></canvas>
+            </div>
+        </div>
+    </section>
 
     <!-- footer start  -->
 
@@ -162,7 +187,118 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
         integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/assets/js/accordion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const confirmed = document.getElementById('confirmed').getContext('2d');
+        const compare = document.getElementById('compare').getContext('2d');
+        const confirmedChart = new Chart(confirmed, {
+            type: 'line',
+            data: {
+                labels: ['2019', '2020 Q1', '2020 Q2', '2021 Q1', '2021 Q2', '2022 Q1', '2022 Q2'],
+                datasets: [{
+                    label: 'Total number of Confirmed Cases',
+                    data: [0, 190609, 10286709, 28175044, 34861579, 43160832, 43824728],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                    ],
+                    borderWidth: 3
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        var dataFirst = {
+            label: "2021 Active Cases",
+            data: [169824, 155968, 540720, 3170228, 2114508, 396745],
+            lineTension: 0,
+            fill: false,
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+            ],
+        };
+
+        var dataSecond = {
+            label: "2022 Active Cases",
+            data: [183168, 102601, 14266, 18684, 17681, 104555],
+            lineTension: 0,
+            fill: false,
+            backgroundColor: [
+                'rgba(54, 162, 235, 0.2)',
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+            ],
+        };
+        var allData = {
+            labels: ["January", "February", "March", "April", "May", "June"],
+            datasets: [dataFirst, dataSecond]
+        };
+        const config = new Chart(compare, {
+            type: 'line',
+            data: allData,
+            options: {
+                responsive: true,
+                interaction: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                stacked: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Comparison of Active Cases'
+                    }
+                },
+                scales: {
+                    y: {
+                        type: 'linear',
+                        display: true,
+                        position: 'left',
+                    },
+                    y1: {
+                        type: 'linear',
+                        display: true,
+                        position: 'right',
+                        grid: {
+                            drawOnChartArea: false, // only want the grid lines for one axis to show up
+                        },
+                    },
+                }
+            },
+        });
+    </script>
+
 </body>
 
 </html>
