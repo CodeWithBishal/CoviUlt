@@ -302,3 +302,25 @@ header {
     margin-left: 0 !important;
     color: #fff;
 }
+
+.float {
+    position: fixed;
+    width: 100px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #FC466B;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 9;
+}
+.float:hover{
+    color: #fff;
+}
+
+.button {
+    border: none;
+    outline: none;
+}
