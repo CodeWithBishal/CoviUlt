@@ -145,9 +145,6 @@ body {
 }
 
 @media (max-width: 767.98px) {
-    body{
-        width: 100%;
-    }
   .timeline::after {
     left: 90px;
   }
