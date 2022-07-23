@@ -33,13 +33,9 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/images/covid.jpg");
+  background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 70%, #020202), url("/assets/images/covid.jpg");
 }
-@media screen and (max-width: 768px) {
-	.timeline {
-		background-attachment: inherit;
-	}
-}
+
 #history-timeline {
   margin-top: 15vh;
 }
