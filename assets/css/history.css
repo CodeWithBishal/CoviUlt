@@ -11,12 +11,28 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  overflow-y: scroll;
+  overflow-y: visible;
   overflow-x: hidden;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for IE, Edge and Firefox */
 body {
-  background: #ECF2DF;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.timeline {
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/images/covid.jpg");
 }
 
 #history-timeline {
@@ -27,7 +43,6 @@ body {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  padding: 15px 0;
 }
 
 .timeline::after {
