@@ -192,6 +192,12 @@ body {
 }
 
 @media (max-width: 767.98px) {
+  .timeline{
+    background: #ECF2DF !important;
+  }
+  body{
+    background: #ECF2DF !important;
+  }
   .timeline::after {
     left: 90px;
   }
