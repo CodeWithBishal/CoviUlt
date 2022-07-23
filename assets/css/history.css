@@ -1,7 +1,13 @@
 *,*::after, *::before {
   box-sizing: border-box !important;
 }
-
+html, body {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
 body {
   background: #ffffff;
 }
@@ -139,6 +145,9 @@ body {
 }
 
 @media (max-width: 767.98px) {
+    body{
+        width: 100%;
+    }
   .timeline::after {
     left: 90px;
   }
