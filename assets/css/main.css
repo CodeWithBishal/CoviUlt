@@ -9,15 +9,15 @@
     background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
     margin-left: 0 !important;
 }
-.jumbotron{
+
+.jumbotron {
     background-image: linear-gradient(to right, #e2fdf88e, #f0f8e38e, #ecf2f188), url("/assets/images/know_more_page.jpg") !important;
 }
-#faq_vacc_jumb{
+
+#faq_vacc_jumb {
     margin-top: 20vh;
 }
-.space{
-    height: 120px;
-}
+
 ::selection {
     background-color: #fc466ac9;
     color: #fff;
@@ -110,9 +110,11 @@
     border-radius: 10px;
     transform: scale(1.1);
 }
-.card{
+
+.card {
     border-radius: 10px;
 }
+
 .carousel-control-prev,
 .carousel-control-next {
     background-color: #afafaf;
