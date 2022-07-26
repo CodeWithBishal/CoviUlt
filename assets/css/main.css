@@ -9,7 +9,15 @@
     background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
     margin-left: 0 !important;
 }
-
+.jumbotron{
+    background-image: linear-gradient(to right, #e2fdf88e, #f0f8e38e, #ecf2f188), url("/assets/images/know_more_page.jpg") !important;
+}
+#faq_vacc_jumb{
+    margin-top: 20vh;
+}
+.space{
+    height: 120px;
+}
 ::selection {
     background-color: #fc466ac9;
     color: #fff;
@@ -57,11 +65,19 @@
 
 #mainHome,
 #mainHome_vaccine,
-#protect,
-#know_more {
+#protect {
     margin-top: 15vh;
     max-width: 100%;
     min-height: 85vh;
+    /* max-height: 85vh; */
+    padding: 0 5%;
+    display: block;
+}
+
+#know_more {
+    margin-top: 20vh;
+    max-width: 100%;
+    min-height: 80vh;
     /* max-height: 85vh; */
     padding: 0 5%;
     display: block;
@@ -89,7 +105,22 @@
 
 .hover-card:hover {
     transition: 300ms;
-    box-shadow: 0 0 20px rgba(33, 33, 33, 0.329);
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.5) !important;
+    border: 1px solid #fc466ad7;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.card{
+    border-radius: 10px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #afafaf;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .know-more:hover {
@@ -355,8 +386,3 @@ header {
     border: none;
     outline: none;
 }
-
-/* .faq_vaccine{
-    height: 30vh;
-    position: absolute;
-} */
