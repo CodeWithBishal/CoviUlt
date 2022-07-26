@@ -18,12 +18,15 @@
 .no-flow {
     overflow-x: hidden;
 }
-.btn:focus, .btn:active{
+
+.btn:focus,
+.btn:active {
     border: none !important;
     border-radius: 0 !important;
     box-shadow: none !important;
     outline: none !important;
 }
+
 .header {
     width: 100%;
     height: 15vh;
@@ -47,14 +50,15 @@
     transform: scale(3);
 }
 
-.Floating_Design{
+.Floating_Design {
     position: fixed;
     top: 15vh;
 }
 
 #mainHome,
-#mainHome_vaccine, 
-#protect {
+#mainHome_vaccine,
+#protect,
+#know_more {
     margin-top: 15vh;
     max-width: 100%;
     min-height: 85vh;
@@ -63,31 +67,43 @@
     display: block;
 }
 
-.know-more {
+.know-more,
+.btn-primary {
     color: #fff;
-    background-color: #FC466B;
+    background-color: #FC466B !important;
     border-radius: 0;
     border: none;
     outline: none;
-    box-shadow: 0 5px 15px #FC466B;
+    box-shadow: 0 5px 15px #FC466B !important;
+}
+
+.know-more:hover,
+.know-more:active,
+.know-more:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #FC466B !important;
+    box-shadow: 0 2px 10px #fc466ad7 !important;
+}
+
+.hover-card:hover {
+    transition: 300ms;
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.329);
 }
 
 .know-more:hover {
     color: #fff;
 }
-.card-deck .card{
+
+.card-deck .card {
     z-index: -1 !important;
 }
-#thingsNotToDo .col-lg-4{
+
+#thingsNotToDo .col-lg-4 {
     z-index: -1;
 }
-.know-more:active,
-.know-more:focus {
-    border: none;
-    border-radius: 0;
-    box-shadow: 0 0px 10px #FC466B;
-    outline: none;
-}
+
 .scroll {
     position: absolute;
     top: 80%;
@@ -152,14 +168,17 @@ a:hover {
     color: rgba(0, 0, 0, 0.945);
     transition: 500ms;
 }
-#faq{
+
+#faq {
     margin-top: 20vh;
     height: 30vh;
     text-align: center;
 }
-.faqAccordion{
+
+.faqAccordion {
     margin-bottom: 30vh !important;
 }
+
 @media only screen and (max-width: 768px) {
     #mainHome {
         margin-top: 15vh;
@@ -327,11 +346,17 @@ header {
     box-shadow: 2px 2px 3px #999;
     z-index: 9;
 }
-.float:hover{
+
+.float:hover {
     color: #fff;
 }
 
 .button {
     border: none;
     outline: none;
-} 
+}
+
+/* .faq_vaccine{
+    height: 30vh;
+    position: absolute;
+} */
