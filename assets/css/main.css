@@ -74,6 +74,17 @@
     display: block;
 }
 
+.slick-prev,
+.slick-next {
+    background-color: #e1e1e1 !important;
+    width: 5vh !important;
+    height: 5vh !important;
+    border-radius: 50% !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 1;
+}
+
 #know_more {
     margin-top: 20vh;
     max-width: 100%;
@@ -81,6 +92,9 @@
     /* max-height: 85vh; */
     padding: 0 5%;
     display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .know-more,
