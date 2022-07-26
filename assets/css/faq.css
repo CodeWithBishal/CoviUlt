@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Outfit', sans-serif;
-}
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -100,7 +94,11 @@
   max-height: fit-content;
   transition: all 200ms linear;
 }
-
+li {
+  /* list-style: disc outside none; */
+  display: list-item;
+  margin-left: 2em;
+  }
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
