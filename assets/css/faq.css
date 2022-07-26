@@ -1,7 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
-
+.faqAccordion {
+    margin-top: 15vh;
+    max-width: 100%;
+    min-height: 85vh;
+    /* max-height: 85vh; */
+    padding: 0 5%;
+    display: block;
+}
 .accordion .accordion-item button[aria-expanded='true'] {
   border-bottom: 1px solid #FC466B;
 }
@@ -84,7 +97,7 @@
 
 .accordion button[aria-expanded='true']+.accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: fit-content;
   transition: all 200ms linear;
 }
 
