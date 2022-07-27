@@ -1,8 +1,156 @@
 {
     "faq":[
         {
-            "q": "",
-            "a": ""
+            "q": "What kind of vaccine is COVISHIELD?",
+            "a": "It is a recombinant, replication-deficient chimpanzee adenovirus vector encoding the SARS-CoV-2 Spike (S) glycoprotein. Following administration, the genetic material of part of corona virus is expressed which stimulates an immune response."
+        },
+        {
+            "q": "What excipients are present in COVISHIELD?",
+            "a": "COVISHIELD contains the following excipients: <br> <ul> <li>L-Histidine</li> <li>L-Histidine hydrochloride monohydrate</li> <li>Magnesium chloride hexahydrate</li> <li>Polysorbate 80</li> <li>Ethanol</li> <li>Sucrose</li> <li>Sodium chloride</li> <li>Disodium edetate dihydrate (EDTA)</li> </ul>"
+        },
+        {
+            "q": "COVISHIELD regimen consists of how many doses?",
+            "a": "It consists of two doses of 0.5 ml each."
+        },
+        {
+            "q": "Is there any difference between 1st and 2nd dose?",
+            "a": "No. There is no difference between the 1st and 2nd dose. Each dose has the same content of viral particles."
+        },
+        {
+            "q": "Do I require any test (e.g. CRP, BTCT, RTPCR etc.) before getting the vaccine?",
+            "a": "No. There are no such recommendations."
+        },
+        {
+            "q": "I have taken the 1st dose of COVISHIELD? What is the current Government recommendation for the 2nd dose.",
+            "a": "The Indian government has recommended that the time interval between the 1st and 2nd dose should be between 12-16 weeks"
+        },
+        {
+            "q": " Do I need to take the 1st dose again if more than 12 weeks have passed after my 1st dose?",
+            "a": "You do not need to repeat the 1st dose even if more than 12 weeks have passed after the 1st dose."
+        },
+        {
+            "q": "Do I need to take both the doses of COVISHIELD",
+            "a": "Both doses of COVISHIELD need to be taken for optimum protection."
+        },
+        {
+            "q": "What are the contraindications for receiving COVISHIELD vaccine?",
+            "a": "COVISHIELD is contraindicated in <ol> <li>People with hypersensitivity to the active substance or to any of the excipients listed below: <ul> <li>L-Histidine</li> <li>L-Histidine hydrochloride monohydrate</li> <li>Magnesium chloride hexahydrate</li> <li>Polysorbate 80</li> <li>Ethanol</li> <li>Sucrose</li> <li>Sodium chloride</li> <li>Disodium edetate dihydrate (EDTA)</li> </ul><li>Patients who have experienced major blood clotting (venous and/or arterial thrombosis) in combination with low platelet count (thrombocytopenia) following any COVID-19 vaccine.</li> </li> </ol>"
+        },
+        {
+            "q": "Are there any contraindications for receiving the 2nd dose in people who have received the 1st dose?",
+            "a": "The contraindications to second dose of vaccine are: <ol> <li>Severe allergic reaction after a previous dose of this vaccine. If your treating physician considered this event as a severe allergic reaction to the vaccine, then you should not take second dose of vaccine. If you experience any other adverse event (known or unknown) after first dose, you can take the second dose.</li> <li> Patients who have experienced major blood clotting (venous and/or arterial thrombosis) in combination with low platelet count (thrombocytopenia) following first dose of vaccine. </li> </ol>"
+        },
+        {
+            "q": "Can people with co-morbidities like Hypertension, Diabetes Mellitus, Asthma, Cardiovascular Disease receive the vaccine?",
+            "a": "COVISHIELD has been administered in people with or without comorbid conditions in clinical trials and the safety profile was comparable in those with or without comorbid condition (e.g.: Hypertension, Cardiovascular Disease, Asthma, Diabetes, etc.). People with clinically stable comorbid conditions can receive the vaccine. Kindly follow up with your treating physician for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "Can patients with Rheumatoid Arthritis, Psoriasis, SLE, ankylosing spondylitis, sickle cell disease, any cancer or any other disease take the vaccine?",
+            "a": "History of any disease is not a contraindication for receiving the vaccine. Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "Can patients with G6PD deficiency take the vaccine?",
+            "a": "History of G6PD deficiency is not a contraindication for receiving the vaccine. Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "Are people on anti-platelet, anti-coagulant therapy eligible to receive the vaccine?",
+            "a": "History of receipt or currently ongoing anti-platelet/anti-coagulant therapy is not a contraindication for receiving the vaccine. Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine. As with other intramuscular injections, COVISHIELD should be given with caution to individuals with thrombocytopenia, any coagulation disorder or to persons on anticoagulation therapy, because bleeding or bruising may occur following an intramuscular administration in these individuals."
+        },
+        {
+            "q": "Can patients with any food or drug allergy (e.g. penicillin, sulfa, NSAIDs, or any other drug) take the vaccine?",
+            "a": "History of food or drug allergy is not a contraindication for receiving the vaccine. COVISHIELD is contraindicated in case of hypersensitivity to the active substance or to any of the excipients mentioned above (Refer to Question 9.) Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "Can patients receiving immunosuppressant therapy take the vaccine?",
+            "a": "History of receiving immunosuppressants is not a contraindication for receiving the vaccine. We anticipate that individuals including those receiving immunosuppressant therapy may have relatively weaker immune response to the vaccine regimen compared to immunocompetent individuals. Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "When should I expect adverse reactions to start? Till how many days after vaccination the adverse events should be monitored?",
+            "a": "Most of the side effects with COVISHIELD occur on the day of vaccination (6 to 8 hours later) and resolve within 2 to 3 days. These are uncommon by Day 5 to 7 after vaccination, indicating that these effects are self-limiting and of short duration. Adverse reactions are relatively less after the second dose as compared to the first dose."
+        },
+        {
+            "q": "What adverse reactions can I get after vaccination?",
+            "a": "Following side effects or adverse reactions have been reported with COVISHIELD vaccine. <ol> <li>Very common (may affect more than 1 in 10 people) - tenderness, pain, warmth, or itching where the injection is given, generally feeling unwell, feeling tired (fatigue), chills or feeling feverish, headache, feeling sick (nausea), joint pain or muscle ache</li> <li> Common (may affect more than 1 in 10 people) - swelling or redness where the injection is given, fever, being sick (vomiting) or diarrhoea, pain in legs or arms, flu-like symptoms, such as high temperature sore throat, runny nose, cough and chills </li> <li> Uncommon (may affect up to 1 in 100 people) – sleepiness or feeling dizzy, abdominal pain, enlarged lymph nodes, excessive sweating, itchy skin, rash or hives </li> <li> Not known (the frequency cannot be determined from the available data) -severe allergic reaction (anaphylaxis), severe swelling of the lips, mouth, throat (which may cause difficulty in swallowing or breathing) </li> <li> Rarest: Major blood clotting (venous and/or arterial thrombosis) in combination with low platelet count (thrombocytopenia) have been observed very rarely (with a frequency less than 1 in 100,000 vaccinated individuals) </li> </ol>"
+        },
+        {
+            "q": "Where can I get treatment if I get adverse event?",
+            "a": "You should consult your health care provider / physician for the management of your adverse event. The manufacturer cannot prescribe or provide or recommend any treatment."
+        },
+        {
+            "q": "Are there any specific medicines to treat adverse events after the vaccine?",
+            "a": "No. There are no such medicines. The physicians shall apply their clinical judgement for the treatment of the adverse events. In clinical trials on different vaccines and medicines also, all the adverse events are treated by the investigating doctors based on their clinical judgement. If required, medicines used to treat fever like paracetamol may be used to provide relief from the common side effects of vaccine like fever, body pain, headache, muscle or joint pain etc. In case you need medical advice, kindly consult your healthcare provider / doctor."
+        },
+        {
+            "q": "Is there any need to report Adverse Events?",
+            "a": "Yes, as a part of pharmacovigilance, it is useful to report adverse events to the Govt authorities/manufacturer so that they can collate all the data and monitor the safety of the vaccine. You may also report the adverse event to SII through toll free no <a href='tel:1800 1200 124'>1800 1200 124</a> or via email <a href='mailto:pharmacovigilance@seruminstitute.com'>pharmacovigilance@seruminstitute.com</a>."
+        },
+        {
+            "q": "When can I take second dose of vaccine if I get COVID-19 disease after first dose of vaccine?",
+            "a": "As per the guidelines of the Ministry of Health and Family Welfare (MOHWF), you can take the 2nd dose of the COVID-19 vaccine 3 months after recovery from COVID-19 symptoms"
+        },
+        {
+            "q": "When can I take 1st dose of vaccine after developing COVID-19?",
+            "a": "As per the guidelines of the Ministry of Health and Family Welfare (MOHWF), COVID-19 vaccine can be deferred by 3 months after recovery in individuals having lab test proven SARS-2 COVID-19 illness."
+        },
+        {
+            "q": "Whether a person after receiving vaccine can consume alcohol/ smoke?",
+            "a": "There is no recommendation regarding avoidance of alcohol/ smoking following vaccination."
+        },
+        {
+            "q": "Are any animal products used in COVISHIELD?",
+            "a": "No animal products are used in COVISHIELD"
+        },
+        {
+            "q": "Can pregnant women receive COVISHIELD?",
+            "a": "There is a limited experience with the use of the vaccine in pregnant women. Preliminary animal studies do not indicate direct or indirect harmful effects with respect to pregnancy, embryofetal development, parturition or postnatal development; definitive animal studies have not been completed yet. The full relevance of animal studies to human risk with vaccines for COVID-19 remains to be established. Administration of COVISHIELD in pregnancy should only be considered when the potential benefits outweigh any potential risks for the mother and foetus. Recently, Ministry of Health & Family Welfare, Govt. of India said that, 'a pregnant woman who opts for vaccination, could be vaccinated at any time of the pregnancy. To help pregnant women make an informed decision to be vaccinated, they should be provided with information about the risks of COVID-19 infection in pregnancy, the benefits of vaccination, along with the likely side effects of vaccination'.(3) For further details, please refer to <a href='www.mohfw.gov.in/pdf/OperationalGuidanceforCOVID19vaccinationofPregnantWoman.pdf' target='_blank' rel='noopener noreferrer'>www.mohfw.gov.in/pdf/OperationalGuidanceforCOVID19vaccinationofPregnantWoman.pdf</a>"
+        },
+        {
+            "q": "What is the effect of COVISHIELD on fertility?",
+            "a": "What is the effect of COVISHIELD on fertility?"
+        },
+        {
+            "q": "Can women on their periods (menstruating) receive COVISHIELD?",
+            "a": "There is no correlation between menstruation and the effect of the vaccine. Moreover, this is a physiological phenomenon and it has nothing to do with immunity. Women on their periods can take the vaccine. In fact, there is no prohibition to take any vaccine during menstruation"
+        },
+        {
+            "q": "Can breastfeeding women receive COVISHIELD?",
+            "a": "It is unknown whether COVISHIELD is excreted in human milk. However, the current guidelines of the Indian Government state that COVID-19 vaccination is recommended for all lactating women. WHO guidelines state that vaccine efficacy is expected to be similar in lactating women as in other adults. Since COVISHIELD (ChAdOx1-S [recombinant]) vaccine is not a live virus vaccine, it is biologically and clinically unlikely to pose a risk to the breastfeeding child. On the basis of these considerations, a lactating woman who is part of a group recommended for vaccination according to the WHO Prioritization Roadmap, e.g. health workers, should be offered vaccination on an equivalent basis. WHO does not recommend discontinuing breastfeeding after vaccination. It is advisable that breastfeeding mothers should consult their healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "A person outside India, who has received first dose of AstraZeneca's vaccine, whether he can take second dose of COVISHIELD in India?",
+            "a": "Both COVISHIELD(manufactured by Serum Institute of India Pvt Ltd) and COVID-19 Vaccine AstraZeneca (manufactured by AstraZeneca) are ChAdOx1 nCoV- 19 Corona Virus Vaccines (Recombinant). There is no data available when both these vaccines are used interchangeably. However, the World Health Organization (WHO) states that ChAdOx1-S [recombinant] products (AstraZeneca AZD1222, SII COVISHIELD) are considered equivalent and interchangeable for both doses and recommends that both doses should be administered with ChAdOx1-S product."
+        },
+        {
+            "q": "Can I take 1 dose of COVISHIELD and 1 dose of another COVID-19 vaccine?",
+            "a": "There is no safety, immunogenicity or efficacy data to support interchangeability of COVISHIELD with other COVID-19 vaccines. It is recommended that individuals who receive a first dose of COVISHIELD complete the vaccination course with COVISHIELD."
+        },
+        {
+            "q": "Can people still get COVID-19 even after receiving 2 doses of the vaccine?",
+            "a": "Yes, no vaccine is 100% protective. People can get COVID-19 even after vaccination. However, the vaccination will help protect them from developing severe disease. Kindly note that people who get vaccinated should continue to follow all current guidance to protect themselves against COVID-19 after they are vaccinated. That means: <ul> <li>Wearing a mask</li> <li>Staying at least six feet away from others</li> <li>Avoiding crowds</li> <li>Washing hands with soap and water or using hand sanitizer</li> </ul>"
+        },
+        {
+            "q": "What is the risk of developing blood clots after receiving ChAdOx1 nCoV- 19 Corona Virus Vaccine",
+            "a": "Very rare events of serious thrombosis with thrombocytopenia, including unusual sites such as cerebral venous sinus thrombosis and splanchnic vein thrombosis, some associated with arterial thrombosis, have been observed following vaccination during post-authorization use. The majority of the events occurred within the first 14 days following vaccination whereas the outer limit was 33 days and some events had a fatal outcome. Get medical attention immediately if from a few days following vaccination you get any of the following symptoms: <ol><li> experience a severe or persistent headache, blurred vision, confusion or seizures (fits) </li> <li>develop shortness of breath, chest pain, leg swelling, leg pain or persistent abdominal pain</li> <li> notice unusual skin bruising or pinpoint round spots beyond the site of vaccination </li> </ol> The European Medical Agency (EMA) stated that the overall benefits of the vaccine in the prevention of COVID-19 outweigh risks from adverse events including thrombosis in combination with thrombocytopenia (TTS)."
+        },
+        {
+            "q": "Is it recommended to test antibodies after vaccination?",
+            "a": "Our clinical trials have shown that after 2 doses of the vaccine almost all recipients developed antibodies. The Centre for Disease Control (CDC), USA does not recommend antibody testing to assess for immunity to SARS-CoV-2 following COVID-19 vaccination."
+        },
+        {
+            "q": "How long will the vaccine protect me against COVID-19?",
+            "a": "The duration of protection has not yet been established."
+        },
+        {
+            "q": "Do I need to take 3rd dose of vaccine?",
+            "a": "As of now, there are no such recommendations."
+        },
+        {
+            "q": "Against which variants does the the ChAdOx1 nCoV- 19 Corona Virus Vaccine offer protection?",
+            "a": "Data as of now shows that that the vaccine offers protection against the B 1.1.7 (UK) , B.1.167.1 and P.1 (Brazil) variant. The efficacy against the B.1.351 (South Africa) variant was lower. However, it prevented severe disease. As regards the other variants, as of now there is no indication that the vaccine is not working against them."
+        },
+        {
+            "q": "Can COVISHIELD cause a positive test result for the disease, such as for a RT-PCR or antigen test?",
+            "a": "No, COVISHIELD will not cause a positive test result for a COVID-19 RT-PCR or Rapid antigen test. This is because the tests check for active disease and not whether an individual is immune or not."
         }
     ]
 }
