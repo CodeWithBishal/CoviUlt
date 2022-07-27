@@ -14,10 +14,6 @@
     background-image: linear-gradient(to right, #e2fdf88e, #f0f8e38e, #ecf2f188), url("/assets/images/know_more_page.jpg") !important;
 }
 
-#faq_vacc_jumb {
-    margin-top: 20vh;
-}
-
 ::selection {
     background-color: #fc466ac9;
     color: #fff;
@@ -214,16 +210,6 @@ a:hover {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.945);
     transition: 500ms;
-}
-
-#faq {
-    margin-top: 20vh;
-    height: 30vh;
-    text-align: center;
-}
-
-.faqAccordion {
-    margin-bottom: 30vh !important;
 }
 
 @media only screen and (max-width: 768px) {

@@ -5,7 +5,6 @@ $(document).ready(function () {
         slidesToScroll: 3,
         autoplay: true,
         autoplaySpeed: 2000,
-        centerMode: true,
         speed: 1000,
         dots:true,
         responsive: [{
@@ -13,7 +12,6 @@ $(document).ready(function () {
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                // centerMode: true,
             }
 
         }, {
