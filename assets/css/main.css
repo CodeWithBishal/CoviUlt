@@ -80,7 +80,9 @@
     transform: translateY(-50%) !important;
     z-index: 1;
 }
-
+img{
+    border-top: 4% !important; 
+}
 #know_more {
     margin-top: 20vh;
     max-width: 100%;
