@@ -2,9 +2,9 @@
   border-bottom: 1px solid #e5e5e5;
 }
 #faqAccordion {
-  margin-top: 10vh;
+  margin-top: 20vh;
   max-width: 100%;
-  min-height: 90vh;
+  min-height: 80vh;
   padding: 0 5%;
   display: block;
   width: 100%;
@@ -45,45 +45,9 @@
   padding: 1em 1.5em 1em 0;
 }
 
-.accordion button .icon {
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  left: -14px;
-  width: 22px;
-  height: 22px;
-  border: 1px solid;
-  border-radius: 22px;
-}
-
-.accordion button .icon::before {
-  display: block;
-  position: absolute;
-  content: '';
-  top: 9px;
-  left: 5px;
-  width: 10px;
-  height: 2px;
-  background: currentColor;
-}
-
-.accordion button .icon::after {
-  display: block;
-  position: absolute;
-  content: '';
-  top: 5px;
-  left: 9px;
-  width: 2px;
-  height: 10px;
-  background: currentColor;
-}
 
 .accordion button[aria-expanded='true'] {
   color: #FC466B;
-}
-
-.accordion button[aria-expanded='true'] .icon::after {
-  width: 0;
 }
 
 .accordion button[aria-expanded='true']+.accordion-content {
