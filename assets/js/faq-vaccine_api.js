@@ -1,6 +1,9 @@
 const list = document.getElementById("json_data");
+
+//API REQUEST
 const xhrReq = new XMLHttpRequest();
-xhrReq.open("get", "/assets/json/faq-vaccine.json", false);
+xhrReq.open("get", "/assets/json/faq-vaccine.json", false); //synchronous request so that the below javascript file(accordion.js) can detect the elements
+
 xhrReq.onload = () => {
 
     var jsonData = JSON.parse(xhrReq.responseText);
