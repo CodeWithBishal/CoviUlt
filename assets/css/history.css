@@ -33,7 +33,6 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-  transform-style:preserve-3d;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/images/covid.jpg");
 }
 
@@ -193,12 +192,12 @@ body {
 }
 
 @media (max-width: 767.98px) {
-  /* .timeline{
+  .timeline{
     background: #ECF2DF !important;
-  } */
-  /* body{
+  }
+  body{
     background: #ECF2DF !important;
-  } */
+  }
   .timeline::after {
     left: 90px;
   }
