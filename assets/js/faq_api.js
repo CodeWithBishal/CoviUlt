@@ -33,9 +33,9 @@ function faqcovidAPI() {
     xhrReq.send();
 }
 
-function faqfdaAPIS(params) {
+function faqCovishieldAPIS() {
     const xhrReq = new XMLHttpRequest();
-    xhrReq.open("get", "/assets/json/faq-fda.json", false); //synchronous request so that the below javascript file(accordion.js) can detect the elements
+    xhrReq.open("get", "/assets/json/faq-covishield.json", false); //synchronous request so that the below javascript file(accordion.js) can detect the elements
 
     xhrReq.onload = () => {
 
