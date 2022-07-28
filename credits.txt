@@ -21,3 +21,5 @@ Photo by <a href="https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_me
   
 Photo by <a href="https://unsplash.com/@baatcheet_films?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Baatcheet Films</a> on <a href="https://unsplash.com/s/photos/covishield?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+
+  Some of the photos used in the website are made or modified by me using figma and canvas
