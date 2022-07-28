@@ -1,6 +1,7 @@
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
+
 #faqAccordion {
   margin-top: 20vh;
   max-width: 100%;
@@ -10,6 +11,7 @@
   width: 100%;
   max-width: 100%;
 }
+
 .accordion .accordion-item button[aria-expanded='true'] {
   border-bottom: 1px solid #FC466B;
 }
@@ -50,16 +52,22 @@
   color: #FC466B;
 }
 
+b {
+  font-weight: bold !important;
+}
+
 .accordion button[aria-expanded='true']+.accordion-content {
   opacity: 1;
   max-height: fit-content;
   transition: all 200ms linear;
 }
+
 li {
   /* list-style: disc outside none; */
   display: list-item;
   margin-left: 2em;
-  }
+}
+
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
