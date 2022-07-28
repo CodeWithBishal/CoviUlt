@@ -1,7 +1,76 @@
 {
     "faq":[
         {
-            
+            "q":"WHAT IS COVID-19?",
+            "a":"COVID-19 disease iscaused bya Coronovirus called SARS-CoV-2. Thistype of Coronavirus has not been seen before. You can get COVID-19 through contact with another person who has the virus. It is predominantly a respiratory illness that can affect other organs. People with COVID-19 may experience wide range of symptoms from mild to severe category. Symptoms may appear 2 to 14 days after exposure to the virus. Symptoms may include fever or chills; cough; shortness of breath; fatigue; muscle or body aches; headache; loss of taste or smell of recent onset; sore throat; congestion or runny nose; nausea or vomiting; diarrhea."
+        },
+        {
+            "q":"WHAT IS THE BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®)?",
+            "a":"The BharatBiotech COVID-19 Vaccine (COVAXIN®) is a vaccine with approval for emergency use that may prevent COVID-19. The Central Licensing Authority has granted permission for the sale or distribution of COVAXIN® for emergency use in public interest"
+        },
+        {
+            "q":"WHAT SHOULD YOU MENTION TO YOUR VACCINATION PROVIDER BEFORE YOU GET COVAXIN®",
+            "a":"Tell the Vaccinator/ Officer supervising your vaccination about all of your medical conditions, including if you: <br> • Are on regular medication for any illness, forhowlong and for which condition. <br> • Have any allergies <br> • Have fever <br> • Have a bleeding disorder or are on a blood thinner <br> • Are immunocompromised or are on a medicine that affects your immune system <br> • Are pregnant <br> • Have received another COVID-19 vaccine <br>"
+        },
+        {
+            "q":"WHO SHOULD GET COVAXIN®?",
+            "a":"COVAXIN® has been approved forrestricted use in emergency situation in individuals 18 years of age and older."
+        },
+        {
+            "q":"WHO SHOULD NOT GET COVAXIN®?",
+            "a":"You should not get COVAXIN® if you: <br> • Had a severe allergic reaction to any ingredients of the vaccine. <br> • Had a severe allergic reaction after a previous dose of this vaccine. <br> • Currently have an acute infection or fever. <br>"
+        },
+        {
+            "q":"WHAT ARE THE INGREDIENTS IN THE COVAXIN®?",
+            "a":"COVAXIN® includes the following ingredients: COVAXIN® contains 6µg of whole-virion inactivated SARS-CoV-2 antigen (Strain: NIV-2020-770) and the other inactive ingredients such as aluminum hydroxide gel (250 µg), TLR 7 /8 agonist (imidazoquinolinone) 15 µg, 2-phenoxyethanol 2.5 mg, and phosphate buffer saline up to 0.5 ml. The vaccine (COVAXIN®) thus has been developed by using inactivated/ killed virus along with the above mentioned chemicals."
+        },
+        {
+            "q":"HOW IS THE BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®) GIVEN?",
+            "a":"The Bharat Biotech COVID-19 (COVAXIN®) will be given to you as an injection into the deltoid muscle of the upper arm. COVAXIN® vaccination series is 2 doses given 4 weeks apart."
+        },
+        {
+            "q":"HAS COVAXIN® BEEN USED BEFORE?",
+            "a":"The Central Licensing Authority has granted permission for the sale or distribution of COVAXIN® for emergency use in the public interest. In Phase 1 and Phase 2 clinical trials, about 680 (300 in Phase 1, and 380 in Phase 2) were administered with 2-doses of COVAXIN®. Phase 3 clinical trial was conducted in 25,800 participants, with an interim analysis result showing vaccine efficacy of 78%."
+        },
+        {
+            "q":"WHAT ARE THE BENEFITS OF COVAXIN®?",
+            "a":"In an ongoing clinical trial, COVAXIN® has been shown to generate immunity following 2 doses given 4 weeks apart. Phase 3 clinical trial was conducted in 25,800 participants, with an interim analysis result showing vaccine efficacy of 78%. <br><br> Hence, it is important to appreciate that receiving the vaccine does not mean that other precautions related to COVID-19 need not be followed."
+        },
+        {
+            "q":"WHAT ARE THE RISKS OF BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®)?",
+            "a":"Side effects that have been reported with the Bharat Biotech COVID-19 (COVAXIN®) include: <br> • Injection site pain/ Swelling / Redness/ Itching <br> • Headache <br> • Fever <br> • Malaise / bodyache <br> • Nausea <br> • Vomiting <br> • Rashes <br> A severe allergic reaction may very rarely occur after getting a dose of COVAXIN®. <br> These may not be all the possible side effects of COVAXIN®. Serious and unexpected side effects may occur. <br> COVAXIN® is still being studied in clinical trials. <br>"
+        },
+        {
+            "q":"WHAT SHOULD I DO ABOUT SIDE EFFECTS?",
+            "a":"If you experience any side effect(s), please contact/visit your health provider/ Vaccinator / Officer supervising your vaccination or immediately go to the nearest hospital. In addition, you can report side effects after vaccination to Bharat Biotech International Limited who is the manufacturer of COVAXIN® on 24x7 TollFree Number: 18001022245 or email at pvg@bharotbiotech.com."
+        },
+        {
+            "q":"WHAT IF I DECIDE NOT TO GET COVAXIN®?",
+            "a":"It is your choice to receive or not receive COVAXIN®."
+        },
+        {
+            "q":"CAN I RECEIVE COVAXIN® WITH OTHER VACCINES?",
+            "a":"There is no scientific information yet available on the appropriateness of use of COVAXIN® along with other vaccines"
+        },
+        {
+            "q":"WHAT IF I AM PREGNANT?",
+            "a":"Available data on COVAXIN® Vaccine administered to pregnant women are insufficient to inform vaccine associated risks in pregnancy"
+        },
+        {
+            "q":"WHAT IF I AM ON A BLOOD THINNER OR COAGULANT?",
+            "a":"Individuals on stable anticoagulation therapy (warfarin, or a new anticoagulant [apixaban or rivaroxaban]) who are up-to-date with their scheduled international normalized ratio (INR) testing and whose latest INR was below the upper threshold of their therapeutic range, can receive intramuscular vaccination. Individuals on simple blood thinners (Aspirin and / or clopidogrel) who have a stable medical disease condition assessed by the vaccination provider may receive intramuscular vaccination. The bleeding may take a little longer to stop in these individuals, and may lead to increased bruising on the upper arm. The immunization of patients with bleeding disorders differs from that of the average population concerning the risk of haematoma formation. A fine needle (23 - 25 gauge) should be used for the vaccination in these individuals, followed by firm pressure applied to the site without rubbing for at least 2 minutes. In case of any doubt, consult with the clinician responsible for prescribing or monitoring the individual’s anticoagulant therapy. Individuals with bleeding disorders may be vaccinated intramuscularly if, in the opinion of a doctor familiar with the individual's bleeding risk the vaccine can be administered with reasonable safety byIntramuscularroute."
+        },
+        {
+            "q":"WHAT IF I HAVE ALLERGIES?",
+            "a":"Individuals who have a known severe allergy to any component of COVAXIN® are NOT advised to be vaccinated. COVAXIN® contains 6µg of whole-virion inactivated SARS-CoV-2 antigen (Strain: NIV-2020- 770), and the other inactive ingredients such as aluminium hydroxide gel 250 µg, TLR 7 / 8 agonist (imidazo quinolinone) 15 µg,2-phenoxyethonol 2.5 mg, and phosphate buffer saline upto 0.5 ml.) Individuals with a history of severe allergic reactions NOT related to vaccines or injectable medications such as environmental allergies, allergies to food, pet dander, venom, or latex- may still get vaccinated. Individuals with a history of allergies to oral medications or a family history of allergic reactions, or who might have a mild allergy to vaccines (but no anaphylaxis) may still get vaccinated."
+        },
+        {
+            "q":"WHAT IF I AM IMMUNOCOMPROMISED?",
+            "a":"Individuals with HIV infection or other immunocomprom1smg conditions, or who take immunosuppressive medications or therapies might be at increased risk for severe COVID-19. However, data is NOT currently available to establish vaccine safety and efficacy in these groups. Individuals with immunosuppression may not generate a full immune response to COVID-19. Transplant recipients should be counselled that the vaccine's effectiveness and safety profile for them is not currently known. As it is not a live virus vaccine, it is unlikely to pose a safety risk. Transplant recipients may have a weakened immune response compared to the general population. Thus, they should be advised regarding the importance of maintaining all current guidance to protect themselves even after vaccination. Immunocompromised individuals may receive COVID-19 vaccination if they have no contraindications to vaccination."
+        },
+        {
+            "q":"WILL THE BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®) GIVE ME COVID-19?",
+            "a":"No. BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®) is an inactivated (killed) vaccine, and hence, there is no chance of getting COVID-19."
         }
     ]
 }
