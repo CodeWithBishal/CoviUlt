@@ -5,7 +5,7 @@ $(document).ready(function () {
         slidesToScroll: 3,
         autoplay: true,
         autoplaySpeed: 2000,
-        speed: 1000,
+        speed: 3000,
         dots:true,
         responsive: [{
             breakpoint: 1024,
@@ -31,7 +31,7 @@ $(document).ready(function () {
                 dots: true,
                 infinite: true,
                 autoplay: true,
-                autoplaySpeed: 2000,
+                autoplaySpeed: 3000,
             }
         }]
     });
