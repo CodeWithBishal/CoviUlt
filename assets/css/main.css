@@ -5,12 +5,15 @@
     font-family: 'Outfit', sans-serif;
 }
 
-#mainHome,.panel {
+#mainHome,.bg-brand {
     background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
     margin-left: 0 !important;
 }
 
 .panel{
+    margin-top: 15vh;
+    max-width: 100%;
+    min-height: 85vh;
     padding: 0 5%;
     overflow-x: hidden !important;
 }
