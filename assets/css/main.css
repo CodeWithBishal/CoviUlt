@@ -5,9 +5,14 @@
     font-family: 'Outfit', sans-serif;
 }
 
-#mainHome {
+#mainHome,.panel {
     background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
     margin-left: 0 !important;
+}
+
+.panel{
+    padding: 0 5%;
+    overflow-x: hidden !important;
 }
 
 .jumbotron {
@@ -174,12 +179,12 @@ img{
     }
 }
 
-#image {
+#image,.impact-img img{
     position: relative;
     overflow: hidden;
 }
 
-#image img {
+#image img,.impact-img img {
     position: absolute;
     display: block;
     top: 0;
