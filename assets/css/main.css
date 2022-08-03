@@ -13,6 +13,7 @@
 .panel{
     padding: 0 5%;
     overflow-x: hidden !important;
+    margin-top: 15vh;
 }
 
 .jumbotron {
