@@ -13,6 +13,9 @@
 .panel{
     padding: 0 5%;
     overflow-x: hidden !important;
+}
+
+.panel1{
     margin-top: 15vh;
 }
 
