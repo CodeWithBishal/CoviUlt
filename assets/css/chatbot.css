@@ -1,0 +1,296 @@
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+}
+
+.wrapper {
+    width: 370px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 1000;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .title {
+    background: #007bff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #006fe6;
+    border-radius: 5px 5px 0 0;
+}
+
+.wrapper .form {
+    padding: 20px 15px;
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.wrapper .form .inbox {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.wrapper .form .user-inbox {
+    justify-content: flex-end;
+    margin: 13px 0;
+}
+
+.wrapper .form .inbox .icon {
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.wrapper .form .inbox .msg-header {
+    max-width: 53%;
+    margin-left: 10px;
+}
+
+.form .inbox .msg-header div {
+    color: #fff;
+    background: #007bff;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 14px;
+    word-break: break-word;
+}
+
+.form .user-inbox .msg-header div {
+    color: #333;
+    background: #efefef;
+}
+
+span#wave .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 3px;
+    background: #fff;
+    animation: wave 1.3s linear infinite;
+}
+
+span#wave .dot:nth-child(2) {
+    animation-delay: -1.1s;
+}
+
+span#wave .dot:nth-child(3) {
+    animation-delay: -0.9s;
+}
+
+@keyframes wave {
+
+    0%,
+    60%,
+    100% {
+        transform: initial;
+    }
+
+    30% {
+        transform: translateY(-15px);
+    }
+}
+
+.wrapper .typing-field {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #efefef;
+    border-top: 1px solid #d9d9d9;
+    border-radius: 0 0 5px 5px;
+}
+
+.wrapper .typing-field .input-data {
+    height: 40px;
+    width: 335px;
+    position: relative;
+}
+
+.wrapper .typing-field .input-data input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0 80px 0 15px;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.typing-field .input-data input:focus {
+    border-color: rgba(0, 123, 255, 0.8);
+}
+
+.input-data input::placeholder {
+    color: #999999;
+    transition: all 0.3s ease;
+}
+
+.input-data input:focus::placeholder {
+    color: #bfbfbf;
+}
+
+.wrapper .typing-field .input-data button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    height: 30px;
+    width: 65px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 3px;
+    background: #007bff;
+    border: 1px solid #007bff;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+.wrapper .typing-field .input-data input:valid~button {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.typing-field .input-data button:hover {
+    background: #006fef;
+}
+
+#click {
+    display: none;
+}
+
+label {
+    right: 30px;
+    bottom: 20px;
+    height: 55px;
+    width: 55px;
+    background: rgb(245, 240, 170);
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+label i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+}
+
+label i.fas {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#click:checked~label i.fas {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+#click:checked~label i.far {
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+#click:checked~.wrapper {
+    opacity: 1;
+    bottom: 85px;
+    pointer-events: auto;
+}
+
+.chat-box form {
+    padding: 10px 15px;
+    margin: 20px 0;
+    border-radius: 25px;
+    border: 1px solid lightgrey;
+}
+
+.chat-box form .field {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+a,
+a:hover {
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    label {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        height: 55px;
+        width: 55px;
+        background: rgb(245, 240, 170);
+        text-align: center;
+        line-height: 55px;
+        border-radius: 50px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .bot-dp {
+        display: none;
+    }
+
+    .wrapper .typing-field .input-data input {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: 1px solid transparent;
+        padding: 0 80px 0 15px;
+        border-radius: 3px;
+        font-size: 15px;
+        background: #fff;
+        transition: all 0.3s ease;
+    }
+}
+
+body,
+.form .inbox .msg-header div {
+    display: inline-block;
+}
