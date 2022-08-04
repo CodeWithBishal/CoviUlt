@@ -5,7 +5,7 @@
     font-family: 'Outfit', sans-serif;
 }
 
-#mainHome {
+#mainHome, #main_body {
     background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
     margin-left: 0 !important;
 }
