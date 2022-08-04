@@ -12,7 +12,7 @@ readAloud.addEventListener("click", () => {
     msg.text = "you have turned on read aloud for this page, click on any text element and I will start reading for you";
     let voices = speechSynthesis.getVoices();
     msg.voice = voices[0];
-    let tags = document.querySelectorAll('p,h1,h2,h3,h4,h5,h6,.card-body,.msg-header');
+    let tags = document.querySelectorAll('p,h1,h2,h3,h4,h5,h6,.card-body,.msg-header,.accordion-title,div.card-deck.card');
     speechSynthesis.speak(msg)
     if (keepOn) {
         tags.forEach((tag) => {
