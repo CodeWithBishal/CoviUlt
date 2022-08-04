@@ -58,45 +58,47 @@
     <!-- floating btn  -->
     <div class="chatBot">
         <input type="checkbox" id="click" class="click" />
-    <label for="click" id="openChat" style="position: fixed;">
-        <i class="far fa-comment-dots"></i>
-    </label>
+        <label for="click" id="openChat" style="position: fixed;">
+            <i class="far fa-comment-dots"></i>
+        </label>
 
-    <div class="wrapper" style="position: fixed;">
-        <div class="chat-box-header d-flex justify-content-between align-items-center">
-            <div class="icon_header p-2 ml-2 rounded-circle">
-                <img class="img-fluid" src="/assets/images/chatbot.png" />
+        <div class="wrapper" style="position: fixed;">
+            <div class="chat-box-header d-flex justify-content-between align-items-center">
+                <div class="icon_header p-2 ml-2 rounded-circle">
+                    <img class="img-fluid" src="/assets/images/chatbot.png" />
+                </div>
+                <div class="name">CoviBot</div>
+                <span class="chat-box-toggle"><label id="showFAB" for="click">
+                        <i class="fas fa-times"></i>
+                    </label></span>
             </div>
-            <div class="name">CoviBot</div>
-            <span class="chat-box-toggle"><label id="showFAB" for="click">
-                <i class="fas fa-times"></i>
-            </label></span>
-          </div>
-        <div class="form">
-            <div class="bot-inbox align-items-center inbox">
-                <div class="icon">
-                    <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+            <div class="form">
+                <div class="bot-inbox align-items-center inbox">
+                    <div class="icon">
+                        <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+                    </div>
+                    <div class="msg-header">
+                        <div>Hello I'm CoviBot, I'm here to answer your Questions regarding Covid-19</div>
+                    </div>
+                </div><br>
+                <div class="bot-inbox align-items-center inbox">
+                    <div class="icon">
+                        <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+                    </div>
+                    <div class="msg-header">
+                        <div>If you are experiencing a life-threatening emergency, please call <a
+                                href="tel:1075">1075</a> immediately <br> This system does not replace the judgement of
+                            healthcare professionals or the performance of any clinical assessment.</div>
+                    </div>
                 </div>
-                <div class="msg-header">
-                    <div>Hello I'm CoviBot, I'm here to answer your Questions regarding Covid-19</div>
-                </div>
-            </div><br>
-            <div class="bot-inbox align-items-center inbox">
-                <div class="icon">
-                    <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
-                </div>
-                <div class="msg-header">
-                    <div>If you are experiencing a life-threatening emergency, please call <a href="tel:1075">1075</a> immediately <br> This system does not replace the judgement of healthcare professionals or the performance of any clinical assessment.</div>
+            </div>
+            <div class="typing-field">
+                <div class="input-data">
+                    <input id="data" type="text" placeholder="Type something here.." required />
+                    <button id="send-btn">Send</button>
                 </div>
             </div>
         </div>
-        <div class="typing-field">
-            <div class="input-data">
-                <input id="data" type="text" placeholder="Type something here.." required />
-                <button id="send-btn">Send</button>
-            </div>
-        </div>
-    </div>
     </div>
     <!-- floating btn  -->
     <img src="/assets/images/float_covid.png" alt="Floating Design" class="Floating_Design">
@@ -120,14 +122,17 @@
         <h2 class="text-muted text-center mb-5">Steps To <span style="color: #F24472;">Protect</span> Yourself</h2>
         <div class="card-deck mt-5">
             <div class="card shadow-lg align-items-center">
-                <img src="/assets/images/MAsk.png" class="card-img-top p-3" style="width: 204px; height: 220px;" alt="Wear a mask">
+                <img src="/assets/images/MAsk.png" class="card-img-top p-3" style="width: 204px; height: 220px;"
+                    alt="Wear a mask">
                 <div class="card-body">
                     <h5 class="card-title">Wear A Face Mask</h5>
-                    <p class="card-text">Wear a properly fitted mask when physical distancing is not possible and in poorly ventilated settings.</p>
+                    <p class="card-text">Wear a properly fitted mask when physical distancing is not possible and in
+                        poorly ventilated settings.</p>
                 </div>
             </div>
             <div class="card shadow-lg align-items-center">
-                <img src="/assets/images/Soap.png" class="card-img-top p-3" style="width: 155px; height: 196px;" alt="Wash Your Hand">
+                <img src="/assets/images/Soap.png" class="card-img-top p-3" style="width: 155px; height: 196px;"
+                    alt="Wash Your Hand">
                 <div class="card-body">
                     <h5 class="card-title">Wash Your Hand</h5>
                     <p class="card-text">Clean your hands frequently with alcohol-based hand rub or soap and water.
@@ -135,34 +140,43 @@
                 </div>
             </div>
             <div class="card shadow-lg align-items-center">
-                <img src="/assets/images/injection.png" class="card-img-top p-3" style="width: 200px; height: 200px;" alt="Vaccine">
+                <img src="/assets/images/injection.png" class="card-img-top p-3" style="width: 200px; height: 200px;"
+                    alt="Vaccine">
                 <div class="card-body">
                     <h5 class="card-title">Get Yourself Vaccinated</h5>
-                    <p class="card-text">Get vaccinated as soon as it’s your turn and follow local guidance on vaccination</p>
+                    <p class="card-text">Get vaccinated as soon as it’s your turn and follow local guidance on
+                        vaccination</p>
                 </div>
             </div>
         </div>
         <div class="card-deck mt-5">
             <div class="card shadow-lg align-items-center">
-                <img src="/assets/images/Crowd.png" class="card-img-top p-3" style="width: 204px; height: 220px;" alt="Avoid Close Contact">
+                <img src="/assets/images/Crowd.png" class="card-img-top p-3" style="width: 204px; height: 220px;"
+                    alt="Avoid Close Contact">
                 <div class="card-body">
                     <h5 class="card-title">Avoid Close Contact</h5>
-                    <p class="card-text">Keep physical distance of at least 1 metre from others, even if they don’t appear to be sick. Avoid crowds and close contact.</p>
+                    <p class="card-text">Keep physical distance of at least 1 metre from others, even if they don’t
+                        appear to be sick. Avoid crowds and close contact.</p>
                 </div>
             </div>
             <div class="card shadow-lg align-items-center">
-                <img src="/assets/images/disinfection.png" class="card-img-top p-3" style="width: 155px; height: 196px;" alt="Disinfect Surfaces">
+                <img src="/assets/images/disinfection.png" class="card-img-top p-3" style="width: 155px; height: 196px;"
+                    alt="Disinfect Surfaces">
                 <div class="card-body">
                     <h5 class="card-title">Disinfect Surfaces</h5>
-                    <p class="card-text">Clean and disinfect surfaces frequently, especially those which are regularly touched, such as door handles, faucets and phone screens.
+                    <p class="card-text">Clean and disinfect surfaces frequently, especially those which are regularly
+                        touched, such as door handles, faucets and phone screens.
                     </p>
                 </div>
             </div>
             <div class="card shadow-lg align-items-center">
-                <img src="/assets/images/shake hand.png" class="card-img-top p-3" style="width: 200px; height: 200px;" alt="Avoid Shaking Hands">
+                <img src="/assets/images/shake hand.png" class="card-img-top p-3" style="width: 200px; height: 200px;"
+                    alt="Avoid Shaking Hands">
                 <div class="card-body">
                     <h5 class="card-title">Avoid Shaking Hands</h5>
-                    <p class="card-text">Avoid shaking hands to help protect yourself and others from COVID-19.Respiratory viruses can be passed by shaking hands and touching your eyes, nose and/or mouth.</p>
+                    <p class="card-text">Avoid shaking hands to help protect yourself and others from
+                        COVID-19.Respiratory viruses can be passed by shaking hands and touching your eyes, nose and/or
+                        mouth.</p>
                 </div>
             </div>
         </div>
@@ -272,7 +286,7 @@
                             CoviUlt
                         </h6>
                         <p>
-                           The Ultimate Knowledgebase for information regarding COVID-19 Pandemic
+                            The Ultimate Knowledgebase for information regarding COVID-19 Pandemic
                         </p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -304,7 +318,8 @@
                         </p>
                         <p>
                             <a href="/know-more/faq-vaccine.html" class="text-reset">FAQ Vaccine</a>
-                        </p><p>
+                        </p>
+                        <p>
                             <a href="/know-more/faq-vaccine.html" class="text-reset">FAQ CoviShield</a>
                         </p>
                     </div>
@@ -346,6 +361,30 @@
 
     <script src="/assets/js/typing.js"></script>
     <script src="/assets/js/chatbot.js"></script>
+    <script>
+        let msg = new SpeechSynthesisUtterance();
+        let voices = speechSynthesis.getVoices();
+        msg.voice = voices[0];
+        let tags = document.querySelectorAll('p,a,h1,h2,h3,h4,h5,h6,.card-body,.msg-header');
+        tags.forEach((tag) => {
+            tag.addEventListener('click', (e) => {
+                if (speechSynthesis.speaking) {
+                    speechSynthesis.cancel()
+                    speechSynthesis.speaking=false;
+                } else {
+                    msg.text = e.target.innerText;
+                    // tag.style.backgroundColor = "yellow";
+                    speechSynthesis.speak(msg);
+                    let interval = setInterval(() => {
+                        if (!speechSynthesis.speaking) {
+                            tag.style.removeProperty('background-color');
+                            clearInterval(interval);
+                        }
+                    }, 100);
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

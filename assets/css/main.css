@@ -5,7 +5,7 @@
     font-family: 'Outfit', sans-serif;
 }
 
-#mainHome, #main_body {
+#mainHome {
     background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
     margin-left: 0 !important;
 }
@@ -16,9 +16,7 @@
     padding: 0 5%;
     margin-left:  0 !important;
 }
-#land_impact{
-    margin-top: 15vh;
-}
+
 
 .jumbotron {
     background-image: linear-gradient(to right, #e2fdf88e, #f0f8e38e, #ecf2f188), url("/assets/images/know_more_page.jpg") !important;
@@ -340,7 +338,9 @@ a:hover {
         text-decoration: none;
         color: #000;
     }
-
+    #land_impact{
+        margin-top: 15vh;
+    }
     .menu-links {
         line-height: 78px;
     }
