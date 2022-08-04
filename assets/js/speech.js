@@ -27,13 +27,15 @@ readAloud.addEventListener("click", () => {
                         msg.text = e.target.innerText;
                         if (tag.classList.contains("card-deck")) {}else{
                             tag.style.backgroundColor = "#fc466ac9";
-                            tag.style.color = "#fff";
+                            // tag.style.color = "#fff";
+                            tag.classList.add("text-light");
                         }
                         speechSynthesis.speak(msg);
                         let interval = setInterval(() => {
                             if (!speechSynthesis.speaking) {
                                 tag.style.removeProperty('background-color');
-                                tag.style.color = "#000";
+                                // tag.style.color = "#000";
+                                tag.classList.remove("text-light");
                                 clearInterval(interval);
                             }
                         }, 100);
