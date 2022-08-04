@@ -289,9 +289,6 @@ a:hover {
     .bot-dp {
         display: none;
     }
-    .wrapper{
-        z-index: 1 !important;
-    }
 
     .wrapper .typing-field .input-data input {
         text-align: center;

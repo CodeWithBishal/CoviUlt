@@ -14,6 +14,10 @@ openChat.addEventListener("click", () => {
 showFAB.addEventListener("click", () => {
     openChat.style.display = "block";
 })
+document.getElementsByClassName("toggle")[0].addEventListener("click", ()=>{
+    click.checked = false;
+    openChat.style.display = "block";
+})
 // check for enter button
 document.addEventListener("DOMContentLoaded", () => {
     const inputField = document.getElementById("data");

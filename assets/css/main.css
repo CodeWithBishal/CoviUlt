@@ -14,7 +14,6 @@
     max-width: 100%;
     min-height: 85vh;
     padding: 0 5%;
-    /* margin-top: 10vh; */
     margin-left:  0 !important;
 }
 #land_impact{
@@ -76,7 +75,6 @@
     margin-top: 15vh;
     max-width: 100%;
     min-height: 85vh;
-    /* max-height: 85vh; */
     padding: 0 5%;
     display: block;
 }
@@ -98,7 +96,6 @@ img{
     margin-top: 20vh;
     max-width: 100%;
     min-height: 80vh;
-    /* max-height: 85vh; */
     padding: 0 5%;
     display: block;
     width: 100%;
@@ -227,7 +224,6 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
     #mainHome {
-        /* margin-top: 15vh; */
         margin-left: 0 !important;
     }
 
