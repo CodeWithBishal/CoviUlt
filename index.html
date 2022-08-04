@@ -56,50 +56,57 @@
     </nav>
     <!-- navbar ends  -->
     <!-- floating btn  -->
-    <div class="chatBot">
-        <input type="checkbox" id="click" class="click" />
-        <label for="click" id="openChat" style="position: fixed;">
-            <i class="far fa-comment-dots"></i>
-        </label>
-
-        <div class="wrapper" style="position: fixed;">
-            <div class="chat-box-header d-flex justify-content-between align-items-center">
-                <div class="icon_header p-2 ml-2 rounded-circle">
-                    <img class="img-fluid" src="/assets/images/chatbot.png" />
+        <button class="float button row justify-content-center align-items-center" id="readAloud" title="Read Aloud">
+            <i class="fa fa-volume-up my-float"></i> &nbsp; Read
+        </button>
+        <button class="float button row justify-content-center align-items-center" id="muteSpeech" title="Turn off Read Aloud" style="display: none;">
+            <i class="fa fa-volume-mute my-float"></i> &nbsp; Mute
+        </button>
+        
+        <div class="chatBot">
+            <input type="checkbox" id="click" class="click" />
+            <label for="click" id="openChat" style="position: fixed;">
+                <i class="far fa-comment-dots"></i>
+            </label>
+    
+            <div class="wrapper" style="position: fixed;">
+                <div class="chat-box-header d-flex justify-content-between align-items-center">
+                    <div class="icon_header p-2 ml-2 rounded-circle">
+                        <img class="img-fluid" src="/assets/images/chatbot.png" />
+                    </div>
+                    <div class="name">CoviBot</div>
+                    <span class="chat-box-toggle"><label id="showFAB" for="click">
+                            <i class="fas fa-times"></i>
+                        </label></span>
                 </div>
-                <div class="name">CoviBot</div>
-                <span class="chat-box-toggle"><label id="showFAB" for="click">
-                        <i class="fas fa-times"></i>
-                    </label></span>
-            </div>
-            <div class="form">
-                <div class="bot-inbox align-items-center inbox">
-                    <div class="icon">
-                        <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
-                    </div>
-                    <div class="msg-header">
-                        <div>Hello I'm CoviBot, I'm here to answer your Questions regarding Covid-19</div>
-                    </div>
-                </div><br>
-                <div class="bot-inbox align-items-center inbox">
-                    <div class="icon">
-                        <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
-                    </div>
-                    <div class="msg-header">
-                        <div>If you are experiencing a life-threatening emergency, please call <a
-                                href="tel:1075">1075</a> immediately <br> This system does not replace the judgement of
-                            healthcare professionals or the performance of any clinical assessment.</div>
+                <div class="form">
+                    <div class="bot-inbox align-items-center inbox">
+                        <div class="icon">
+                            <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+                        </div>
+                        <div class="msg-header">
+                            <div>Hello I'm CoviBot, I'm here to answer your Questions regarding Covid-19</div>
+                        </div>
+                    </div><br>
+                    <div class="bot-inbox align-items-center inbox">
+                        <div class="icon">
+                            <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+                        </div>
+                        <div class="msg-header">
+                            <div>If you are experiencing a life-threatening emergency, please call <a
+                                    href="tel:1075">1075</a> immediately <br> This system does not replace the judgement of
+                                healthcare professionals or the performance of any clinical assessment.</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="typing-field">
-                <div class="input-data">
-                    <input id="data" type="text" placeholder="Type something here.." required />
-                    <button id="send-btn">Send</button>
+                <div class="typing-field">
+                    <div class="input-data">
+                        <input id="data" type="text" placeholder="Type something here.." required />
+                        <button id="send-btn">Send</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     <!-- floating btn  -->
     <img src="/assets/images/float_covid.png" alt="Floating Design" class="Floating_Design">
 
@@ -361,30 +368,7 @@
 
     <script src="/assets/js/typing.js"></script>
     <script src="/assets/js/chatbot.js"></script>
-    <script>
-        let msg = new SpeechSynthesisUtterance();
-        let voices = speechSynthesis.getVoices();
-        msg.voice = voices[0];
-        let tags = document.querySelectorAll('p,a,h1,h2,h3,h4,h5,h6,.card-body,.msg-header');
-        tags.forEach((tag) => {
-            tag.addEventListener('click', (e) => {
-                if (speechSynthesis.speaking) {
-                    speechSynthesis.cancel()
-                    speechSynthesis.speaking=false;
-                } else {
-                    msg.text = e.target.innerText;
-                    // tag.style.backgroundColor = "yellow";
-                    speechSynthesis.speak(msg);
-                    let interval = setInterval(() => {
-                        if (!speechSynthesis.speaking) {
-                            tag.style.removeProperty('background-color');
-                            clearInterval(interval);
-                        }
-                    }, 100);
-                }
-            });
-        });
-    </script>
+    <script src="/assets/js/speech.js"></script>
 </body>
 
 </html>

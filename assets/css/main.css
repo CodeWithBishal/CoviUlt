@@ -344,7 +344,9 @@ a:hover {
     .menu-links {
         line-height: 78px;
     }
-
+    .float{
+        right: 95px !important;
+    }
     .mobile-menu .toggle:checked~.menu {
         visibility: visible !important;
         transform: scale(1) !important;
@@ -379,8 +381,8 @@ header {
     position: fixed;
     width: 100px;
     height: 60px;
-    bottom: 40px;
-    right: 40px;
+    bottom: 25px;
+    right: 130px;
     background-color: #FC466B;
     color: #FFF;
     border-radius: 50px;

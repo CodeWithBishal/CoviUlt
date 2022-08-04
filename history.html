@@ -54,6 +54,12 @@
     </nav>
     <!-- navbar ends  -->
     <!-- floating btn  -->
+    <button class="float button row justify-content-center align-items-center" id="readAloud" title="Read Aloud">
+        <i class="fa fa-volume-up my-float"></i> &nbsp; Read
+    </button>
+    <button class="float button row justify-content-center align-items-center" id="muteSpeech" title="Turn off Read Aloud" style="display: none;">
+        <i class="fa fa-volume-mute my-float"></i> &nbsp; Mute
+    </button>
     <div class="chatBot">
         <input type="checkbox" id="click" class="click" />
         <label for="click" id="openChat" style="position: fixed;">
@@ -866,6 +872,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
         <script src="/assets/js/chatbot.js"></script>
+        <script src="/assets/js/speech.js"></script>
 </body>
 
 </html>
