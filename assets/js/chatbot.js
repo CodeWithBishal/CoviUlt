@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 function chatBotAPI(searchQuery) {
     let newValue = searchQuery
+    .toLowerCase()
     .replace(/>/g,"")
     .replace(/</g,"")
     .replace(/please/,"")
@@ -39,6 +40,7 @@ function chatBotAPI(searchQuery) {
     .replace(/whats/g,"")
     .replace(/what is/g,"")
     .replace(/about/g,"")
+    .trim()
 
 
 
@@ -47,7 +49,7 @@ function chatBotAPI(searchQuery) {
     xhrReq.onload = () => {
         var jsonData = JSON.parse(xhrReq.responseText);
         var result = jsonData.faq.filter(function (e) {
-            return e.q.toLowerCase().match(newValue.toLowerCase().trim())
+            return e.q.toLowerCase().match(newValue)
         })
         if (result != "") {
             addReply(result[0]['a'], true)

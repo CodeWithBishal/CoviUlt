@@ -18,11 +18,8 @@
     margin-left:  0 !important;
 }
 #land_impact{
-    margin-top: 7vh;
-}
-/* .panel1{
     margin-top: 15vh;
-} */
+}
 
 .jumbotron {
     background-image: linear-gradient(to right, #e2fdf88e, #f0f8e38e, #ecf2f188), url("/assets/images/know_more_page.jpg") !important;
@@ -230,7 +227,7 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
     #mainHome {
-        margin-top: 15vh;
+        /* margin-top: 15vh; */
         margin-left: 0 !important;
     }
 
@@ -246,7 +243,7 @@ a:hover {
         display: block !important;
         width: 100%;
         height: 15vh;
-        /* position: fixed; */
+        position: fixed;
         background: linear-gradient(to right, #e2fdf8b2, #f0f8e3b0, #ecf2f1b0);
         top: 0;
         z-index: 100;
