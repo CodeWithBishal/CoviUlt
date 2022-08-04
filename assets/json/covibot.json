@@ -1,0 +1,724 @@
+{
+    "faq":[
+        {
+            "q":"WHAT IS COVID-19?",
+            "a":"COVID-19 disease is caused by a Coronovirus called SARS-CoV-2. Thistype of Coronavirus has not been seen before. You can get COVID-19 through contact with another person who has the virus. It is predominantly a respiratory illness that can affect other organs. People with COVID-19 may experience wide range of symptoms from mild to severe category. Symptoms may appear 2 to 14 days after exposure to the virus. Symptoms may include fever or chills; cough; shortness of breath; fatigue; muscle or body aches; headache; loss of taste or smell of recent onset; sore throat; congestion or runny nose; nausea or vomiting; diarrhea."
+        },
+        {
+            "q":"WHAT IS THE BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®)?",
+            "a":"The BharatBiotech COVID-19 Vaccine (COVAXIN®) is a vaccine with approval for emergency use that may prevent COVID-19. The Central Licensing Authority has granted permission for the sale or distribution of COVAXIN® for emergency use in public interest"
+        },
+        {
+            "q":"WHAT SHOULD YOU MENTION TO YOUR VACCINATION PROVIDER BEFORE YOU GET COVAXIN®",
+            "a":"Tell the Vaccinator/ Officer supervising your vaccination about all of your medical conditions, including if you: <br> • Are on regular medication for any illness, forhowlong and for which condition. <br> • Have any allergies <br> • Have fever <br> • Have a bleeding disorder or are on a blood thinner <br> • Are immunocompromised or are on a medicine that affects your immune system <br> • Are pregnant <br> • Have received another COVID-19 vaccine <br>"
+        },
+        {
+            "q":"WHO SHOULD GET COVAXIN®?",
+            "a":"COVAXIN® has been approved forrestricted use in emergency situation in individuals 18 years of age and older."
+        },
+        {
+            "q":"WHO SHOULD NOT GET COVAXIN®?",
+            "a":"You should not get COVAXIN® if you: <br> • Had a severe allergic reaction to any ingredients of the vaccine. <br> • Had a severe allergic reaction after a previous dose of this vaccine. <br> • Currently have an acute infection or fever. <br>"
+        },
+        {
+            "q":"WHAT ARE THE INGREDIENTS IN THE COVAXIN®?",
+            "a":"COVAXIN® includes the following ingredients: COVAXIN® contains 6µg of whole-virion inactivated SARS-CoV-2 antigen (Strain: NIV-2020-770) and the other inactive ingredients such as aluminum hydroxide gel (250 µg), TLR 7 /8 agonist (imidazoquinolinone) 15 µg, 2-phenoxyethanol 2.5 mg, and phosphate buffer saline up to 0.5 ml. The vaccine (COVAXIN®) thus has been developed by using inactivated/ killed virus along with the above mentioned chemicals."
+        },
+        {
+            "q":"HOW IS THE BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®) GIVEN?",
+            "a":"The Bharat Biotech COVID-19 (COVAXIN®) will be given to you as an injection into the deltoid muscle of the upper arm. COVAXIN® vaccination series is 2 doses given 4 weeks apart."
+        },
+        {
+            "q":"HAS COVAXIN® BEEN USED BEFORE?",
+            "a":"The Central Licensing Authority has granted permission for the sale or distribution of COVAXIN® for emergency use in the public interest. In Phase 1 and Phase 2 clinical trials, about 680 (300 in Phase 1, and 380 in Phase 2) were administered with 2-doses of COVAXIN®. Phase 3 clinical trial was conducted in 25,800 participants, with an interim analysis result showing vaccine efficacy of 78%."
+        },
+        {
+            "q":"WHAT ARE THE BENEFITS OF COVAXIN®?",
+            "a":"In an ongoing clinical trial, COVAXIN® has been shown to generate immunity following 2 doses given 4 weeks apart. Phase 3 clinical trial was conducted in 25,800 participants, with an interim analysis result showing vaccine efficacy of 78%. <br><br> Hence, it is important to appreciate that receiving the vaccine does not mean that other precautions related to COVID-19 need not be followed."
+        },
+        {
+            "q":"WHAT ARE THE RISKS OF BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®)?",
+            "a":"Side effects that have been reported with the Bharat Biotech COVID-19 (COVAXIN®) include: <br> • Injection site pain/ Swelling / Redness/ Itching <br> • Headache <br> • Fever <br> • Malaise / bodyache <br> • Nausea <br> • Vomiting <br> • Rashes <br> A severe allergic reaction may very rarely occur after getting a dose of COVAXIN®. <br> These may not be all the possible side effects of COVAXIN®. Serious and unexpected side effects may occur. <br> COVAXIN® is still being studied in clinical trials. <br>"
+        },
+        {
+            "q":"WHAT SHOULD I DO ABOUT SIDE EFFECTS?",
+            "a":"If you experience any side effect(s), please contact/visit your health provider/ Vaccinator / Officer supervising your vaccination or immediately go to the nearest hospital. In addition, you can report side effects after vaccination to Bharat Biotech International Limited who is the manufacturer of COVAXIN® on 24x7 TollFree Number: 18001022245 or email at pvg@bharotbiotech.com."
+        },
+        {
+            "q":"WHAT IF I DECIDE NOT TO GET COVAXIN®?",
+            "a":"It is your choice to receive or not receive COVAXIN®."
+        },
+        {
+            "q":"CAN I RECEIVE COVAXIN® WITH OTHER VACCINES?",
+            "a":"There is no scientific information yet available on the appropriateness of use of COVAXIN® along with other vaccines"
+        },
+        {
+            "q":"WHAT IF I AM PREGNANT?",
+            "a":"Available data on COVAXIN® Vaccine administered to pregnant women are insufficient to inform vaccine associated risks in pregnancy"
+        },
+        {
+            "q":"WHAT IF I AM ON A BLOOD THINNER OR COAGULANT?",
+            "a":"Individuals on stable anticoagulation therapy (warfarin, or a new anticoagulant [apixaban or rivaroxaban]) who are up-to-date with their scheduled international normalized ratio (INR) testing and whose latest INR was below the upper threshold of their therapeutic range, can receive intramuscular vaccination. Individuals on simple blood thinners (Aspirin and / or clopidogrel) who have a stable medical disease condition assessed by the vaccination provider may receive intramuscular vaccination. The bleeding may take a little longer to stop in these individuals, and may lead to increased bruising on the upper arm. The immunization of patients with bleeding disorders differs from that of the average population concerning the risk of haematoma formation. A fine needle (23 - 25 gauge) should be used for the vaccination in these individuals, followed by firm pressure applied to the site without rubbing for at least 2 minutes. In case of any doubt, consult with the clinician responsible for prescribing or monitoring the individual’s anticoagulant therapy. Individuals with bleeding disorders may be vaccinated intramuscularly if, in the opinion of a doctor familiar with the individual's bleeding risk the vaccine can be administered with reasonable safety byIntramuscularroute."
+        },
+        {
+            "q":"WHAT IF I HAVE ALLERGIES?",
+            "a":"Individuals who have a known severe allergy to any component of COVAXIN® are NOT advised to be vaccinated. COVAXIN® contains 6µg of whole-virion inactivated SARS-CoV-2 antigen (Strain: NIV-2020- 770), and the other inactive ingredients such as aluminium hydroxide gel 250 µg, TLR 7 / 8 agonist (imidazo quinolinone) 15 µg,2-phenoxyethonol 2.5 mg, and phosphate buffer saline upto 0.5 ml.) Individuals with a history of severe allergic reactions NOT related to vaccines or injectable medications such as environmental allergies, allergies to food, pet dander, venom, or latex- may still get vaccinated. Individuals with a history of allergies to oral medications or a family history of allergic reactions, or who might have a mild allergy to vaccines (but no anaphylaxis) may still get vaccinated."
+        },
+        {
+            "q":"WHAT IF I AM IMMUNOCOMPROMISED?",
+            "a":"Individuals with HIV infection or other immunocomprom1smg conditions, or who take immunosuppressive medications or therapies might be at increased risk for severe COVID-19. However, data is NOT currently available to establish vaccine safety and efficacy in these groups. Individuals with immunosuppression may not generate a full immune response to COVID-19. Transplant recipients should be counselled that the vaccine's effectiveness and safety profile for them is not currently known. As it is not a live virus vaccine, it is unlikely to pose a safety risk. Transplant recipients may have a weakened immune response compared to the general population. Thus, they should be advised regarding the importance of maintaining all current guidance to protect themselves even after vaccination. Immunocompromised individuals may receive COVID-19 vaccination if they have no contraindications to vaccination."
+        },
+        {
+            "q":"WILL THE BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®) GIVE ME COVID-19?",
+            "a":"No. BHARAT BIOTECH COVID-19 VACCINE (COVAXIN®) is an inactivated (killed) vaccine, and hence, there is no chance of getting COVID-19."
+        },
+        {
+            "q":"What is corona virus",
+            "a":"Corona viruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."
+        },
+        {
+            "q": "What is COVID-19",
+            "a": "COVID-19 is the infectious disease caused by the most recently discovered corona virus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."
+        },
+        {
+            "q": "What are the symptoms of COVID-19",
+            "a": "The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."
+        },
+        {
+            "q": "How does COVID-19 spread",
+            "a": "People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick."
+        },
+        {
+            "q": "Can the virus that causes COVID-19 be transmitted through the air?",
+            "a": "Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air. See previous answer on “How does COVID-19 spread?”"
+        },
+        {
+            "q": "Can CoVID-19 be caught from a person who has no symptoms?",
+            "a": "The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill."
+        },
+        {
+            "q": "Can I catch COVID-19 from the feces of someone with the disease?",
+            "a": "The risk of catching COVID-19 from the feces of an infected person appears to be low. While initial investigations suggest the virus may be present in feces in some cases, spread through this route is not a main feature of the outbreak. The ongoing research on the ways COVID-19 is spread and will continue to share new findings. Because this is a risk, however, it is another reason to clean hands regularly, after using the bathroom and before eating."
+        },
+        {
+            "q": "What can I do to protect myself and prevent the spread of disease",
+            "a": "Stay aware of the latest information on the COVID-19 outbreak, available on the national,state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. You can reduce your chances of being infected or spreading COVID19 by taking some simple precautions: <ol> <li> Regularly and thoroughly clean your hands with an alcohol- based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands. </li> <li> Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing. Why? When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease. </li> <li> Avoid touching eyes, nose and mouth. Why? Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick. </li> <li> Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately. Why? Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19. </li> <li> Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority. Why? National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections. </li> <li> Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely). If possible, avoid traveling to places – especially if you are an older person or have diabetes, heart or lung disease. Why? You have a higher chance of catching COVID-19 in one of these areas. </li> </ol>"
+        },
+        {
+            "q": "Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading",
+            "a": "Follow the guidance outlined above (Protection measures for everyone) <ol> <li> Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people. Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses. </li> <li> If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers. Why? Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also help to prevent possible spread of COVID-19 and other viruses. </li> </ol>"
+        },
+        {
+            "q": "How likely am I to catch COVID-19?",
+            "a": "The risk depends on where you are - and more specifically, whether there is a COVID-19 outbreak unfolding there. For most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19. COVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly. It’s important to be aware of the situation where you are or intend to go."
+        },
+        {
+            "q": "Should I worry about COVID-19?",
+            "a": "Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones. We can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings."
+        },
+        {
+            "q": "Who is at risk of developing severe illness",
+            "a": "While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes) appear to develop serious illness more often than others."
+        },
+        {
+            "q": "Are antibiotics effective in preventing or treating the COVID-19?",
+            "a": "No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection"
+        },
+        {
+            "q": "Are there any medicines or therapies that can prevent or cure COVID-19",
+            "a": "While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. We does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. We will continue to provide updated information as soon as clinical findings are available."
+        },
+        {
+            "q": "Is COVID-19 the same as SARS?",
+            "a": "No. The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."
+        },
+        {
+            "q": "Should I wear mask to protect myself",
+            "a": "Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. If you are not ill or looking after someone who is ill then you are wasting a mask. There is a world-wide shortage of masks, so We urge people to use masks wisely. We advises rational use of medical masks to avoid unnecessary wastage of precious resources and mis-use of masks The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing."
+        },
+        {
+            "q": "How to put on use take off and dispose of a mask?",
+            "a": "<ol> <li> Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough. </li> <li> Before touching the mask, clean hands with an alcohol-based hand rub or soap and water </li> <li> Take the mask and inspect it for tears or holes. </li> <li> Orient which side is the top side (where the metal strip is). </li> <li> Ensure the proper side of the mask faces outwards (the coloured side). </li> <li> Place the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose. </li> <li> Pull down the mask’s bottom so it covers your mouth and your chin. </li> <li> After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask. </li> <li> Discard the mask in a closed bin immediately after use. </li> <li> Perform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water. </li> </ol>"
+        },
+        {
+            "q": "How long is the incubation period for COVID-19?",
+            "a": "The “incubation period” means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available."
+        },
+        {
+            "q": "Can humans become infected with the COVID-19 from an animal source?",
+            "a": "Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed. To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."
+        },
+        {
+            "q": "Can I catch COVID-19 from my pet?",
+            "a": "While there has been one instance of a dog being infected in Hong Kong, to date, there is no evidence that a dog, cat or any pet can transmit COVID-19. COVID-19 is mainly spread through droplets produced when an infected person coughs, sneezes, or speaks. To protect yourself, clean your hands frequently and thoroughly. We continues to monitor the latest research on this and other COVID19 topics and will update as new findings are available."
+        },
+        {
+            "q": "How long does the virus survive on surfaces?",
+            "a": "It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other corona viruses. Studies suggest that corona viruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment). If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose."
+        },
+        {
+            "q": "Is it safe to receive a package from any area where COVID-19 has been reported?",
+            "a": "Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low."
+        },
+        {
+            "q": "Is there anything I should not do?",
+            "a": "The following measures ARE NOT effective against COVID-2019 and can be harmful: <br> • Smoking <br> • Wearing multiple masks <br> • Taking antibiotics (See question 10 'Are there any medicines of therapies that can prevent or cure COVID-19?')<br>In any case, if you have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection and be sure to share your recent travel history with your health care provider."
+        },
+        {
+            "q": "What kind of vaccine is COVISHIELD™?",
+            "a": "It is a recombinant, replication-deficient chimpanzee adenovirus vector encoding the SARS-CoV-2 Spike (S) glycoprotein. Following administration, the genetic material of part of corona virus is expressed which stimulates an immune response."
+        },
+        {
+            "q": "What excipients are present in COVISHIELD™?",
+            "a": "COVISHIELD™ contains the following excipients: <br> <ul> <li>L-Histidine</li> <li>L-Histidine hydrochloride monohydrate</li> <li>Magnesium chloride hexahydrate</li> <li>Polysorbate 80</li> <li>Ethanol</li> <li>Sucrose</li> <li>Sodium chloride</li> <li>Disodium edetate dihydrate (EDTA)</li> </ul>"
+        },
+        {
+            "q": "COVISHIELD™ regimen consists of how many doses?",
+            "a": "It consists of two doses of 0.5 ml each."
+        },
+        {
+            "q": "Is there any difference between 1st and 2nd dose?",
+            "a": "No. There is no difference between the 1st and 2nd dose. Each dose has the same content of viral particles."
+        },
+        {
+            "q": "Do I require any test (e.g. CRP, BTCT, RTPCR etc.) before getting the vaccine?",
+            "a": "No. There are no such recommendations."
+        },
+        {
+            "q": "I have taken the 1st dose of COVISHIELD™? What is the current Government recommendation for the 2nd dose.",
+            "a": "The Indian government has recommended that the time interval between the 1st and 2nd dose should be between 12-16 weeks"
+        },
+        {
+            "q": " Do I need to take the 1st dose again if more than 12 weeks have passed after my 1st dose?",
+            "a": "You do not need to repeat the 1st dose even if more than 12 weeks have passed after the 1st dose."
+        },
+        {
+            "q": "Do I need to take both the doses of COVISHIELD™",
+            "a": "Both doses of COVISHIELD™ need to be taken for optimum protection."
+        },
+        {
+            "q": "What are the contraindications for receiving COVISHIELD™ vaccine?",
+            "a": "COVISHIELD™ is contraindicated in <ol> <li>People with hypersensitivity to the active substance or to any of the excipients listed below: <ul> <li>L-Histidine</li> <li>L-Histidine hydrochloride monohydrate</li> <li>Magnesium chloride hexahydrate</li> <li>Polysorbate 80</li> <li>Ethanol</li> <li>Sucrose</li> <li>Sodium chloride</li> <li>Disodium edetate dihydrate (EDTA)</li> </ul><li>Patients who have experienced major blood clotting (venous and/or arterial thrombosis) in combination with low platelet count (thrombocytopenia) following any COVID-19 vaccine.</li> </li> </ol>"
+        },
+        {
+            "q": "Are there any contraindications for receiving the 2nd dose in people who have received the 1st dose?",
+            "a": "The contraindications to second dose of vaccine are: <ol> <li>Severe allergic reaction after a previous dose of this vaccine. If your treating physician considered this event as a severe allergic reaction to the vaccine, then you should not take second dose of vaccine. If you experience any other adverse event (known or unknown) after first dose, you can take the second dose.</li> <li> Patients who have experienced major blood clotting (venous and/or arterial thrombosis) in combination with low platelet count (thrombocytopenia) following first dose of vaccine. </li> </ol>"
+        },
+        {
+            "q": "Can people with co-morbidities like Hypertension, Diabetes Mellitus, Asthma, Cardiovascular Disease receive the vaccine?",
+            "a": "COVISHIELD™ has been administered in people with or without comorbid conditions in clinical trials and the safety profile was comparable in those with or without comorbid condition (e.g.: Hypertension, Cardiovascular Disease, Asthma, Diabetes, etc.). People with clinically stable comorbid conditions can receive the vaccine. Kindly follow up with your treating physician for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "Can patients with Rheumatoid Arthritis, Psoriasis, SLE, ankylosing spondylitis, sickle cell disease, any cancer or any other disease take the vaccine?",
+            "a": "History of any disease is not a contraindication for receiving the vaccine. Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "Can patients with G6PD deficiency take the vaccine?",
+            "a": "History of G6PD deficiency is not a contraindication for receiving the vaccine. Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "Are people on anti-platelet, anti-coagulant therapy eligible to receive the vaccine?",
+            "a": "History of receipt or currently ongoing anti-platelet/anti-coagulant therapy is not a contraindication for receiving the vaccine. Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine. As with other intramuscular injections, COVISHIELD™ should be given with caution to individuals with thrombocytopenia, any coagulation disorder or to persons on anticoagulation therapy, because bleeding or bruising may occur following an intramuscular administration in these individuals."
+        },
+        {
+            "q": "Can patients with any food or drug allergy (e.g. penicillin, sulfa, NSAIDs, or any other drug) take the vaccine?",
+            "a": "History of food or drug allergy is not a contraindication for receiving the vaccine. COVISHIELD™ is contraindicated in case of hypersensitivity to the active substance or to any of the excipients mentioned above (Refer to Question 9.) Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "Can patients receiving immunosuppressant therapy take the vaccine?",
+            "a": "History of receiving immunosuppressants is not a contraindication for receiving the vaccine. We anticipate that individuals including those receiving immunosuppressant therapy may have relatively weaker immune response to the vaccine regimen compared to immunocompetent individuals. Kindly follow up with your healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "When should I expect adverse reactions to start? Till how many days after vaccination the adverse events should be monitored?",
+            "a": "Most of the side effects with COVISHIELD™ occur on the day of vaccination (6 to 8 hours later) and resolve within 2 to 3 days. These are uncommon by Day 5 to 7 after vaccination, indicating that these effects are self-limiting and of short duration. Adverse reactions are relatively less after the second dose as compared to the first dose."
+        },
+        {
+            "q": "What adverse reactions can I get after vaccination?",
+            "a": "Following side effects or adverse reactions have been reported with COVISHIELD™ vaccine. <ol> <li>Very common (may affect more than 1 in 10 people) - tenderness, pain, warmth, or itching where the injection is given, generally feeling unwell, feeling tired (fatigue), chills or feeling feverish, headache, feeling sick (nausea), joint pain or muscle ache</li> <li> Common (may affect more than 1 in 10 people) - swelling or redness where the injection is given, fever, being sick (vomiting) or diarrhoea, pain in legs or arms, flu-like symptoms, such as high temperature sore throat, runny nose, cough and chills </li> <li> Uncommon (may affect up to 1 in 100 people) – sleepiness or feeling dizzy, abdominal pain, enlarged lymph nodes, excessive sweating, itchy skin, rash or hives </li> <li> Not known (the frequency cannot be determined from the available data) -severe allergic reaction (anaphylaxis), severe swelling of the lips, mouth, throat (which may cause difficulty in swallowing or breathing) </li> <li> Rarest: Major blood clotting (venous and/or arterial thrombosis) in combination with low platelet count (thrombocytopenia) have been observed very rarely (with a frequency less than 1 in 100,000 vaccinated individuals) </li> </ol>"
+        },
+        {
+            "q": "Where can I get treatment if I get adverse event?",
+            "a": "You should consult your health care provider / physician for the management of your adverse event. The manufacturer cannot prescribe or provide or recommend any treatment."
+        },
+        {
+            "q": "Are there any specific medicines to treat adverse events after the vaccine?",
+            "a": "No. There are no such medicines. The physicians shall apply their clinical judgement for the treatment of the adverse events. In clinical trials on different vaccines and medicines also, all the adverse events are treated by the investigating doctors based on their clinical judgement. If required, medicines used to treat fever like paracetamol may be used to provide relief from the common side effects of vaccine like fever, body pain, headache, muscle or joint pain etc. In case you need medical advice, kindly consult your healthcare provider / doctor."
+        },
+        {
+            "q": "Is there any need to report Adverse Events?",
+            "a": "Yes, as a part of pharmacovigilance, it is useful to report adverse events to the Govt authorities/manufacturer so that they can collate all the data and monitor the safety of the vaccine. You may also report the adverse event to SII through toll free no <a href='tel:1800 1200 124'>1800 1200 124</a> or via email <a href='mailto:pharmacovigilance@seruminstitute.com'>pharmacovigilance@seruminstitute.com</a>."
+        },
+        {
+            "q": "When can I take second dose of vaccine if I get COVID-19 disease after first dose of vaccine?",
+            "a": "As per the guidelines of the Ministry of Health and Family Welfare (MOHWF), you can take the 2nd dose of the COVID-19 vaccine 3 months after recovery from COVID-19 symptoms"
+        },
+        {
+            "q": "When can I take 1st dose of vaccine after developing COVID-19?",
+            "a": "As per the guidelines of the Ministry of Health and Family Welfare (MOHWF), COVID-19 vaccine can be deferred by 3 months after recovery in individuals having lab test proven SARS-2 COVID-19 illness."
+        },
+        {
+            "q": "Whether a person after receiving vaccine can consume alcohol/ smoke?",
+            "a": "There is no recommendation regarding avoidance of alcohol/ smoking following vaccination."
+        },
+        {
+            "q": "Are any animal products used in COVISHIELD™?",
+            "a": "No animal products are used in COVISHIELD™"
+        },
+        {
+            "q": "Can pregnant women receive COVISHIELD™?",
+            "a": "There is a limited experience with the use of the vaccine in pregnant women. Preliminary animal studies do not indicate direct or indirect harmful effects with respect to pregnancy, embryofetal development, parturition or postnatal development; definitive animal studies have not been completed yet. The full relevance of animal studies to human risk with vaccines for COVID-19 remains to be established. Administration of COVISHIELD™ in pregnancy should only be considered when the potential benefits outweigh any potential risks for the mother and foetus. Recently, Ministry of Health & Family Welfare, Govt. of India said that, 'a pregnant woman who opts for vaccination, could be vaccinated at any time of the pregnancy. To help pregnant women make an informed decision to be vaccinated, they should be provided with information about the risks of COVID-19 infection in pregnancy, the benefits of vaccination, along with the likely side effects of vaccination'.(3) For further details, please refer to <a href='www.mohfw.gov.in/pdf/OperationalGuidanceforCOVID19vaccinationofPregnantWoman.pdf' target='_blank' rel='noopener noreferrer'>www.mohfw.gov.in/pdf/OperationalGuidanceforCOVID19vaccinationofPregnantWoman.pdf</a>"
+        },
+        {
+            "q": "What is the effect of COVISHIELD™ on fertility?",
+            "a": "What is the effect of COVISHIELD™ on fertility?"
+        },
+        {
+            "q": "Can women on their periods (menstruating) receive COVISHIELD™?",
+            "a": "There is no correlation between menstruation and the effect of the vaccine. Moreover, this is a physiological phenomenon and it has nothing to do with immunity. Women on their periods can take the vaccine. In fact, there is no prohibition to take any vaccine during menstruation"
+        },
+        {
+            "q": "Can breastfeeding women receive COVISHIELD™?",
+            "a": "It is unknown whether COVISHIELD™ is excreted in human milk. However, the current guidelines of the Indian Government state that COVID-19 vaccination is recommended for all lactating women. WHO guidelines state that vaccine efficacy is expected to be similar in lactating women as in other adults. Since COVISHIELD™ (ChAdOx1-S [recombinant]) vaccine is not a live virus vaccine, it is biologically and clinically unlikely to pose a risk to the breastfeeding child. On the basis of these considerations, a lactating woman who is part of a group recommended for vaccination according to the WHO Prioritization Roadmap, e.g. health workers, should be offered vaccination on an equivalent basis. WHO does not recommend discontinuing breastfeeding after vaccination. It is advisable that breastfeeding mothers should consult their healthcare provider for a risk benefit assessment based on clinical judgement before taking the vaccine."
+        },
+        {
+            "q": "A person outside India, who has received first dose of AstraZeneca's vaccine, whether he can take second dose of COVISHIELD™ in India?",
+            "a": "Both COVISHIELD™(manufactured by Serum Institute of India Pvt Ltd) and COVID-19 Vaccine AstraZeneca (manufactured by AstraZeneca) are ChAdOx1 nCoV- 19 Corona Virus Vaccines (Recombinant). There is no data available when both these vaccines are used interchangeably. However, the World Health Organization (WHO) states that ChAdOx1-S [recombinant] products (AstraZeneca AZD1222, SII COVISHIELD™) are considered equivalent and interchangeable for both doses and recommends that both doses should be administered with ChAdOx1-S product."
+        },
+        {
+            "q": "Can I take 1 dose of COVISHIELD™ and 1 dose of another COVID-19 vaccine?",
+            "a": "There is no safety, immunogenicity or efficacy data to support interchangeability of COVISHIELD™ with other COVID-19 vaccines. It is recommended that individuals who receive a first dose of COVISHIELD™ complete the vaccination course with COVISHIELD™."
+        },
+        {
+            "q": "Can people still get COVID-19 even after receiving 2 doses of the vaccine?",
+            "a": "Yes, no vaccine is 100% protective. People can get COVID-19 even after vaccination. However, the vaccination will help protect them from developing severe disease. Kindly note that people who get vaccinated should continue to follow all current guidance to protect themselves against COVID-19 after they are vaccinated. That means: <ul> <li>Wearing a mask</li> <li>Staying at least six feet away from others</li> <li>Avoiding crowds</li> <li>Washing hands with soap and water or using hand sanitizer</li> </ul>"
+        },
+        {
+            "q": "What is the risk of developing blood clots after receiving ChAdOx1 nCoV- 19 Corona Virus Vaccine",
+            "a": "Very rare events of serious thrombosis with thrombocytopenia, including unusual sites such as cerebral venous sinus thrombosis and splanchnic vein thrombosis, some associated with arterial thrombosis, have been observed following vaccination during post-authorization use. The majority of the events occurred within the first 14 days following vaccination whereas the outer limit was 33 days and some events had a fatal outcome. Get medical attention immediately if from a few days following vaccination you get any of the following symptoms: <ol><li> experience a severe or persistent headache, blurred vision, confusion or seizures (fits) </li> <li>develop shortness of breath, chest pain, leg swelling, leg pain or persistent abdominal pain</li> <li> notice unusual skin bruising or pinpoint round spots beyond the site of vaccination </li> </ol> The European Medical Agency (EMA) stated that the overall benefits of the vaccine in the prevention of COVID-19 outweigh risks from adverse events including thrombosis in combination with thrombocytopenia (TTS)."
+        },
+        {
+            "q": "Is it recommended to test antibodies after vaccination?",
+            "a": "Our clinical trials have shown that after 2 doses of the vaccine almost all recipients developed antibodies. The Centre for Disease Control (CDC), USA does not recommend antibody testing to assess for immunity to SARS-CoV-2 following COVID-19 vaccination."
+        },
+        {
+            "q": "How long will the vaccine protect me against COVID-19?",
+            "a": "The duration of protection has not yet been established."
+        },
+        {
+            "q": "Do I need to take 3rd dose of vaccine?",
+            "a": "As of now, there are no such recommendations."
+        },
+        {
+            "q": "Against which variants does the the ChAdOx1 nCoV- 19 Corona Virus Vaccine offer protection?",
+            "a": "Data as of now shows that that the vaccine offers protection against the B 1.1.7 (UK) , B.1.167.1 and P.1 (Brazil) variant. The efficacy against the B.1.351 (South Africa) variant was lower. However, it prevented severe disease. As regards the other variants, as of now there is no indication that the vaccine is not working against them."
+        },
+        {
+            "q": "Can COVISHIELD™ cause a positive test result for the disease, such as for a RT-PCR or antigen test?",
+            "a": "No, COVISHIELD™ will not cause a positive test result for a COVID-19 RT-PCR or Rapid antigen test. This is because the tests check for active disease and not whether an individual is immune or not."
+        },
+        {
+            "q":"WHAT IS COVID-19?",
+            "a":"COVID-19 disease is caused by a coronavirus called SARS-CoV-2. This type of coronavirus has not been seen before. You can get COVID-19 through contact with another person who has the virus. It is predominantly a respiratory illness that can affect other organs. People with COVID-19 have had a wide range of symptoms reported, ranging from mild symptoms to severe illness. Symptoms may appear 2 to 14 days after exposure to the virus. Symptoms may include: fever or chills; cough; shortness of breath; fatigue; muscle or body aches; headache; new loss of taste or smell; sore throat; congestion or runny nose; nausea or vomiting; diarrhea."
+        },
+        {
+            "q":"WHAT IS THE SIIPL COVOVAX™ VACCINE?",
+            "a":"The COVOVAX™ vaccine is approved for restricted use in emergency situation that may prevent COVID-19 caused by a coronavirus called SARS-CoV-2 in individuals 7 years of age and older."
+        },
+        {
+            "q":"WHAT SHOULD YOU MENTION TO YOUR HEALTHCARE PROVIDER / DOCTOR BEFORE YOU GET COVOVAX™ VACCINE?",
+            "a":"Tell the healthcare provider / doctor about all of your medical conditions, including: <ul> <li>If you have ever had a severe allergic reaction (anaphylaxis) after any drug, food, any vaccine or any ingredients of COVOVAX™ vaccine</li> <li> If you have fever </li> <li> If you have a problem with bleeding or bruising, or if you are taking a blood thinning medicines (anticoagulant) </li> <li> If you have a problem with liver related disorder and/or inflammation of the gall bladder </li> <li> If your immune system does not work properly (immunodeficiency) or you are taking medicines that weaken the immune system (such as high-dose corticosteroids, immunosuppressants or cancer medicines) </li> <li> If you are pregnant or plan to become pregnant </li> <li> If you are breastfeeding </li> <li> If you have received another COVID-19 vaccine </li> </ul> <br> <b>If you have any of the above conditions, you should consult your healthcare provider / doctor before deciding to take the vaccine.</b><br> <b>Vaccination in patients with bleeding disorders or receiving a blood thinning medicine (anticoagulants):</b> As with other intramuscular injections, COVOVAX™ should be given with caution to individuals with a problem with bleeding or bruising, or those taking a blood thinning medicine (anticoagulant) because bleeding or bruising may occur following an intramuscular injection in these individuals. <br> Afine-gauge needle (23-gauge or smaller caliber) should be used for the vaccination in such individuals, followed by firm pressure on the injection site, without rubbing, for at least 2 minutes. If possible, vaccination could be scheduled prior to the use of these medications, so that the patients’ risk of bleeding is not increased by their therapeutic action. <br> <b>Patients with weak immune system or receiving immunosuppressive medicines:</b><br> Currently there is no data available in individuals with a weakened immune system or who are taking chronic treatment that suppresses or prevents immune responses. People with weakened immune systems due to other illnesses or medications might be at increased risk for severe COVID -19. They may receive COVOVAX™. However, people with weakened immune systems should also be aware of the potential for reduced immune responses to COVOVAX™, as well as the need to continue following all current guidance to protect themselves against COVID-19 (see below)."
+        },
+        {
+            "q":"WHO SHOULD GET THE COVOVAX™ VACCINE?",
+            "a":"COVOVAX™ Vaccine has been authorized for restricted use in emergency situation in individuals 7 years of age and older caused by SARS-CoV-2. "
+        },
+        {
+            "q":"WHO SHOULD NOT GET THE COVOVAX™ VACCINE ?",
+            "a":"You should not get the COVOVAX™ Vaccine if you have ever had a serious allergic reaction (including anaphylaxis) to: <br> <ul> <li> a previous dose of COVOVAX™ </li> <li> any ingredient of COVOVAX™ (listed below) </li> </ul> <br> If you are not sure, talk to your doctor, pharmacist or nurse. <br> Signs of an allergic reaction may include pain at injection site and/or tenderness, fatigue, malaise, swelling at injection site, pyrexia, chills, headache, nausea or vomiting. Contact your doctor or healthcare professional immediately or go to the nearest hospital emergency room right away if you have an allergic reaction. It might get worsen if not treated immediately. <br> People with a history of severe allergic reactions not related to vaccines or injectable medications such as food, pets, environmental, or latex allergies may get vaccinated. People with a history of allergies to oral medications or a family history of severe allergic reactions may also get vaccinated."
+        },
+        {
+            "q":"WHAT ARE THE INGREDIENTS IN THE COVOVAX™ VACCINE ?",
+            "a":"The COVOVAX™ Vaccine includes the following ingredients: <br> <ul> <li>SARS-CoV-2 rS Protein DS</li> <li>Adjuvant Matrix-M1</li> <li> Disodium hydrogen phosphate heptahydrate </li> <li> Sodium dihydrogen phosphate monohydrate </li> <li> Sodium chloride </li> <li>Polysorbate 80</li> <li>Water for injections</li> </ul>"
+        },
+        {
+            "q":"HOW IS THE COVOVAX™ GIVEN ?",
+            "a":"The COVOVAX™ Vaccine will be given to you as an intramuscular (IM) injection only, preferably in the deltoid muscle. <br> The COVOVAX™ vaccination course consists of two separate doses of 0.5 ml each. <br>If you receive one dose of the COVOVAX™ vaccine, then the second dose should be administered at 3 weeks after the first dose<br><b>If you miss your second dose</b><br> If you forget to go back at the scheduled time, ask your healthcare provider / doctor for advice. It is important that you return for your second dose of COVOVAX™ vaccine."
+        },
+        {
+            "q":"HAS THE COVOVAX™ VACCINE BEEN USED BEFORE?",
+            "a":"The COVOVAX™ is used in clinical trials, a large number of participants received two doses in clinical studies."
+        },
+        {
+            "q":"WHAT ARE THE BENEFITS OF THE COVOVAX™ VACCINE ?",
+            "a":"In ongoing clinical trials, the COVOVAX™ Vaccine has been shown to prevent COVID-19 following 2 doses given between 3 weeks apart. The duration of protection against COVID-19 disease is currently unknown. <br> Protection against COVID-19 starts from approximately 7 days after the second dose of COVOVAX™. Individuals may not be fully protected until 7 days after the second dose is administered. However, please note that as with any vaccine, COVOVAX™ may not protect everyone who is vaccinated from COVID-19."
+        },
+        {
+            "q":"WHAT ARE THE RISKS OF THE COVOVAX™ VACCINE ?",
+            "a":"Like all medicines, this vaccine can cause side effects, although not everybody gets them. <br> Get urgent medical attention from your doctor if you get symptoms of a severe allergic reaction. Such reactions may include a combination of any of the following symptoms: <br> <ul> <li>feeling faint or light-headed </li> <li> pain in a muscle or group of muscles </li> <li> physical discomfort </li> <li> swelling and extreme pain at injection site </li> </ul><br> After vaccination, you may have more than one side effect at the same time. If any of your symptoms are persistent, please seek advice from your healthcare provider / doctor <br> Side effects that have been reported with the COVOVAX™ Vaccine include: <br> <u>Very Common (may affect more than 1 in 10 people)</u><br> <ul> <li>Injection site pain </li> <li> Injection site tenderness </li> <li>Feeling tired (fatigue)</li> <li>Malaise</li> <li>Headache</li> <li>Fever</li> <li>Soreness of muscles</li> <li>Joint pain</li> <li>Nausea or vomiting</li> </ul> <br> <u>Common (may affect up to 1 in 10 people)</u> <br> <ul> <li>Chills</li> <li>Injection site redness</li> <li>Injection site swelling</li> <li>Injection site induration (hardness)</li> <li>Pain in extremity (legs or arms)</li> <li>Body ache</li> </ul> <br> <u>Uncommon (may affect up to 1 in 100 people)</u> <ul> <li>Asthenia (weakness or lack of energy)</li> <li>Injection site pruritus (itching)</li> <li>Injection site rash</li> <li>Rash</li> <li>Skin redness</li> <li>Itching</li> <li>Hives</li> <li>Enlarged lymph nodes</li> <li>Back pain</li> </ul> <br> <u>Rare (may affect up to 1 in 1000 people)</u> <br> <ul> <li>Dizziness (feeling dizzy)</li> <li>Sleepiness</li> <li>Diarrhoea</li> <li>Decreased appetite</li> </ul> <br> Adverse reactions were usually mild to moderate in severity with a median duration of less than or equal to 2 days for local injection site reactions and less than or equal to 1 day for systemic reactions following vaccination. <br> When compared with Dose 1, local and systemic adverse reactions were more frequently reported after Dose 2. <br> In case you need medical advice, kindly consult your healthcare provider / doctor <br> These may not be all the possible side effects of the COVOVAX™ Vaccine. Serious and unexpected side effects may occur. If you notice any side effects not mentioned in this leaflet, please inform your healthcare provider / doctor. <br> If you experience unusually high or prolonged fever, or other symptoms, alternative causes should be considered and contact your healthcare provider / doctor to seek further medical advice. <br>"
+        },
+        {
+            "q":"WHAT SHOULD I DO ABOUT SIDE EFFECTS?",
+            "a":"If you experience a severe allergic reaction, call or go to the nearest hospital. <br> <b>Call the healthcare provider / doctor if you have any side effects that bother you or do not go away.</b> <br> In addition, you can report side effects after vaccination to Serum Institute of India Pvt. Ltd. who is the manufacturer of COVOVAX™ vaccine as below: <br> • 24x7 Call Center Toll-Free Number(For Reporting of Adverse Events Only): 1800 1200124 <br> • pharmacovigilance@seruminstitute.com"
+        },
+        {
+            "q":"WHAT IF I DECIDE NOTTO GETTHE COVOVAX™ VACCINE ?",
+            "a":"It is your choice to receive or not receive the COVOVAX™ Vaccine. You may prefer to consult your healthcare provider / doctor"
+        },
+        {
+            "q":"CAN I RECEIVE THE COVOVAX™ VACCINE WITH OTHER VACCINES ?",
+            "a":"There is no information on the use of the COVOVAX™ Vaccine with other vaccines."
+        },
+        {
+            "q":"WHAT IF I AM PREGNANT OR BREASTFEEDING?",
+            "a":"You may discuss your options with the healthcare provider / doctor."
+        },
+        {
+            "q":"WILL THE COVOVAX™ VACCINE GIVE ME COVID-19 INFECTION ?",
+            "a":"No. The COVOVAX™ is spike protein based COVID-19 Vaccine, does not contain SARS-CoV-2 virus and cannot give you COVID-19 infection. <br> <b>KEEPYOUR VACCINATION CARD</b><br> When you get your dose, please discuss with your healthcare provider / doctor regarding the option of your vaccination record on digital platform, if available."
+        },
+        {
+            "q":"AFTER VACCINATION, DO I NEED TO CONTINUE TAKING PRECAUTIONS TO PREVENT COVID-19 INFECTION ?",
+            "a":"People who get vaccinated should continue to follow all current guidance to protect themselves against COVID-19 after they are vaccinated <br> That means: <br> • Wearing a mask <br> • Staying at least six feet away from others <br> • Avoiding crowds <br> • Washing hands with soap and water or using hand sanitizer <br>"
+        },
+        {
+            "q":"HOW CAN I LEARN MORE?",
+            "a":"• Ask the healthcare provider / doctor. <br> • Contact your local or state public health department."
+        },
+        {
+            "q":"Why is COVID 19 vaccine being recommended for pregnant women?",
+            "a":"<ul> <li>Pregnancy does not increase the risk to COVID-19 infection, but current evidence indicate that pregnant women are at an increased risk for severe illness from COVID-19 compared to non-pregnant women in case they get infected.</li> <li>Additionally, pregnant women with COVID-19 are at increased risk for preterm birth and might have an increased risk of other adverse pregnancy outcomes including higher chances of neonatal morbidity </li> <li>Most pregnant women will be asymptomatic or have mild disease, BUT their health may deteriorate rapidly and that might affect the foetal outcome. </li> <li> It is important that they take all precautions to protect themselves from acquiring COVID-19, including taking vaccination against COVID-19. </li> <li> WHO recommends vaccination in pregnant women when the benefits of vaccination to the pregnant woman outweigh the potential risks, such as pregnant women at high risk of exposure to COVID-19andpregnant women with comorbidities that place them in a high-risk group for severe COVID-19 disease. </li> <li> It is therefore advised that a pregnant woman should take COVID-19 vaccine. </li> </ul>"
+        },
+        {
+            "q":"Who are at Higher Risk of getting infected with COVID-19?",
+            "a":"<ul> <li>Someone who is a health care worker or a frontline worker.</li> <li>Community having high or increasing rate of COVID-19 infections.</li> <li>Frequently exposed to people outside the household.</li> <li>Difficulty in complying with social distancing if living in a crowded household.</li> </ul>"
+        },
+        {
+            "q":"How does COVID 19 affect the health of the pregnant woman?",
+            "a":"<ul> <li> Although most (>90 percent) infected pregnant women recover without need for hospitalization, rapid deterioration in health may occur in a few. </li> <li>Symptomatic pregnant women appear to be at increased risk of severe disease & death</li> <li>Compared with pregnant women without COVID-19, those with symptomatic COVID19 are at increased risk of adverse pregnancy outcomes, including admission to the ICU, iatrogenic preterm birth, pre-eclampsia-like symptoms, Caesarean section and death</li> </ul>"
+        },
+        {
+            "q":"How does COVID 19 infection of pregnant women affect the baby?",
+            "a":"<ul> <li>Most (over 95 percent) of newborns of COVID-19 positive mothers have been in good condition at birth</li> <li>However, Covid-19 in pregnancy increases the chances of preterm birth, increasing the possibility of hospitalization for the neonate and in some cases even death.</li> </ul>"
+        },
+        {
+            "q":"Which pregnant women are at higher risk of developing complication after COVID 19 infection?",
+            "a":"Risk factors for developing complication after COVID 19 infection during pregnancy are: <ul> <li>Pre-existing co-morbidities, advanced maternal age, and high body mass index are risk factors for severe COVID -19 in pregnancy</li> <li>Pregnant women with certain high-risk conditions have greater risk of severe illness from COVID-19 such as <ul> <li> Pre-existing medical conditions e.g. Diabetes </li> <li> Organ transplant recipients </li> <li> Chronic respiratory conditions like COPD, Asthma, Cystic Fibrosis </li> <li> Homozygous sickle cell disease </li> <li> Receiving immunosuppression therapies (enough to significantly increase risk of infection) </li> <li> Dialysis or advanced chronic kidney disease </li> <li> Congenital or acquired heart disease </li> </ul></li> </ul>"
+        },
+        {
+            "q":"If a pregnant woman has already had COVID-19, when should she be vaccinated?",
+            "a":"In case a woman has been infected with COVID-19 infection during the current pregnancy, then she should be vaccinated soon after the delivery. "
+        },
+        {
+            "q":"Are there any side effects of the COVID 19 vaccines that can either harm the pregnant women or her foetus?",
+            "a":"<ul> <li> COVID 19 vaccines available are safe and vaccination protects pregnant women against COVID 19 illness/disease like other individuals. </li> <li> Based on current knowledge, experts believe that COVID -19 vaccines are unlikely to pose a risk to the pregnant person or foetus </li> <li> Like any medicine a vaccine may have side effects which are normally mild. After getting the vaccine, she can get mild fever, pain at injection site, or feel un-well for 1-3 days. </li> <li> The long-term adverse effects and safety of vaccine for foetus and child is not established yet. </li> <li> Very rarely, (one in 1-5 lakh persons) the beneficiary may after COVID 19 vaccination, experience some of the following symptoms within 20 days after getting the injection which may need immediate attention <br> <b>Symptoms occurring within 20 days after receiving any COVID 19 vaccine</b> <ul> <li> Shortness of breath (difficulty in breathing) </li> <li> Chest Pain </li> <li> Pain in limbs / pain on pressing the limbs or swelling in the limbs (arm or calf) </li> <li> Small pinpoint haemorrhages (petechial) or bruising of the skin beyond the vaccination site </li> <li> Persistent abdominal pain with or without vomiting </li> <li> Seizures in the absence of previous history of seizures with or without vomiting </li> <li> Severe and persistent headaches with or without vomiting (in the absence of previous history of migraine or chronic headache) </li> <li> Weakness/paralysis of limbs or any particular side of the body </li> <li> Persistent vomiting without any obvious reason </li> <li> Blurred vision/ pain in eyes </li> Any other symptom or health condition which is of concern to the recipient or the family </ul> </li> </ul>"
+        },
+        {
+            "q":"Are there any specific contraindications for vaccination in Pregnancy?",
+            "a":"As for the general population, pregnant women should avoid vaccination in the following conditions: <ul> <li> Anaphylactic or allergic reaction to the previous dose of COVID-19 vaccine </li> <li> Anaphylaxis or allergic reaction to vaccines or injectable therapies, pharmaceutical products, food-items etc </li> <li> Vaccine is temporarily contraindicated in the following conditions: <ul> <li> Diagnosed COVID-19 infection – defer for 12 weeks from infection or 4 to 8 weeks from recovery </li> <li> Active COVID-19 infection </li> <li> COVID-19 infection treated with anti-COVID-19 monoclonal antibodies or convalescent plasma </li> </ul> </li> </ul>"
+        },
+        {
+            "q":"What are the global recommendations and practices on vaccination of pregnancy women in other countries? ",
+            "a":"Given the potential benefits and risks of the vaccine, International professional bodies have taken a positive stand on the COVID-19 vaccine in pregnancy. These bodies acknowledged lack of data in pregnancy. <ul> <li> WHO recommends use of recombinant vaccine in pregnant women, provided the benefits of vaccination outweigh the potential risk. Pregnant women may also be exposed to COVID-19 vaccine before the woman knows she is pregnant. </li> <li> WHO does not recommend pregnancy testing prior to vaccination and delaying pregnancy or terminating pregnancy because of vaccination. </li> <li> International Federation of Gynecology and Obstetrics (FIGO) believes that risk-based approach to immunization might be of disadvantage to the pregnant woman. </li> <li> The Royal College of Obstetricians and Gynecologists (RCOG) states that pregnant women should be offered the vaccine as the general population </li> <li> The American College of Obstetricians and Gynecologists (ACOG) states that pregnancy testing should not be required prior to receiving vaccine and vaccine may be administered to the people who may consider future pregnancy. Women under age 50 including pregnant women can receive any COVID-19 vaccine. However, they should be aware of the rare risk of thrombosis with thrombocytopenia syndrome after receipt of mRNA vaccines. - Countries such as Australia, Canada, Israel, Singapore, United Kingdom and United State of America are vaccinating pregnant women with COVID-19 vaccines </li> </ul>"
+        },
+        {
+            "q": "Where can I register for COVID-19 vaccination?",
+            "a": "You can open the Co-WIN portal using the link www.cowin.gov.in and click on the 'Register/Sign In' tab to register for COVID-19 vaccination, and follow the steps thereafter."
+        },
+        {
+            "q": "Is there a mobile app that needs to be installed to register for vaccination?",
+            "a": "There is no authorised mobile app for registering for vaccination in India except Aarogya Setu and Umang Apps. You need to log into the Co-WIN portal at cowin.gov.in. Alternatively, you can also register for vaccination through the Aarogya Setu App or Umang apps."
+        },
+        {
+            "q":"Which age groups can register for vaccination on the Co-WIN portal?",
+            "a":"All beneficiaries who have completed 12 years of age and above on the day of registration (birth year 2010 or earlier) can register for vaccination."
+        },
+        {
+            "q": "Is online registration mandatory for COVID-19 vaccination?",
+            "a": "No, vaccination centers provide for a limited number of on-spot registration slots every day. Beneficiaries can register online or walk-in to vaccination centers where the vaccination team staff can register a beneficiary. In general, all beneficiaries are recommended to register online and schedule vaccination in advance for a hassle-free vaccination experience."
+        },
+        {
+            "q": "How many people can be registered in the Co-WIN portal through one mobile number?",
+            "a": "Up to 6 people can be registered for vaccination using the same mobile number"
+        },
+        {
+            "q": "How can beneficiaries with no access to smart phones, computers or internet manage online registration?",
+            "a": "Up to 6 people can be registered for vaccination using the same mobile number. Beneficiaries can take help from friends or family for online registration."
+        },
+        {
+            "q": "Can I register for vaccination without Aadhaar card?",
+            "a": "Yes, if you are 18 years or older (birth year 2004 or earlier), you can register on CoWIN <br> portal using any of the following ID proofs: <br> a. AADHAAR Card <br> b. Driving License <br> c. PAN Card <br> d. Passport <br> e. Pension Passbook <br> f. NPR Smart Card <br> g. Voter ID (EPIC) <br> h. Unique Disability Identification Card (UDID) <br> i. Ration Card with Photo <br> If you are 12 years and above on the day of registration but below 18 years old (birth year 2005 to 2010), you can register on Co-WIN portal using any of the following ID proofs: <br> a. AADHAAR Card <br> b. PAN Card <br> c. Passport <br> d. Unique Disability Identification Card (UDID) <br> e. Ration Card with Photo <br> f. Student Photo ID card <br>"
+        },
+        {
+            "q": "Is there any registration charge to be paid?",
+            "a": "No, there is no registration charge."
+        },
+        {
+            "q": "Is it necessary to register again for 2nd dose or Precaution dose?",
+            "a": "No, registration is required only once to create a beneficiary account on Co-WIN. Thereafter, appointments can be booked, both online or onsite, and vaccination can be availed from the same account. It is recommended that a beneficiary should register only once so that proper records are maintained. It is also recommended that the registration should be done through an active mobile number to avoid problems in future."
+        },
+        {
+            "q": "What are vaccination schedules?",
+            "a": "Vaccination sessions timetables for various vaccination centers offering service, are published by the district administrators and vaccination site managers, from time to time. Co-WIN offers vaccination services “Anytime” and “Anywhere” subject to eligibility of the beneficiary. All published vaccination sessions are visible to beneficiaries on the Co-WIN system, for availing online appointment for vaccination services, as per their choice and convenience."
+        },
+        {
+            "q": "How can I find the nearest vaccination center?",
+            "a": "You can search in Co-WIN portal (or Aarogya Setu or Umang) for the vaccination center nearest to your location by either searching through Map, PIN code or by choosing the State and the District, on the home page of Co-WIN portal"
+        },
+        {
+            "q": "What information is available regarding the vaccination schedules on Co-WIN?",
+            "a": "When you search for vaccination centers, the list of centers and the sessions published for each of the vaccination center on various dates, is displayed on screen. The number of vaccination slots available in the session are also displayed on screen."
+        },
+        {
+            "q": "What information is available in the published vaccination sessions?",
+            "a": "Following information is displayed on screen for a vaccination session – <ul> <li> Name of vaccination center </li> <li> Address of the vaccination center </li> <li> Date of vaccination session </li> <li> Vaccine type which is offered in the session </li> <li> Age bracket for which services are available </li> <li> Whether the services are “free” or “paid”. </li> <li> If “paid” the rate per dose. </li> <li> The vaccine dose number (if you look at schedule after signing in to your account, this information is not displayed because then the system only shows you sessions and slots for the dose no. for which you are eligible.) </li> <li> The number of slots available for booking </li> </ul>"
+        },
+        {
+            "q":"This appears to be too much information, how can I shortlist the sessions as per my preferences?",
+            "a": "You can use the various filters and the browsing options to locate the vaccination center, session on the date of your convenience choice (subject to availability), for the desired vaccine (as per eligibility)."
+        },
+        {
+            "q": "What to do if slots are not available in my preferred vaccination center on my preferred date?",
+            "a": "In case of non-availability of slots for scheduling appointment for vaccination in the vaccination center of your choice, you may try scheduling appointment in other nearby centers or on some other dates for your preferred center. The portal gives you the feature of searching vaccination centers using your PIN code and District."
+        },
+        {
+            "q": "What to do if the vaccination schedule is blank or lists very few sessions for dates of my convenience or eligibility?",
+            "a": "Yes, it is possible that no facility near your place has published their vaccination program as yet. You may wait for some time till vaccination facilities near your place are on boarded on Co-WIN platform, become active and start their services. Vaccination schedules are published by the District Administrators (for government vaccination centers) and by the Site Managers (for private vaccination centers), from time to time. These managers are advised to publish longer schedules to provide sufficient advance visibility of slots to citizens. You should check again for more schedules after some time. (Please also see Q17)."
+        },
+        {
+            "q": "When are the vaccination schedules published?",
+            "a": "Vaccination sessions are published on Co-WIN at 8:00 am, 12:00 pm, 4:00 pm and 8:00 pm every day."
+        },
+        {
+            "q": "Can I get vaccination without appointment?",
+            "a": "Appointments for vaccination can be taken either in online or onsite mode. Vaccination is recorded only after appointment."
+        },
+        {
+            "q": "Can I book an online appointment for vaccination?",
+            "a": "Yes, you can book appointment for vaccination through Co-WIN portal (cowin.gov.in) or through the Aarogya Setu App, after signing-in through your registered mobile number."
+        },
+        {
+            "q": "Can I check the vaccine being administered at each vaccination center?",
+            "a": "Yes, while scheduling an appointment for vaccination, the system will show vaccination center names along with the name of the vaccine that will be administered."
+        },
+        {
+            "q": "How do I book a slot online?",
+            "a": "The available number of slots in a session are displayed on screen for each of the sessions. If all slots are booked then instead of the number of slots, the text “Booked” is displayed. Once you have located the vaccination session of your choice, you can book a slot online by clicking the “No. of slots”, for any session that is not marked as “Booked”. Yes, it is as simple as that."
+        },
+        {
+            "q": "How do I know that my appointment is successfully booked?",
+            "a": "Once an appointment is successfully done, the system send an SMS confirmation to the registered mobile number and also generates and displays the appointment slip. Also, on the dashboard, the “Schedule” tab changes to “Reschedule” and the appointment details are displayed. A tab for cancellation is also displayed after the appointment has been scheduled."
+        },
+        {
+            "q": "Can I download appointment slip?",
+            "a": "Yes, the appointment slip can be downloaded after the appointment has been scheduled."
+        },
+        {
+            "q": "What if I cannot go for vaccination on the date of appointment? Can I reschedule my appointment?",
+            "a": "The appointment can be rescheduled at any time. In case you are not able to go for vaccination on the date of appointment, you can reschedule the appointment by clicking on “Reschedule” tab."
+        },
+        {
+            "q": "Do I have an option for cancellation of appointment?",
+            "a": "Yes, you can cancel an appointment already scheduled. You can also reschedule the appointment and choose another date or time slot of your convenience."
+        },
+        {
+            "q": "Where will I receive confirmation of date and time of vaccination?",
+            "a": "Once an appointment is scheduled, you will receive the details of the vaccination center, date and time slot chosen for appointment in an SMS sent to your registered mobile number. You can also download the appointment slip and print it or keep it on your smart phone. The SMS text would be –"
+        },
+        {
+            "q": "How to look for available slots for 1st dose?",
+            "a": "You can search for slots after signing into your account. When you sign in, based on your eligibility for 1st, 2nd or precaution dose, you would see the “Schedule Appointment” button. <br> Please note that if none of doses are recorded in Co-WIN from the account from which you are signed in, only the option for 1st dose scheduling is visible on the dashboard. In such a case, when you click the “Schedule” button, the system will show you all published sessions at all vaccination centers for all vaccines for which you are eligible. 15-17 Yr age group is eligible for COVAXIN, CORBEVAX or COVOVAX hence the slots are shown for COVAXIN, CORBEVAX or COVOVAX. 12-14 Yr age group is eligible for CORBEVAX or COVOVAX hence the slots are shown only for CORBEVAX or COVOVAX at CVCs You can click on the “No. of slots” for your preferred vaccination session for booking an appointment and follow the steps thereafter"
+        },
+        {
+            "q": "Is it necessary to take 2nd dose of vaccination?",
+            "a": "Yes, it is recommended that both doses of vaccine should be taken for realising the full benefit of vaccination. Both doses must be of the same vaccine type."
+        },
+        {
+            "q": "When should I take the 2nd dose of vaccination?",
+            "a": "It is recommended that the 2nd dose of COVAXIN should be administered in the interval of 28 days to 42 days after the 1st dose. The 2nd dose of COVISHIELD should be administered in the interval of 84 days to 112 days after the 1st dose. The second dose of SPUTNIK V should be administered in the interval of 21 days to 90 days after the 1st dose. The second dose of CORBEVAX should be administered at the interval of 28 days after the 1st dose. The second dose of COVOVAX should be administered at the interval of 21 days after the 1st dose."
+        },
+        {
+            "q": "Will my 2nd dose appointment be automatically scheduled by Co-WIN system?",
+            "a": "No, you have to take an appointment for the 2nd dose vaccination. The Co-WIN system will help you book an appointment in a vaccination center where the same vaccine is being administered as the vaccine type (COVAXIN, COVISHIELD, SPUTNIK V, CORBEVAX or COVOVAX) of the 1st dose."
+        },
+        {
+            "q": "How to book an appointment for 2nd dose?",
+            "a": "If your first dose is already recorded in the system, then you are eligible for 2nd dose. The system will then show the “Schedule” button on your dashboard for 2 nd dose. When you click the “Schedule” button, the system will – <ul> <li> Show you vaccination sessions only with the same vaccine as you have taken for 1 st dose. </li> <li> Also, only the sessions that are published after the minimum period between the 1 st and 2nd dose are displayed here. </li> </ul> For example, if you have taken COVAXIN for 1st dose on 01/04/21, then the published slots for 2nd dose for COVAXIN for dates after 28/04/21 are displayed (since the minimum period between the 1 st and 2 nd dose of COVAXIN is 28 days). Once you have located the session of your choice, click on the “No. of slots”."
+        },
+        {
+            "q": "I have taken the first dose of COVID Vaccination through on-spot registration. When I tried to book a second dose online, it asked me to schedule an appointment for the first dose. What to do?",
+            "a": "Please ensure that you are signed in using the same mobile number through which you have registered for 1st dose. In such a case your first dose record will be visible on your dashboard and you can proceed to book the appointment for 2nd dose."
+        },
+        {
+            "q": "Who are eligible for Precaution dose?",
+            "a": "The following types of beneficiaries who are fully vaccinated (with 2 doses) and have completed 9 months (39 weeks) after the 2nd dose, as per the records available on CoWIN, are eligible to take precaution dose. <ol style='list-style: lower-alpha;'> <li>Health Care Workers (HCW)</li> <li>Frontline Workers (FLW)</li> <li>Citizens aged 60 years and more (birth year 1962 or earlier as recorded on Co-WIN) – any of Government or Private CVCs</li> <li>Citizens aged 18 years and more but less than 60 years (birth year 2004 or earlier till year 1963 as recorded on Co-WIN) – Only at any of Private CVCs on payment basis. It can be also availed at Govt CVCs in selected States, based on respective State’s notification</li> </ol>"
+        },
+        {
+            "q": "How do I know if I am eligible for Precaution dose?",
+            "a": "Your beneficiary type (HCW/FLW/Citizen) is now displayed on your dashboard. The system checks the your eligibility, and if you are eligible (based on the records available in Co-WIN), your eligibility status and due date for precaution dose is also displayed on your dashboard"
+        },
+        {
+            "q": "When should Precaution dose will be taken?",
+            "a": "Precaution dose should be taken at least 9 months (39 weeks) after the date of 2nd dose. Citizens aged 60 years and more can take precaution dose at any of Government or Private CVC. Citizens aged 18 years and more but less than 60 years can take precaution dose at any of Private CVC only or it can be also availed at Govt CVCs in selected States, based on respective State’s notification."
+        },
+        {
+            "q": "Which vaccine should I get if I am eligible for Precaution dose?",
+            "a": "Only the same vaccine which has been administered to you for 1st & 2nd dose, can be administered for precaution dose. In other words, if you have received COVISHILED earlier, you should get Precaution dose of COVISHIELD, if you have received COVAXIN earlier, you should get Precaution dose of COVAXIN and if you have received SPUTNIK V earlier, you should get Precaution dose of SPUTNIK V. The provision for precaution doses for ZyCOV-D Vaccine is currently not available."
+        },
+        {
+            "q": "Where can I get Precaution dose?",
+            "a": "Citizens aged 60 years and more can take precaution dose at any of Government or Private CVC. Citizens aged 18 years and more but less than 60 years can take precaution dose at any of Private CVC only, subject to availability of vaccination slots for same or it can be also availed at Govt CVCs in selected States, based on respective State’s notification."
+        },
+        {
+            "q": "Do I require new registration for Precaution dose?",
+            "a": "No, new registration is required for precaution dose. If you are fully vaccinated (received two doses) and already registered on Co-WIN, precaution dose can be administered through same Co-WIN account. In fact, precaution dose can only be recorded for those beneficiaries for whom the record of both doses are available in the system."
+        },
+        {
+            "q": "How do I can book my Precaution dose?",
+            "a": "You can book your precaution dose either through online appointment or on- site/walkin appointment at vaccination center based on the availability of vaccination slots. If you are eligible for precaution dose, the due date of same would be visible in your Co-WIN account and you can also able to schedule appointment. When you click on the “Schedule Precaution Dose” button, only the slots available for precaution dose will be displayed in the vaccination schedule. The schedule will be displayed only for dates on or after the date on which you become eligible. You can book the appointment by clicking on “No. of slots” and thereafter following the steps. Citizens aged 60 years and more (birth year 1962 or earlier as recorded on Co-WIN) can schedule online appointment for precaution dose at any of Government or Private CVCs. Citizens aged 18 years and more but less than 60 years (birth year 2004 or earlier till year 1963 as recorded on Co-WIN) can schedule online appointment for precaution dose at any of Private CVCs only, subject to availability of vaccination slots or it can be also availed at Govt CVCs in selected States, based on respective State’s notification."
+        },
+        {
+            "q": "I am 18+ years old, and I wish to take one additional dose or Precaution Dose. How should I get it ?",
+            "a": "If you are aged 18 years & more and are fully vaccinated (with 2 doses) and have completed 9 months (39 weeks) after the 2nd dose, as per the records available on CoWIN, then only you are eligible to take precaution dose. If you are aged 18 years and more but less than 60 years (birth year 2004 or earlier till year 1963 as recorded on CoWIN) you can take precaution dose at any of Private CVCs only, subject to availability of vaccination slots for same or it can be also availed at Govt CVCs in selected States, based on respective State’s notification. But If you are aged 60 years and more (birth year 1962 or earlier as recorded on Co-WIN) you can take precaution dose at any of Governmentor Private CVC. Only same vaccine can be administered as Precaution dose, which hastaken as 1st and 2nd dose."
+        },
+        {
+            "q": "I am 60 years old and have one or more co-morbidity conditions. Do I need to submit any certificate proof of same or doctor’s advice proof (prescription/letter) at the time of taking Precaution dose?",
+            "a": "No, you are not required to carry or submit any document proof on co-morbidity or doctor’s advice proof at the time of taking precaution dose."
+        },
+        {
+            "q": "I am Health Care Worker/Front Line Worker, fully vaccinated and also 9 months have been elapsed after second dose, but why Precaution dose is not visible on my Co-WIN account? What to do in such case?",
+            "a": "This may be that case if you have not been tagged as HCW/FLW on Co-WIN. Please check the beneficiary type on the dashboard (Q35). You must have been received your doses from citizen category as per the records available on Co-WIN. You need to visit any Government CVC along with employment certificate in order to get yourself tagged in appropriate category before taking precaution dose after prescribed time interval. This tagging facility is only available at Government CVCs in onsite mode."
+        },
+        {
+            "q": "I am Health Care Worker (HCW)/Front Line Worker (FLW) but taken earlier vaccine doses from citizen category. Whether tagging of HCW/FLW is must to get Precaution dose?",
+            "a": "Yes, if you are Health Care Worker (HCW)/Front Line Worker (FLW) but tagged as Citizen on Co-WIN and if your age is less than 60 years then tagging as a HCW/FLW is a must (as indicated in response to Q43), in order to get precaution dose. If you are aged 60+ you can also choose to get precaution dose in the citizen category. However, it is suggested that you should go for correct tagging."
+        },
+        {
+            "q": "What should I do, if I am eligible for Precaution dose but unable to book online appointment for same?",
+            "a": "This may happen when you have taken 2 doses but in the account in which you are signed in, your vaccination record is available for only 1 dose. In such a case, since the system does not have record of both earlier doses, the “Schedule Precaution Dose” tab is not activated. Also, if you are eligible for precaution dose but unable to book online appointment for same due to any reason, you are required to visit vaccination center to take precaution dose through on-site/walk-in appointments. Vaccinator may also help you in case Co-WIN records do not show your both vaccine doses where you may be having two dose 1 certificates taken from different accounts. This feature is under development and will be released soon."
+        },
+        {
+            "q": "What should I do if vaccination date is showing incorrectly on the vaccination certificate and I am not able to get vaccinated for my next dose as it is showing incorrect vaccination date?",
+            "a": "For corrections in dates of vaccinations please see question 63."
+        },
+        {
+            "q": "Is vaccination free at all vaccination centers?",
+            "a": "No, currently, vaccination is free at Government hospitals. In private facilities, vaccination is priced with ceiling limits at INR 386.25 for Covishield, Covaxin & Covovax, INR 1145 for Sputnik V and INR 400 for Corbevax."
+        },
+        {
+            "q": "Can I check the price of the vaccine?",
+            "a": "Yes, the System will show the price of the vaccine below the name of the vaccination center at the time of scheduling an appointment."
+        },
+        {
+            "q": "Can I choose the vaccine?",
+            "a": "System will show the vaccine & the beneficiary can choose the vaccine being administered, only at the time of 1st dose, in each vaccination center at the time of scheduling an appointment. Beneficiary can choose the vaccination center as per their choice of vaccine being administered. Beneficiaries aged 18 year & above (born in Yr 2004 or earlier) are eligible for COVISHIELD, COVAXIN or SPUTNIK V. Beneficiaries aged 15-17 year (born in Yr 2005, 2006, 2007) are eligible for COVAXIN, CORBEVAX or COVOVAX. Beneficiaries aged 12-14 year on the day of registration (born in Yr 2008, 2009, 2010) are eligible for CORBEVAX or COVOVAX."
+        },
+        {
+            "q": "What precautions should I take at the time of 2 nd dose vaccination?",
+            "a": "The Vaccination Centers have been directed to ensure that if a beneficiary is being vaccinated with 2nd dose, they should confirm that the first dose vaccination was done with the same vaccine as is being offered at the time of second dose and that the first dose was administered more than 28 days ago for COVAXIN, 84 days ago for COVISHIELD, 21 days ago for SPUTNIK V, 28 days ago for CORBEVAX and 21 days ago for COVOVAX. You should share the correct information about the vaccine type and the date of 1st dose vaccination with the vaccinator. You should carry your vaccine certificate issued after the first dose."
+        },
+        {
+            "q": "Can I get vaccinated with 2 nd dose or Precaution dose in a different State/District?",
+            "a": "Yes, you can get vaccinated in any State/District. The only restriction is that you will be able to get vaccinated only on those centers which are offering the same vaccine as was administered to you on your first dose."
+        },
+        {
+            "q": "What precautions should I take at the time of Precaution dose vaccination?",
+            "a": "The Vaccination Centers have been directed to ensure that if a beneficiary is being vaccinated with precaution dose, they should confirm that the earlier doses of vaccination were with the same vaccine as is being offered at the time of precaution dose and that the second dose was administered more than 39 weeks ago. You should share the correct information about the vaccine type and the date of 2 nd dose vaccination with the vaccinator. You should carry your vaccine certificate issued after the second dose."
+        },
+        {
+            "q": "Which documents should I carry with me for vaccination?",
+            "a": "You should carry your identity proof specified by you at the time of registration on the Co-WIN portal and a printout/screenshot of your appointment slip and your previous vaccination certificate, if any"
+        },
+        {
+            "q": "What is the 4-digit secret code on the Account Details page of self-registration portal on Co-WIN?",
+            "a": "At the time of vaccination, you may be asked for the 4-digit secret code. This is to ensure that the rightful beneficiary receives the vaccine dosage and there is no misuse. The secret code is also printed in the appointment slip."
+        },
+        {
+            "q": "How do I know if my vaccination detail has been correctly recorded in the system?",
+            "a": "A confirmation SMS is sent to your registered mobile number on successful recording of vaccination. Also, your vaccination certificate is generated with the details of the dose administered. You should check the details recorded in the vaccination certificate. If you do not receive the confirmation SMS, you should immediately contact the vaccination team/ center in-charge."
+        },
+        {
+            "q": "I have not registered online but not taken a vaccine, but still I received a Text SMS informing that you have been vaccinated successfully, why so & what should I do?",
+            "a": "If you have received Text SMS with your vaccination status as “vaccinated’, this is due to occasional, isolated case of inadvertent data entry error by vaccinator in updation of vaccination data of beneficiaries. In such case you may revoke your vaccination status from fully vaccinated to partially vaccinated or from partially vaccinated to nonvaccinated through raise an issue option in your Co-WIN account. You can get your due vaccine dose, may be at nearest vaccination center, as per the existent standard guidelines once new vaccination status is successfully updated in the system."
+        },
+        {
+            "q": "Why do I need a vaccination certificate?",
+            "a": "A COVID Vaccine Certificate (CVC) issued by the government offers an assurance to the beneficiary on the vaccination, type of vaccine used, and the certificate also provides the next vaccination due. It also is an evidence for the beneficiary to prove to any entities which may require proof of vaccination specially in case of travel. <br><br> Vaccination not only protects individuals from disease, but also reduces their risk of spreading the virus. Therefore, there could be a requirement in future to produce certificate for certain kind of social interactions and international travel. In this context the certificate issued by Co-WIN has built in security features to guarantee genuineness of the certificate which can be digitally verified using approved utilities which are provided in Co-WIN portal. The certificates can be verified by visiting <a href='https://verify.cowin.gov.in' target='_blank' rel='noopener noreferrer'>verify.cowin.gov.in</a> and scanning the QR code."
+        },
+        {
+            "q": "Who is responsible for providing the vaccination certificate?",
+            "a": "The Vaccination Center is responsible for generating your certificate and for providing a printed copy post vaccination on the day of vaccination itself. Please do insist on receiving the certificate at the Center. For Private Hospitals, the charges for providing a printed copy of the certificate are included in the service charge for vaccination."
+        },
+        {
+            "q": "Where can I download vaccination certificate from?",
+            "a": "You can download vaccination certificate from the Co-WIN portal <a href='https://cowin.gov.in' target='_blank' rel='noopener noreferrer'>(cowin.gov.in)</a> or the Aarogya Setu app or through Digi-Locker by following the simple steps. You may do so by using the mobile number used at the time of registration."
+        },
+        {
+            "q": "Can you only access the Co-WIN website and register to get your vaccination certificate a limited number of times in a day?",
+            "a": "No, there is no limitation in the number of times one normally logs in to Co-WIN portal and accesses the certificate. However, if one tries innumerably, the system treats such cases as a bug. If one inadvertently enters a wrong OTP, a waiting period of 180 seconds is to be maintained before one can request another OTP."
+        },
+        {
+            "q": "After trying once do you need to wait certain amount of time to try again? In other words, can you only do it once every hour or so?",
+            "a": "No, if you have given wrong OTP 3 times, the system will not allow to login from the same instance. To login again refresh the browser to create a new instance and login with your mobile no. and new OTP."
+        },
+        {
+            "q": "How can I access COVID Vaccination Certificate from DigiLocker?",
+            "a": "You can find vaccination certificate in DigiLocker under Ministry of Health and Family Welfare under Health category. Click on Covid Vaccine certificate and enter Beneficiary Reference ID to access the certificate."
+        },
+        {
+            "q": "My vaccination certificate is generated even if I have not been vaccinated, can it be cancelled?",
+            "a": "Yes, if you are not vaccinated and your vaccination certificate is generated, in this case you may revoke your vaccination status from Precaution dose to fully vaccinated, from fully vaccinated to partially vaccinated or from partially vaccinated to non-vaccinated through raise an issue option in your Co-WIN account. You would be issued new Vaccination Certificate after taking due vaccine dose."
+        },
+        {
+            "q": "The vaccination certificate made available to me, do not show correct date on which I have been vaccinated, what is the reason and how to correct it?",
+            "a": "A confirmation SMS is sent by the Co-WIN system immediately upon successful recording of the vaccination event. If the beneficiary does not receive the confirmation SMS, it is recommended that the beneficiary should contact the vaccination center and ask for the vaccination certificate before leaving the vaccination Centre (refer FAQ 56 & 57). In case the date of vaccination is incorrectly recorded on the vaccination certificate, an option has been provided under “Raise an Issue” Tab on the dashboard, for ‘Vaccination date correction’, through which the request for corrections in vaccination dates can be submitted. At the time of submission of such request, the documentary proof for the requested correction must also be uploaded. District Immunization Officer of respective districts would examine the matter and would resolve the issue. The status of the request can be tracked by the beneficiary through the “Track Status” tab. Once the request is resolved, an update is also sent to the beneficiary through SMS."
+        },
+        {
+            "q": "Why do I need an International Travel Certificate?",
+            "a": "Ministry of Health & FamilyWelfare has introduced the International Travel Certificate which complies with international standards for travel abroad. The certificate is a proof that you have received all doses of vaccination for travelling internationally. This certificate lets you enter countries without any hassle of quarantine or testing for COVID-19."
+        },
+        {
+            "q": "Can I apply for International Travel Certificate?",
+            "a": "Any individual who has received all the doses of vaccination can apply for International Travel certificate"
+        },
+        {
+            "q": "Can I travel to all the countries with International Travel Certificate?",
+            "a": "Entry requirements vary across different countries. You may be able to enter some countries with this certificate, while you may have to provide a range of test results in others."
+        },
+        {
+            "q": "Where can I apply for International Travel Certificate?",
+            "a": "You can visit www.cowin.gov.in and click on “Register/Sign” In. Log in with the registered mobile number that you used at the time of registration. Click on the “International Travel Certificate” tab against your dose 2 details. You will be required to enter your date of birth and passport number and click on Submit. <br><br> Alternatively, you can click on “Raise an Issue” tab on the Account Details page. Select“Add Passport Details to my vaccination certificate for travelling abroad”. You will berequired to select the member, enter date of birth and passport number and click on Submit."
+        },
+        {
+            "q": "Where can I download my International Travel Certificate from?",
+            "a": "You can download it from the “International Travel Certificate” tab under “Show Certificate” option against Dose 2 details."
+        },
+        {
+            "q": "When can I download my International Travel Certificate?",
+            "a": "International Travel Certificates are generated within 2 hours of your request. You can download your certificate 2 hours after applying for it."
+        },
+        {
+            "q": "Whom do I contact in case of side effects from vaccination?",
+            "a": "You can contact on any of the following details: <ol> <li>Helpline Number: +91-11-23978046 (Toll free - 1075)</li> <li>Technical Helpline Number: 0120- 4783222You may also contact the Vaccination Center where you took vaccination, for advice.</li> </ol>"
+        },
+        {
+            "q": "Who can raise an issue in the Co-WIN portal?",
+            "a": "Beneficiaries who have received at least one dose of vaccination can raise an issue in the Co-WIN portal after signing in to their account."
+        },
+        {
+            "q": "Where can I raise an issue/query related to Co-WIN?",
+            "a": "You can sign in to your Co-WIN account. On the dashboard, click on “Raise Issue” tab."
+        },
+        {
+            "q": "What are the kinds of issues that can be raised on Co-WIN?",
+            "a": "You can raise the following issues on Co-WIN: <ol> <li>Correction in certificate regarding Name, Age, Gender and Photo ID</li> <li>Merging two dose 1 certificates</li> <li>Addition of passport details to vaccination certificate</li> <li>Report an unknown member registered to Co-WIN account</li> <li>Transfer registered members to another account</li> <li>Regenerate Final Certificate</li> <li>Vaccination date correction</li> <li>Revoke Vaccination</li> <li>For detailed guidelines on how to raise an issue, go to <a href='https://prod-cdn.preprod.covin.in/assets/pdf/Grievance_Guidelines.pdf' target='_blank' rel='noopener noreferrer'>https://prod-cdn.preprod.covin.in/assets/pdf/Grievance_Guidelines.pdf</a> </li> </ol>"
+        },
+        {
+            "q": "How much time does the Co-WIN portal take in issue resolution?",
+            "a": "All issues raised in the portal are resolved within 24 hours. Beneficiaries can track the status of the issues raised by clicking on the “Track request” tab next to “Raise an Issue” tab, only once a request has been raised. For revoke vaccination status, the changes may take 3-7 days after submitting the request successfully."
+        },
+        {
+            "q": "Where do I raise issues not listed under the categories mentioned above in Q71?",
+            "a": "In case of any issue/grievance not falling under the five categories mentioned above, beneficiaries may reach out to the below contact details: <ul> <li>Helpline Number: <a href='tel:+911123978046'>+91-11-23978046</a></li> <li>Technical Helpline Number: <a href='tel:01204783222'>0120- 4783222</a></li> <li>Helpline Email Id: <a href='mailto:support@cowin.gov.in'>support@cowin.gov.in</a> </li> </ul>"
+        }
+    ]
+}
