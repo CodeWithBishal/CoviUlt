@@ -18,7 +18,7 @@ readAloud.addEventListener("click", () => {
         } else {
             if (keepOn) {
                 msg.text = document.body.innerText;
-                msg.text = "you have turned on read aloud for this page, I will start reading every text element for you, if you want me read out a specific text element click on that text element and I will start reading that for you. " + "  " + msg.text;
+                msg.text = "You have turned on read-aloud for this page, I will start reading every text element for you. If you want me to read out a specific text element, click on that text element, and I will start reading that for you. " + "  " + msg.text;
                 speechSynthesis.speak(msg);
                 let interval = setInterval(() => {
                     if (!speechSynthesis.speaking) {
