@@ -14,7 +14,9 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #ccc;
 }
-
+#showFAB{
+    cursor: pointer !important;
+}
 .wrapper {
     z-index: 10001 !important;
     width: 370px;
@@ -22,8 +24,8 @@
     border-radius: 5px;
     z-index: 1000;
     position: absolute;
-    right: 30px;
-    bottom: 0px;
+    right: 20px;
+    bottom: 20px !important;
     max-width: 400px;
     border-radius: 15px;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
@@ -31,9 +33,7 @@
     pointer-events: none;
     transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-#showFab{
-    cursor: pointer;
-}
+
 
 .wrapper .form {
     padding: 20px 15px;
@@ -262,9 +262,10 @@ span#wave .dot:nth-child(3) {
     width: 100%;
     margin-top: 20px;
 }
-
-a,
-a:hover {
+li{
+    margin-left: 1em;
+}
+.msg-header div a,.msg-header div a:hover{
     color: #fff;
 }
 
