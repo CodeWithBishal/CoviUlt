@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/main.css?v=2">
     <link rel="preload" href="/assets/images/main.png" as="image">
+    <link rel="stylesheet" href="/assets/css/chatbot.css">
     <link rel="icon" href="/assets/logo/CoviUlt.jpg" type="image/jpg">
     <title>CoviUlt</title>
 </head>
@@ -55,9 +56,48 @@
     </nav>
     <!-- navbar ends  -->
     <!-- floating btn  -->
-    <a class="float button row justify-content-center align-items-center" href="tel:1075" title="Emergency Helpline">
-        <i class="fa fa-phone my-float"></i> &nbsp; 1075
-    </a>
+    <div class="chatBot">
+        <input type="checkbox" id="click" class="click" />
+    <label for="click" id="openChat" style="position: fixed;">
+        <i class="far fa-comment-dots"></i>
+    </label>
+
+    <div class="wrapper" style="position: fixed;">
+        <div class="chat-box-header d-flex justify-content-between align-items-center">
+            <div class="icon_header p-2 ml-2 rounded-circle">
+                <img class="img-fluid" src="/assets/images/chatbot.png" />
+            </div>
+            <div class="name">CoviBot</div>
+            <span class="chat-box-toggle"><label id="showFAB" for="click">
+                <i class="fas fa-times"></i>
+            </label></span>
+          </div>
+        <div class="form">
+            <div class="bot-inbox align-items-center inbox">
+                <div class="icon">
+                    <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+                </div>
+                <div class="msg-header">
+                    <div>Hello I'm CoviBot, I'm here to answer your Questions regarding Covid-19</div>
+                </div>
+            </div><br>
+            <div class="bot-inbox align-items-center inbox">
+                <div class="icon">
+                    <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+                </div>
+                <div class="msg-header">
+                    <div>If you are experiencing a life-threatening emergency, please call <a href="tel:1075">1075</a> immediately <br> This system does not replace the judgement of healthcare professionals or the performance of any clinical assessment.</div>
+                </div>
+            </div>
+        </div>
+        <div class="typing-field">
+            <div class="input-data">
+                <input id="data" type="text" placeholder="Type something here.." required />
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- floating btn  -->
     <img src="/assets/images/float_covid.png" alt="Floating Design" class="Floating_Design">
 
@@ -305,6 +345,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="/assets/js/typing.js"></script>
+    <script src="/assets/js/chatbot.js"></script>
 </body>
 
 </html>

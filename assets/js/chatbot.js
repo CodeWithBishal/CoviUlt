@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $("#send-btn").on("click", function () {
         let value = $("#data").val();
-        let msg = '<div class="user-inbox inbox"><div class="msg-header"><div>' + value + '</div></div></div>';
+        let msg = '<div class="user-inbox inbox"><div class="msg-header"><div>' + value.replace(/>/g,"")
+        .replace(/</g,"") + '</div></div></div>';
         $(".form").append(msg);
         $("#data").val('');
         chatBotAPI(value)
@@ -20,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (e.code === "Enter") {
             let value = $("#data").val();
             if (value != "") {
-                let msg = '<div class="user-inbox inbox"><div class="msg-header"><div>' + value + '</div></div></div>';
+                let msg = '<div class="user-inbox inbox"><div class="msg-header"><div>' + value.replace(/>/g,"")
+                .replace(/</g,"") + '</div></div></div>';
                 $(".form").append(msg);
                 $("#data").val('');
                 chatBotAPI(value)
@@ -29,12 +31,23 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 function chatBotAPI(searchQuery) {
+    let newValue = searchQuery
+    .replace(/>/g,"")
+    .replace(/</g,"")
+    .replace(/please/,"")
+    .replace(/tell me/g,"")
+    .replace(/whats/g,"")
+    .replace(/what is/g,"")
+    .replace(/about/g,"")
+
+
+
     const xhrReq = new XMLHttpRequest();
     xhrReq.open("get", "/assets/json/covibot.json");
     xhrReq.onload = () => {
         var jsonData = JSON.parse(xhrReq.responseText);
         var result = jsonData.faq.filter(function (e) {
-            return e.q.toLowerCase().match(searchQuery.toLowerCase().trim())
+            return e.q.toLowerCase().match(newValue.toLowerCase().trim())
         })
         if (result != "") {
             addReply(result[0]['a'], true)

@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/main.css?v=20">
+    <link rel="stylesheet" href="/assets/css/chatbot.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title>Document</title>
+    <title>Impact | CoviUlt</title>
     <style>
         .pagination {
             position: fixed;
@@ -67,9 +68,10 @@
             right: 4px;
             bottom: 0;
         }
-body{
-    background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
-}
+
+        body {
+            background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
+        }
     </style>
 </head>
 
@@ -103,22 +105,66 @@ body{
     </nav>
     <!-- navbar ends  -->
     <!-- floating btn  -->
-    <a class="float button row justify-content-center align-items-center" href="tel:1075" title="Emergency Helpline">
-        <i class="fa fa-phone my-float"></i> &nbsp; 1075
-    </a>
+    <div class="chatBot">
+        <input type="checkbox" id="click" class="click" />
+        <label for="click" id="openChat" style="position: fixed;">
+            <i class="far fa-comment-dots"></i>
+        </label>
+
+        <div class="wrapper" style="position: fixed;">
+            <div class="chat-box-header d-flex justify-content-between align-items-center">
+                <div class="icon_header p-2 ml-2 rounded-circle">
+                    <img class="img-fluid" src="/assets/images/chatbot.png" />
+                </div>
+                <div class="name">CoviBot</div>
+                <span class="chat-box-toggle"><label id="showFAB" for="click">
+                        <i class="fas fa-times"></i>
+                    </label></span>
+            </div>
+            <div class="form">
+                <div class="bot-inbox align-items-center inbox">
+                    <div class="icon">
+                        <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+                    </div>
+                    <div class="msg-header">
+                        <div>Hello I'm CoviBot, I'm here to answer your Questions regarding Covid-19</div>
+                    </div>
+                </div><br>
+                <div class="bot-inbox align-items-center inbox">
+                    <div class="icon">
+                        <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
+                    </div>
+                    <div class="msg-header">
+                        <div>If you are experiencing a life-threatening emergency, please call <a
+                                href="tel:1075">1075</a> immediately <br> This system does not replace the judgement of
+                            healthcare professionals or the performance of any clinical assessment.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="typing-field">
+                <div class="input-data">
+                    <input id="data" type="text" placeholder="Type something here.." required />
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- floating btn  -->
     <div class="bg-brand">
         <section class="panel home row gx-5 overflow-hidden align-items-center d-flex justify-content-between"
             data-section-name="home" id="land_impact">
-                <div class="col-lg-6">
-                    <h5>The impact of coronavirus pandemic on India has been largely disruptive in terms of economic activity as
-                        well as a loss of human lives. Almost all the sectors have been adversely affected as domestic demand
-                        and exports sharply plummeted with some notable exceptions where high growth was observed. An attempt is
-                        made to analyze the impact and possible solutions for some key sectors.</h5>
-                </div>
-                <div class="col-lg-4 col-md-6" id="image" data-aos="fade-up" data-aos-duration="1500">
-                    <img class="img-fluid position-relative" src="/assets/images/hero.png" alt="Covid 19">
-                </div>
+            <div class="col-lg-6">
+                <h5>The impact of coronavirus pandemic on India has been largely disruptive in terms of economic
+                    activity as
+                    well as a loss of human lives. Almost all the sectors have been adversely affected as domestic
+                    demand
+                    and exports sharply plummeted with some notable exceptions where high growth was observed. An
+                    attempt is
+                    made to analyze the impact and possible solutions for some key sectors.</h5>
+            </div>
+            <div class="col-lg-4 col-md-6" id="image" data-aos="fade-up" data-aos-duration="1500">
+                <img class="img-fluid position-relative" src="/assets/images/hero.png" alt="Covid 19">
+            </div>
         </section>
         <div class="scroll">
             <i class="fas fa-chevron-down fa-2x"></i>
@@ -200,7 +246,8 @@ body{
             class="panel align-content-center panel4 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
             data-section-name="Pharmaceuticals">
             <div class="col-lg-4 col-md-6 impact-img">
-                <img class="img-fluid position-relative" src="/assets/images/pharmaceuticals.png" alt="Pharmaceuticals image">
+                <img class="img-fluid position-relative" src="/assets/images/pharmaceuticals.png"
+                    alt="Pharmaceuticals image">
             </div>
             <div class="col-lg-6">
                 <p>
@@ -245,7 +292,8 @@ body{
             class="panel align-content-center panel6 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
             data-section-name="Older&nbsp;Persons">
             <div class="col-lg-4 col-md-6 impact-img">
-                <img class="img-fluid position-relative" src="/assets/images/Older_Persons.png" alt="Older Persons image">
+                <img class="img-fluid position-relative" src="/assets/images/Older_Persons.png"
+                    alt="Older Persons image">
             </div>
             <div class="col-lg-6">
                 <p>
@@ -264,7 +312,8 @@ body{
             class="panel align-content-center panel7 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
             data-section-name="Persons&nbsp;with&nbsp;Disabilities">
             <div class="col-lg-4 col-md-6 impact-img">
-                <img class="img-fluid position-relative" src="/assets/images/Persons_with_Disabilities.png" alt="Persons with Disabilities image">
+                <img class="img-fluid position-relative" src="/assets/images/Persons_with_Disabilities.png"
+                    alt="Persons with Disabilities image">
             </div>
             <div class="col-lg-6">
                 <p>
@@ -314,7 +363,12 @@ body{
                 <p>
                 <h3>Families</h3>
                 <br>
-                Specifically, the COVID-19 pandemic has posed new threats to families through social isolation due to physical distancing measures, financial and employment insecurity, housing instability and changes to health and social care access. These shifts have profoundly interrupted the systems and structures that previously operated to both support the mental health and well-being of families and mitigate the risks that contribute to health and social inequities. During the pandemic, many parents have experienced increased pressures and erosions to social supports, with implications for their mental health.
+                Specifically, the COVID-19 pandemic has posed new threats to families through social isolation due to
+                physical distancing measures, financial and employment insecurity, housing instability and changes to
+                health and social care access. These shifts have profoundly interrupted the systems and structures that
+                previously operated to both support the mental health and well-being of families and mitigate the risks
+                that contribute to health and social inequities. During the pandemic, many parents have experienced
+                increased pressures and erosions to social supports, with implications for their mental health.
                 </p>
             </div>
         </section>
@@ -322,13 +376,22 @@ body{
             class="panel align-content-center panel10 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
             data-section-name="Indigenous&nbsp;Peoples">
             <div class="col-lg-4 col-md-6 impact-img">
-                <img class="img-fluid position-relative" src="/assets/images/Indigenous_Peoples.png" alt="Indigenous Peoples image">
+                <img class="img-fluid position-relative" src="/assets/images/Indigenous_Peoples.png"
+                    alt="Indigenous Peoples image">
             </div>
             <div class="col-lg-6">
                 <p>
                 <h3>Indigenous Peoples</h3>
                 <br>
-                Indigenous peoples are particularly vulnerable at this time due to significantly higher rates of communicable and non-communicable diseases, lack of access to essential services, absence of culturally appropriate healthcare, and if any, under-equipped and under-staffed local medical facilities.The first point of prevention is the dissemination of information in indigenous languages, thus ensuring that services and facilities are appropriate to the specific situation of indigenous peoples, and all are reached.The large number of indigenous peoples who are outside of the social protection system further contributes to vulnerability, particularly if they are dependent on income from the broader economy – produce, tourism, handicrafts and employment in urban areas. In this regard, Governments should ensure that interim financial support measures include indigenous peoples and other vulnerable groups.
+                Indigenous peoples are particularly vulnerable at this time due to significantly higher rates of
+                communicable and non-communicable diseases, lack of access to essential services, absence of culturally
+                appropriate healthcare, and if any, under-equipped and under-staffed local medical facilities.The first
+                point of prevention is the dissemination of information in indigenous languages, thus ensuring that
+                services and facilities are appropriate to the specific situation of indigenous peoples, and all are
+                reached.The large number of indigenous peoples who are outside of the social protection system further
+                contributes to vulnerability, particularly if they are dependent on income from the broader economy –
+                produce, tourism, handicrafts and employment in urban areas. In this regard, Governments should ensure
+                that interim financial support measures include indigenous peoples and other vulnerable groups.
                 </p>
             </div>
         </section>
@@ -342,7 +405,11 @@ body{
                 <p>
                 <h3>Beyond Covid: The new normal</h3>
                 <br>
-                In view of the scale of disruption caused by the pandemic, it is evident that the current downturn is fundamentally different from recessions. The sudden shrinkage in demand & increased unemployment is going to alter the business landscape. Adopting new principles like ‘shift towards localization, cash conservation, supply chain resilience and innovation’ will help businesses in treading a new path in this uncertain environment.
+                In view of the scale of disruption caused by the pandemic, it is evident that the current downturn is
+                fundamentally different from recessions. The sudden shrinkage in demand & increased unemployment is
+                going to alter the business landscape. Adopting new principles like ‘shift towards localization, cash
+                conservation, supply chain resilience and innovation’ will help businesses in treading a new path in
+                this uncertain environment.
                 </p>
             </div>
         </section>

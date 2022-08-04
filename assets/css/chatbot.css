@@ -16,6 +16,7 @@
 }
 
 .wrapper {
+    z-index: 10001 !important;
     width: 370px;
     background: #fff;
     border-radius: 5px;
@@ -268,13 +269,16 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+    #click:checked~.wrapper{
+        right: 0;
+    }
     #openChat {
         position: absolute;
         right: 10px;
         bottom: 20px;
         height: 55px;
         width: 55px;
-        background: rgb(245, 240, 170);
+        background: #FC466B;
         text-align: center;
         line-height: 55px;
         border-radius: 50px;
@@ -284,6 +288,9 @@ a:hover {
 
     .bot-dp {
         display: none;
+    }
+    .wrapper{
+        z-index: 1 !important;
     }
 
     .wrapper .typing-field .input-data input {
