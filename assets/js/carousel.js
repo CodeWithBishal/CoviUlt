@@ -6,7 +6,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 2000,
         speed: 3000,
-        dots:false,
+        dots:true,
         responsive: [{
             breakpoint: 1024,
             settings: {
@@ -28,7 +28,7 @@ $(document).ready(function () {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: true,
+                dots: false,
                 infinite: true,
                 autoplay: true,
                 autoplaySpeed: 3000,

@@ -67,6 +67,9 @@
             right: 4px;
             bottom: 0;
         }
+body{
+    background: linear-gradient(to right, #E2FDF8, #F0F8E3, #ECF2F1);
+}
     </style>
 </head>
 
@@ -76,12 +79,13 @@
         <div class="logo"><a href="/" class="logo-link">CoviUlt</a></div>
         <div class="header-links">
             <a class="underline" href="/">Home</a>
+            <a class="underline" href="/impact.html">Impact</a>
+            <a class="underline" href="/vaccine.html">Vaccine</a>
             <a class="underline" href="/history.html">History</a>
             <a class="underline" href="/know-more.html">Know More</a>
-            <a class="underline" href="/vaccine.html">Vaccine</a>
         </div>
     </nav>
-    <nav class="mobile-menu shadow-lg p-3 bg-white rounded sticky-top">
+    <nav class="mobile-menu shadow-lg p-3 bg-white rounded sticky-top w-100">
         <div class="container-nav">
             <div class="logo px-3"><a href="/" class="logo-link">CoviUlt</a></div>
             <input type="checkbox" class="toggle">
@@ -89,9 +93,10 @@
             <div class="menu">
                 <ul class="menu-links">
                     <li><a class="underline" href="/">Home</a></li>
+                    <li><a class="underline" href="/impact.html">Impact</a></li>
+                    <li><a class="underline" href="/vaccine.html">Vaccine</a></li>
                     <li><a class="underline" href="/history.html">History</a></li>
                     <li><a class="underline" href="/know-more.html">Know More</a></li>
-                    <li><a class="underline" href="/vaccine.html">Vaccine</a></li>
                 </ul>
             </div>
         </div>
@@ -104,14 +109,21 @@
     <!-- floating btn  -->
     <div class="bg-brand">
         <section class="panel home row gx-5 overflow-hidden align-items-center d-flex justify-content-between"
-            data-section-name="home">
-            <h4>The impact of coronavirus pandemic on India has been largely disruptive in terms of economic activity as
-                well as a loss of human lives. Almost all the sectors have been adversely affected as domestic demand
-                and exports sharply plummeted with some notable exceptions where high growth was observed. An attempt is
-                made to analyze the impact and possible solutions for some key sectors.</h4>
+            data-section-name="home" id="land_impact">
+                <div class="col-lg-6">
+                    <h5>The impact of coronavirus pandemic on India has been largely disruptive in terms of economic activity as
+                        well as a loss of human lives. Almost all the sectors have been adversely affected as domestic demand
+                        and exports sharply plummeted with some notable exceptions where high growth was observed. An attempt is
+                        made to analyze the impact and possible solutions for some key sectors.</h5>
+                </div>
+                <div class="col-lg-4 col-md-6" id="image" data-aos="fade-up" data-aos-duration="1500">
+                    <img class="img-fluid position-relative" src="/assets/images/hero.png" alt="Covid 19">
+                </div>
         </section>
-        <section
-            class="panel align-content-center panel1 row gx-5 align-items-center d-flex justify-content-between"
+        <div class="scroll">
+            <i class="fas fa-chevron-down fa-2x"></i>
+        </div>
+        <section class="panel align-content-center panel1 row gx-5 align-items-center d-flex justify-content-between"
             data-section-name="Agriculture">
             <div class="col-lg-4 col-md-6 impact-img">
                 <img class="img-fluid position-relative" src="/assets/images/agriculture.png" alt="Agriculture image">
@@ -138,7 +150,7 @@
             class="panel align-content-center panel2 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
             data-section-name="Tourism">
             <div class="col-lg-4 col-md-6 impact-img">
-                <img class="img-fluid position-relative" src="/assets/images/agriculture.png" alt="Agriculture image">
+                <img class="img-fluid position-relative" src="/assets/images/tourism.png" alt="Tourism image">
             </div>
             <div class="col-lg-6">
                 <p>
@@ -162,12 +174,176 @@
                 </p>
             </div>
         </section>
-        <section class="panel panel3" data-section-name="fourth">
-            <div class="inner">
-                <div class="vertical-center">
-                    <h2>move()</h2>
-                    <p>Call <span class="code">$.scrollify.move()</span> in a click event to navigate to sections.</p>
-                </div>
+        <section
+            class="panel align-content-center panel3 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Telecom">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/Telecom.png" alt="Telecom image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Telecom</h3>
+                <br>
+                There has been a significant amount of changes in the telecom sector of India even before the Covid-19
+                due to brief price wars between the service providers. Most essential services and sectors have
+                continued to run during the pandemic thanks to the implementation of the ‘work from home’ due to
+                restrictions. With over 1 billion connections as of 2019, the telecom sector contributes about 6.5 per
+                cent of GDP and employs almost 4 million people. Increased broadband usage had a direct impact and
+                resulted in pressure on the network. Demand has been increased by about 10%. However, the Telco’s are
+                bracing for a sharp drop in adding new subscribers. As a policy recommendation, the government can aid
+                the sector by relaxing the regulatory compliances and provide moratorium for spectrum dues, which can be
+                used for network expansions by the companies.
+                </p>
+            </div>
+        </section>
+        <section
+            class="panel align-content-center panel4 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Pharmaceuticals">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/pharmaceuticals.png" alt="Pharmaceuticals image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Pharmaceuticals</h3>
+                <br>
+                The pharmaceutical industry has been on the rise since the start of the Covid-19 pandemic, especially in
+                India, the largest producer of generic drugs globally. With a market size of $55 billion during the
+                beginning of 2020, it has been surging in India, exporting Hydroxychloroquine to the world, esp. to the
+                US, UK, Canada, and the Middle-East.There has been a recent rise in the prices of raw materials imported
+                from China due to the pandemic. Generic drugs are the most impacted due to heavy reliance on imports,
+                disrupted supply-chain, and labour unavailability in the industry, caused by social distancing.
+                Simultaneously, the pharmaceutical industry is struggling because of the government-imposed bans on the
+                export of critical drugs, equipment, and PPE kits to ensure sufficient quantities for the country. The
+                increasing demand for these drugs, coupled with hindered accessibility is making things harder. Easing
+                the financial stress on the pharmaceutical companies, tax-relaxations, and addressing the labour force
+                shortage could be the differentiating factors in such a desperate time.
+                </p>
+            </div>
+        </section>
+        <section
+            class="panel align-content-center panel5 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Fuel">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/fuel.png" alt="Fuel image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Oil and Gas</h3>
+                <br>
+                The Indian Oil & Gas industry is quite significant in the global context – it is the third-largest
+                energy consumer only behind USA and Chine and contributes to 5.2% of the global oil demand. The complete
+                lockdown across the country slowed down the demand of transport fuels (accounting for 2/3rd demand in
+                oil & gas sector) as auto & industrial manufacturing declined and goods & passenger movement (both bulk
+                & personal) fell. Though the crude prices dipped in this period, the government increased the excise and
+                special excise duty to make up for the revenue loss, additionally, road cess was raised too. As a policy
+                recommendation, the government may think of passing on the benefits of decreased crude prices to end
+                consumers at retail outlets to stimulate demand.
+                </p>
+            </div>
+        </section>
+        <section
+            class="panel align-content-center panel6 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Older&nbsp;Persons">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/Older_Persons.png" alt="Older Persons image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Older Persons</h3>
+                <br>
+                Older persons are particularly susceptible to the risk of infection from COVID-19, especially those with
+                chronic health conditions such as hypertension, cardiovascular disease and diabetes.
+                Older persons are not just struggling with greater health risks but are also likely to be less capable
+                of supporting themselves in isolation. Although social distancing is necessary to reduce the spread of
+                the disease, if not implemented correctly, such measures can also lead to increased social isolation of
+                older persons at a time when they may be at most need of support.
+                </p>
+            </div>
+        </section>
+        <section
+            class="panel align-content-center panel7 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Persons&nbsp;with&nbsp;Disabilities">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/Persons_with_Disabilities.png" alt="Persons with Disabilities image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Persons with Disabilities</h3>
+                <br>
+                Even at the best of times, persons with disabilities face challenges in accessing health-care services,
+                due to lack of availability, accessibility, affordability, as well as stigma and discrimination. The
+                risks of infection from COVID-19 for persons with disabilities are compounded by other issues, which
+                warrant specific action: disruption of services and support, pre-existing health conditions in some
+                cases which leave them more at risk of developing serious illness or dying, being excluded from health
+                information and mainstream health provision, living in a world where accessibility is often limited and
+                where barriers to goods and services are a challenge, and being disproportionately more likely to live
+                in institutional settings.
+                </p>
+            </div>
+        </section>
+        <section
+            class="panel align-content-center panel8 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Youth">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/youth.png" alt="Youth image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Youth</h3>
+                <br>
+                Many governments have called on youth to embrace the effort to protect themselves and the overall
+                population. Youth are also in a position to help those who are most vulnerable, and to aid in increasing
+                public health social awareness campaigns among their communities. Thus, youth are critical to limiting
+                the virus’s spread and its impact on public health, society, and the economy at large.
+
+                More than one billion youth are now no longer physically in school after the closure of schools and
+                universities across many jurisdictions. The disruption in education and learning could have medium and
+                long-term consequences on the quality of education, though the efforts made by teachers, school
+                administrations, local and national governments to cope with the unprecedented circumstances to the best
+                of their ability should be recognized.
+                </p>
+            </div>
+        </section>
+        <section
+            class="panel align-content-center panel9 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Families">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/families.png" alt="Families image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Families</h3>
+                <br>
+                Specifically, the COVID-19 pandemic has posed new threats to families through social isolation due to physical distancing measures, financial and employment insecurity, housing instability and changes to health and social care access. These shifts have profoundly interrupted the systems and structures that previously operated to both support the mental health and well-being of families and mitigate the risks that contribute to health and social inequities. During the pandemic, many parents have experienced increased pressures and erosions to social supports, with implications for their mental health.
+                </p>
+            </div>
+        </section>
+        <section
+            class="panel align-content-center panel10 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Indigenous&nbsp;Peoples">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/Indigenous_Peoples.png" alt="Indigenous Peoples image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Indigenous Peoples</h3>
+                <br>
+                Indigenous peoples are particularly vulnerable at this time due to significantly higher rates of communicable and non-communicable diseases, lack of access to essential services, absence of culturally appropriate healthcare, and if any, under-equipped and under-staffed local medical facilities.The first point of prevention is the dissemination of information in indigenous languages, thus ensuring that services and facilities are appropriate to the specific situation of indigenous peoples, and all are reached.The large number of indigenous peoples who are outside of the social protection system further contributes to vulnerability, particularly if they are dependent on income from the broader economy – produce, tourism, handicrafts and employment in urban areas. In this regard, Governments should ensure that interim financial support measures include indigenous peoples and other vulnerable groups.
+                </p>
+            </div>
+        </section>
+        <section
+            class="panel align-content-center panel11 row gx-5 overflow-hidden align-items-center d-flex justify-content-between inner"
+            data-section-name="Beyond&nbsp;Covid">
+            <div class="col-lg-4 col-md-6 impact-img">
+                <img class="img-fluid position-relative" src="/assets/images/Beyond_Covid.png" alt="Beyond Covid image">
+            </div>
+            <div class="col-lg-6">
+                <p>
+                <h3>Beyond Covid: The new normal</h3>
+                <br>
+                In view of the scale of disruption caused by the pandemic, it is evident that the current downturn is fundamentally different from recessions. The sudden shrinkage in demand & increased unemployment is going to alter the business landscape. Adopting new principles like ‘shift towards localization, cash conservation, supply chain resilience and innovation’ will help businesses in treading a new path in this uncertain environment.
+                </p>
             </div>
         </section>
     </div>
