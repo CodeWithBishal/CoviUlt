@@ -7,17 +7,24 @@ $(document).ready(function () {
         chatBotAPI(value)
     });
 });
-
+openChat.addEventListener("click", () => {
+    openChat.style.display = "none";
+})
+showFAB.addEventListener("click", () => {
+    openChat.style.display = "block";
+})
 // check for enter button
 document.addEventListener("DOMContentLoaded", () => {
     const inputField = document.getElementById("data");
     inputField.addEventListener("keydown", (e) => {
         if (e.code === "Enter") {
             let value = $("#data").val();
-            let msg = '<div class="user-inbox inbox"><div class="msg-header"><div>' + value + '</div></div></div>';
-            $(".form").append(msg);
-            $("#data").val('');
-            chatBotAPI(value)
+            if (value != "") {
+                let msg = '<div class="user-inbox inbox"><div class="msg-header"><div>' + value + '</div></div></div>';
+                $(".form").append(msg);
+                $("#data").val('');
+                chatBotAPI(value)
+            }
         }
     });
 });
@@ -27,8 +34,7 @@ function chatBotAPI(searchQuery) {
     xhrReq.onload = () => {
         var jsonData = JSON.parse(xhrReq.responseText);
         var result = jsonData.faq.filter(function (e) {
-            // console.log(e.q.toLowerCase())
-            return e.q.toLowerCase().match(searchQuery.toLowerCase())
+            return e.q.toLowerCase().match(searchQuery.toLowerCase().trim())
         })
         if (result != "") {
             addReply(result[0]['a'], true)

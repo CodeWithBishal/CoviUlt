@@ -19,30 +19,27 @@
 
 <body>
     <input type="checkbox" id="click" class="click" />
-    <label for="click" style="position: fixed;">
+    <label for="click" id="openChat" style="position: fixed;">
         <i class="far fa-comment-dots"></i>
-        <i class="fas fa-times"></i>
     </label>
-    <div class="wrapper">
-        <div class="head-text"></div>
-        <div class="chat-box">
-            <div class="desc-text">
-                <div class="field">
-                    <div class="msg-header"></div>
-                </div>
-                <div class="field"></div>
-                <div class="field"></div>
-            </div>
-        </div>
-    </div>
+
     <div class="wrapper" style="position: fixed;">
+        <div class="chat-box-header d-flex justify-content-between align-items-center">
+            <div class="icon_header p-2 ml-2 rounded-circle">
+                <img class="img-fluid" src="/assets/images/chatbot.png" />
+            </div>
+            <div class="name">CoviBot</div>
+            <span class="chat-box-toggle"><label id="showFAB" for="click">
+                <i class="fas fa-times"></i>
+            </label></span>
+          </div>
         <div class="form">
             <div class="bot-inbox align-items-center inbox">
                 <div class="icon">
                     <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
                 </div>
                 <div class="msg-header">
-                    <div>Hello I'm CoviBot, I'm here to answer your Questions regarding Covid-19 or Vaccination</div>
+                    <div>Hello I'm CoviBot, I'm here to answer your Questions regarding Covid-19</div>
                 </div>
             </div><br>
             <div class="bot-inbox align-items-center inbox">
@@ -50,7 +47,7 @@
                     <img class="bot-dp img-fluid" src="/assets/images/chatbot.png" />
                 </div>
                 <div class="msg-header">
-                    <div>If you are experiencing a life-threatening emergency, please call 1075 immediately</div>
+                    <div>If you are experiencing a life-threatening emergency, please call <a href="tel:1075">1075</a> immediately <br> This system does not replace the judgement of healthcare professionals or the performance of any clinical assessment.</div>
                 </div>
             </div>
         </div>

@@ -30,16 +30,8 @@
     pointer-events: none;
     transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-
-.wrapper .title {
-    background: #007bff;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 60px;
-    text-align: center;
-    border-bottom: 1px solid #006fe6;
-    border-radius: 5px 5px 0 0;
+#showFab{
+    cursor: pointer;
 }
 
 .wrapper .form {
@@ -77,7 +69,7 @@
 
 .form .inbox .msg-header div {
     color: #fff;
-    background: #007bff;
+    background: #fc466abb;
     border-radius: 10px;
     padding: 8px 10px;
     font-size: 14px;
@@ -150,7 +142,7 @@ span#wave .dot:nth-child(3) {
 }
 
 .typing-field .input-data input:focus {
-    border-color: rgba(0, 123, 255, 0.8);
+    border-color: #fc466a80;
 }
 
 .input-data input::placeholder {
@@ -175,8 +167,8 @@ span#wave .dot:nth-child(3) {
     opacity: 0;
     pointer-events: none;
     border-radius: 3px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background: #fc466aab;
+    border: 1px solid #fc466aab;
     transform: translateY(-50%);
     transition: all 0.3s ease;
 }
@@ -187,28 +179,46 @@ span#wave .dot:nth-child(3) {
 }
 
 .typing-field .input-data button:hover {
-    background: #006fef;
+    background: #fc466aab;
 }
 
 #click {
     display: none;
 }
-
-label {
+.icon_header{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+}
+#openChat {
     right: 30px;
     bottom: 20px;
     height: 55px;
     width: 55px;
-    background: rgb(245, 240, 170);
+    background-color: #FC466B;
     text-align: center;
     line-height: 55px;
     border-radius: 50px;
     font-size: 30px;
     cursor: pointer;
     z-index: 1;
+    color: #fff;
 }
-
-label i {
+.chat-box-toggle {
+    float:right;
+    margin-right:15px;
+    cursor:pointer;
+  }
+  .chat-box-header {
+    background: #fc466ad8;
+    height:70px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px; 
+    color:white;
+    text-align:center;
+    font-size:20px;
+  }
+#openChat i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -216,18 +226,18 @@ label i {
     transition: all 0.4s ease;
 }
 
-label i.fas {
+#openChat i.fas {
     opacity: 0;
     pointer-events: none;
 }
 
-#click:checked~label i.fas {
+#click:checked~#openChat i.fas {
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, -50%) rotate(180deg);
 }
 
-#click:checked~label i.far {
+#click:checked~#openChat i.far {
     opacity: 0;
     pointer-events: none;
     transform: translate(-50%, -50%) rotate(180deg);
@@ -258,7 +268,7 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-    label {
+    #openChat {
         position: absolute;
         right: 10px;
         bottom: 20px;
@@ -290,7 +300,6 @@ a:hover {
     }
 }
 
-body,
 .form .inbox .msg-header div {
     display: inline-block;
 }
