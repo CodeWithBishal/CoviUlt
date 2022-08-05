@@ -1,3 +1,7 @@
+let msg = new SpeechSynthesisUtterance();
+let voices = speechSynthesis.getVoices();
+let tags = document.querySelectorAll('p,h1,h2,h3,h4,h5,h6,.card-body,.msg-header,.accordion-title,div.card-deck');
+msg.voice = voices[0];
 var keepOn = false;
 if (!speechSynthesis.speaking) {
     speechSynthesis.cancel();
@@ -7,10 +11,6 @@ readAloud.addEventListener("click", () => {
     keepOn = true;
     readAloud.style.display = 'none';
     muteSpeech.style.display = 'block';
-    let msg = new SpeechSynthesisUtterance();
-    let voices = speechSynthesis.getVoices();
-    let tags = document.querySelectorAll('p,h1,h2,h3,h4,h5,h6,.card-body,.msg-header,.accordion-title,div.card-deck');
-    msg.voice = voices[0];
     if (keepOn) {
         if (speechSynthesis.speaking) {
             speechSynthesis.cancel();
@@ -54,11 +54,9 @@ readAloud.addEventListener("click", () => {
     })
 })
 muteSpeech.addEventListener("click", () => {
-    if (speechSynthesis) {
-        keepOn = false;
-        speechSynthesis.cancel();
-        speechSynthesis.speaking = false;
-        readAloud.style.display = 'block';
-        muteSpeech.style.display = 'none';
-    }
+    keepOn = false;
+    speechSynthesis.cancel();
+    speechSynthesis.speaking = false;
+    readAloud.style.display = 'block';
+    muteSpeech.style.display = 'none';
 })
