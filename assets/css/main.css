@@ -224,7 +224,12 @@ a:hover {
     #mainHome {
         margin-left: 0 !important;
     }
-
+    .slick-next{
+        right: -13px !important;
+    }
+    .slick-prev{
+        left: -13px !important;
+    }
     .header {
         display: none;
     }
