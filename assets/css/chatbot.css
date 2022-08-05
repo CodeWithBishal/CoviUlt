@@ -14,12 +14,14 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #ccc;
 }
-#showFAB{
+
+#showFAB {
     cursor: pointer !important;
 }
+
 .wrapper {
     z-index: 10001 !important;
-    width: 370px;
+    width: 90%;
     background: #fff;
     border-radius: 5px;
     z-index: 1000;
@@ -186,11 +188,13 @@ span#wave .dot:nth-child(3) {
 #click {
     display: none;
 }
-.icon_header{
+
+.icon_header {
     height: 50px;
     width: 50px;
     background-color: #fff;
 }
+
 #openChat {
     right: 30px;
     bottom: 20px;
@@ -205,20 +209,23 @@ span#wave .dot:nth-child(3) {
     z-index: 1;
     color: #fff;
 }
+
 .chat-box-toggle {
-    float:right;
-    margin-right:15px;
-    cursor:pointer;
-  }
-  .chat-box-header {
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.chat-box-header {
     background: #fc466ad8;
-    height:70px;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px; 
-    color:white;
-    text-align:center;
-    font-size:20px;
-  }
+    height: 70px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
 #openChat i {
     position: absolute;
     top: 50%;
@@ -262,17 +269,26 @@ span#wave .dot:nth-child(3) {
     width: 100%;
     margin-top: 20px;
 }
-li{
+
+li {
     margin-left: 1em;
 }
-.msg-header div a,.msg-header div a:hover{
+
+.msg-header div a,
+.msg-header div a:hover {
     color: #fff;
 }
 
 @media (max-width: 600px) {
-    #click:checked~.wrapper{
+    #click:checked~.wrapper {
         right: 0;
     }
+
+    .wrapper {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
     #openChat {
         position: absolute;
         right: 10px;
