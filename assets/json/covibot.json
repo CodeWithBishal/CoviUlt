@@ -1,6 +1,30 @@
 {
     "faq":[
         {
+            "q":"hi hello hiii hey whatsup what's up whats up what's up hii",
+            "a":"Hello I'm CoviBot"
+        },
+        {
+            "q":"good morning gm gd mrng",
+            "a":"Good Morning!"
+        },
+        {
+            "q":"good afternoon ga gd aftrn",
+            "a":"Good Afternoon!"
+        },
+        {
+            "q":"good night gn gd nght",
+            "a":"Good Night!"
+        },
+        {
+            "q":"how are you how is life how are things",
+            "a":"Fantastic!"
+        },
+        {
+            "q":"what are you doing what is going on what is up",
+            "a":"Nothing much :)"
+        },
+        {
             "q":"WHAT IS COVID-19 COVID 19 COVID19 coronavirus corona?",
             "a":"COVID-19 disease is caused by a Coronovirus called SARS-CoV-2. This type of virus has not been seen before. You can get COVID-19 through contact with another person who has the virus. It is predominantly a respiratory illness that can affect other organs. People with COVID-19 may experience wide range of symptoms from mild to severe category. Symptoms may appear 2 to 14 days after exposure to the virus. Symptoms may include fever or chills; cough; shortness of breath; fatigue; muscle or body aches; headache; loss of taste or smell of recent onset; sore throat; congestion or runny nose; nausea or vomiting; diarrhea."
         },
