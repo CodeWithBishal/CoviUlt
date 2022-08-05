@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 function chatBotAPI(searchQuery) {
-    let newValue = searchQuery
+    let newValue = searchQuery 
     .toLowerCase()
     .replace(/>/g,"")
     .replace(/</g,"")
@@ -44,8 +44,16 @@ function chatBotAPI(searchQuery) {
     .replace(/whats/g,"")
     .replace(/what is/g,"")
     .replace(/about/g,"")
-    .trim()
+    .replace(/are/g,"")
+    .replace(/the/g,"")
+    .replace(/what/g,"")
+    .trim() //remove unnecessary string & whitespace from user message
 
+        //show typing effect while fetching from the server
+        let wait = document.createElement("div")
+        wait.innerHTML = '<div class="bot-inbox align-items-center inbox"><div class="icon"><img class="bot-dp img-fluid" src="/assets/images/chatbot.png" /></div><div class="msg-header"><div><span id="wave"> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> </span></div></div></div>';
+        $(".form").append(wait);
+        $(".form").scrollTop($(".form")[0].scrollHeight);
 
 
     const xhrReq = new XMLHttpRequest();
@@ -55,6 +63,8 @@ function chatBotAPI(searchQuery) {
         var result = jsonData.faq.filter(function (e) {
             return e.q.toLowerCase().match(newValue)
         })
+        $(wait).remove(); //remove the typing effect after fetchinng from the server
+        $(".form").scrollTop($(".form")[0].scrollHeight);
         if (result != "") {
             addReply(result[0]['a'], true)
         } else {
@@ -67,25 +77,34 @@ function chatBotAPI(searchQuery) {
 function addReply(replyText, found) {
     if (found) {
         let reply = '<div class="bot-inbox align-items-center inbox"><div class="icon"><img class="bot-dp img-fluid" src="/assets/images/chatbot.png" /></div><div class="msg-header"><div>' + replyText + '</div></div></div>';
+
+        //again show typing effect to seem real
+
         let wait = document.createElement("div")
         wait.innerHTML = '<div class="bot-inbox align-items-center inbox"><div class="icon"><img class="bot-dp img-fluid" src="/assets/images/chatbot.png" /></div><div class="msg-header"><div><span id="wave"> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> </span></div></div></div>';
         $(".form").append(wait);
+
+
         setTimeout(() => {
-            wait.innerHTML = reply
+            wait.innerHTML = reply //replace the typing effect with the real reply
             $(".form").scrollTop($(".form")[0].scrollHeight);
-        }, 2000)
+        }, 1000)
         $(".form").scrollTop($(".form")[0].scrollHeight);
+
+
     } else {
         let reply = '<div class="bot-inbox align-items-center inbox"><div class="icon"><img class="bot-dp img-fluid" src="/assets/images/chatbot.png" /></div><div class="msg-header"><div> No Search results found for "' + replyText + '", Click <a style="color:#fff;" href="https://www.google.com/search?q=' + replyText + '" target="_blank" rel="noopener noreferrer">here</a> to search on google</div></div></div>';
 
+        //again show typing effect to seem real
+
         let wait = document.createElement("div")
         wait.innerHTML = '<div class="bot-inbox align-items-center inbox"><div class="icon"><img class="bot-dp img-fluid" src="/assets/images/chatbot.png" /></div><div class="msg-header"><div><span id="wave"> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> </span></div></div></div>';
 
         $(".form").append(wait);
         setTimeout(() => {
-            wait.innerHTML = reply
+            wait.innerHTML = reply //replace the typing effect with the real reply
             $(".form").scrollTop($(".form")[0].scrollHeight);
-        }, 2000)
+        }, 1000)
         $(".form").scrollTop($(".form")[0].scrollHeight);
     }
 }
