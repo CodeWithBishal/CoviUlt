@@ -303,10 +303,6 @@ li {
         cursor: pointer;
     }
 
-    .bot-dp {
-        display: none;
-    }
-
     .wrapper .typing-field .input-data input {
         text-align: center;
         height: 100%;
