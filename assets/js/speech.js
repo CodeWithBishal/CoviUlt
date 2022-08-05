@@ -35,8 +35,6 @@ readAloud.addEventListener("click", () => {
                 speechSynthesis.speaking = false;
             } else {
                 if (keepOn) {
-
-                    console.log(tag)
                     msg.text = e.target.innerText;
                     if (tag.classList.contains("card-deck")) { } else {
                         tag.style.backgroundColor = "#fc466ac9";
