@@ -2,4 +2,4 @@
 The Ultimate Knowledgebase for information regarding COVID-19 Pandemic
 
 
-![](https://github.com/CodeWithBishal/CoviUlt/raw/main/assets/videos/CoviUlt.mp4)
+[![CoviUlt](http://img.youtube.com/vi/uDzmP-tWBuo/0.jpg)](http://www.youtube.com/watch?v=uDzmP-tWBuo)
