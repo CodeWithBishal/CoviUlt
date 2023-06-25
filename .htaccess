@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.coviult.codewithbishal.com/ [NC]
+RewriteCond %{HTTP_HOST} ^www.coviult.codewithbishal.com [NC]
 RewriteRule ^(.*)$ https://coviult.codewithbishal.com/$1 [L,R=301]
