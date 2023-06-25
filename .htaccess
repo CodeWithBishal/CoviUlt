@@ -1,5 +1,4 @@
-RewriteEngine on 
-
-# Redirect www to non-www
-RewriteCond %{HTTP_HOST} ^www\. [NC]
-RewriteRule ^(.*)$ https://theforgottenindia.codewithbishal.com/$1 [L,R=301]
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.coviult.codewithbishal.com/ [NC]
+RewriteRule ^(.*)$ https://coviult.codewithbishal.com/$1 [L,R=301]
